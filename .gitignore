@@ -45,3 +45,5 @@ models/
 
 # OS
 Thumbs.db
+
+*.pdf

@@ -119,9 +119,10 @@ jupyter notebook notebooks/01_main_analysis.ipynb
 
 ---
 
-## Authors
+## Author
 
-*(to be filled in)*
+**Lyonn Lie**
+
 
 ---
 

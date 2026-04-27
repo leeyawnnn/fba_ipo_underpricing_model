@@ -15,16 +15,13 @@ disk cache in ``data/raw/.cache/``.
 
 from __future__ import annotations
 
-import re
-import time
 from pathlib import Path
-from typing import Optional
 
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-from src.utils import disk_cache, retry, setup_logging, throttle
+from src.utils import retry, setup_logging, throttle
 
 log = setup_logging(__name__)
 

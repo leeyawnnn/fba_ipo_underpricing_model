@@ -18,7 +18,6 @@ import warnings
 from pathlib import Path
 from typing import Any, Optional
 
-import joblib
 import lightgbm as lgb
 import matplotlib.pyplot as plt
 import numpy as np
@@ -27,7 +26,7 @@ import pandas as pd
 import shap
 import statsmodels.api as sm
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.linear_model import Ridge, RidgeCV
+from sklearn.linear_model import RidgeCV
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.model_selection import TimeSeriesSplit
 from sklearn.pipeline import Pipeline

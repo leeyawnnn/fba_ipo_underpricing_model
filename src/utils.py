@@ -14,7 +14,7 @@ import logging
 import pickle
 import time
 from pathlib import Path
-from typing import Any, Callable, Optional, Tuple, Type
+from typing import Any, Callable, Tuple, Type
 
 
 # ---------------------------------------------------------------------------
