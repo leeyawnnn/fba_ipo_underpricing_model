@@ -10,15 +10,16 @@
 
 ### 1. Underpricing Distribution
 IPO returns are heavily right-skewed, with a significant "moonshot" tail.
-![Underpricing Distribution](reports/figures/underpricing_dist.png)
+<img src="reports/figures/underpricing_dist.png" width="800" alt="Underpricing Distribution">
 
 ### 2. Market Cycles (2019-2024)
 The "hot market" phenomenon is clearly visible in 2020-2021.
-![Underpricing by Year](reports/figures/underpricing_by_year.png)
+<img src="reports/figures/underpricing_by_year.png" width="800" alt="Underpricing by Year">
 
 ### 3. Textual Sentiment vs. Underpricing
 Higher negative sentiment in "Risk Factors" correlates with higher underpricing, supporting the Information Asymmetry theory.
-![Sentiment vs Underpricing](reports/figures/sentiment_vs_underpricing.png)
+<img src="reports/figures/sentiment_vs_underpricing.png" width="800" alt="Sentiment vs Underpricing">
+
 
 
 ---
