@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverrideN
+
+# Data — large raw files (>50 MB rule: keep CSVs, ignore parquet blobs and raw HTML dumps)
+data/raw/s1_filings/*.txt
+data/raw/s1_filings/*.html
+# Keep small external reference files; ignore large market dumps
+data/raw/*.html
+
+# Optuna study databases
+*.db
+optuna_study.sqlite3
+
+# Model artefacts
+*.pkl
+*.joblib
+models/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
