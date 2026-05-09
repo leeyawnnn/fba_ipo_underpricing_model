@@ -139,7 +139,7 @@ ipo_date,ticker,company_name,offer_price,Current,first_day_return_pct,scrape_yea
 2019-06-07,HYAC,Haymaker Acquisition Corp. II,10.0,$9.52,-4.8,2019,-0.048,9.52,Financials,Shell Companies,NYSE,,,
 2019-06-07,RVLV,"Revolve Group, Inc.",18.0,$26.45,49.06,2019,0.4906,26.830800000000004,Consumer Discretionary,Internet Retail,NYSE,data/raw/s1_filings/RVLV_2019-06-07_risk_factors.txt,data/raw/s1_filings/RVLV_2019-06-07_mda.txt,data/raw/s1_filings/RVLV_2019-06-07.txt
 2019-06-06,GIX,"GigCapital2, Inc.",10.0,$10.47,4.7,2019,0.047,10.47,Financials,Shell Companies,NASDAQ,,,
-2019-06-06,GOTU,Gaotu Techedu Inc.,10.5,$1.91,-81.81,2019,-0.8181,1.9099499999999996,Consumer Staples,Education & Training Services,NYSE,data/raw/s1_filings/GOTU_2019-06-06_risk_factors.txt,data/raw/s1_filings/GOTU_2019-06-06_mda.txt,data/raw/s1_filings/GOTU_2019-06-06.txt
+2019-06-06,GOTU,Gaotu Techedu Inc.,10.5,$1.91,-81.81,2019,-0.8181,1.90995,Consumer Staples,Education & Training Services,NYSE,data/raw/s1_filings/GOTU_2019-06-06_risk_factors.txt,data/raw/s1_filings/GOTU_2019-06-06_mda.txt,data/raw/s1_filings/GOTU_2019-06-06.txt
 2019-05-23,BCYC,Bicycle Therapeutics plc,14.0,$4.89,-65.43,2019,-0.6543000000000001,4.839799999999999,Healthcare,Biotechnology,NASDAQ,data/raw/s1_filings/BCYC_2019-05-23_risk_factors.txt,data/raw/s1_filings/BCYC_2019-05-23_mda.txt,data/raw/s1_filings/BCYC_2019-05-23.txt
 2019-05-23,IDYA,"IDEAYA Biosciences, Inc.",10.0,$30.80,207.3,2019,2.073,30.73,Healthcare,Biotechnology,NASDAQ,data/raw/s1_filings/IDYA_2019-05-23_risk_factors.txt,data/raw/s1_filings/IDYA_2019-05-23_mda.txt,data/raw/s1_filings/IDYA_2019-05-23.txt
 2019-05-23,RTLR,Rattler Midstream LP,17.5,$15.22,-13.03,2019,-0.1303,15.21975,Energy,Oil & Gas Exploration & Production,NASDAQ,,,
@@ -236,7 +236,7 @@ ipo_date,ticker,company_name,offer_price,Current,first_day_return_pct,scrape_yea
 2020-12-23,CFIV,CF Acquisition Corp. IV,10.0,$10.58,5.8,2020,0.0579999999999999,10.58,,,,,,
 2020-12-23,GBS,"GBS, Inc.",17.0,-,,2020,,,,,,,,
 2020-12-23,HCAR,Healthcare Services Acquisition Corporation,10.0,$10.11,1.1,2020,0.011,10.11,,,,,,
-2020-12-23,IKT,"Inhibikase Therapeutics, Inc.",10.0,$1.92,-81.0,2020,-0.81,1.8999999999999997,,,,data/raw/s1_filings/IKT_2020-12-23_risk_factors.txt,data/raw/s1_filings/IKT_2020-12-23_mda.txt,data/raw/s1_filings/IKT_2020-12-23.txt
+2020-12-23,IKT,"Inhibikase Therapeutics, Inc.",10.0,$1.92,-81.0,2020,-0.81,1.9,,,,data/raw/s1_filings/IKT_2020-12-23_risk_factors.txt,data/raw/s1_filings/IKT_2020-12-23_mda.txt,data/raw/s1_filings/IKT_2020-12-23.txt
 2020-12-23,VHAQ,Viveon Health Acquisition Corp.,10.0,$10.00,,2020,,,,,,,,
 2020-12-23,VII,"7GC & Co. Holdings, Inc.",10.0,$10.96,9.6,2020,0.096,10.96,,,,,,
 2020-12-21,ACKIT,Ackrell SPAC Partners I Co.,10.0,-,,2020,,,,,,,,
@@ -990,34 +990,34 @@ ipo_date,ticker,company_name,offer_price,Current,first_day_return_pct,scrape_yea
 2021-09-23,BRLT,"Brilliant Earth Group, Inc.",12.0,$1.41,-88.08,2021,-0.8808,1.4303999999999997,,,,data/raw/s1_filings/BRLT_2021-09-23_risk_factors.txt,data/raw/s1_filings/BRLT_2021-09-23_mda.txt,data/raw/s1_filings/BRLT_2021-09-23.txt
 2021-09-23,ESMT,"EngageSmart, Inc.",26.0,$23.05,-11.35,2021,-0.1134999999999999,23.049000000000003,,,,,,
 2021-09-23,LOCC,Live Oak Crestview Climate Acquisition Corp.,10.0,$10.43,4.3,2021,0.043,10.43,,,,,,
-2021-09-23,RELY,"Remitly Global, Inc.",43.0,$21.27,-50.98,2021,-0.5097999999999999,21.078600000000005,,,,,,
+2021-09-23,RELY,"Remitly Global, Inc.",43.0,$21.27,-50.98,2021,-0.5097999999999999,21.078600000000005,,,,data/raw/s1_filings/RELY_2021-09-23_risk_factors.txt,data/raw/s1_filings/RELY_2021-09-23_mda.txt,data/raw/s1_filings/RELY_2021-09-23.txt
 2021-09-23,SOVO,"Sovos Brands, Inc.",12.0,$22.98,91.5,2021,0.915,22.98,,,,,,
 2021-09-23,STER,Sterling Check Corp.,23.0,$16.74,-27.22,2021,-0.2722,16.7394,,,,,,
 2021-09-23,THRN,"Thorne HealthTech, Inc.",10.0,$10.19,1.9,2021,0.019,10.19,,,,,,
-2021-09-22,AKA,a.k.a. Brands Holding Corp.,11.0,$10.74,-2.36,2021,-0.0236,10.7404,,,,,,
+2021-09-22,AKA,a.k.a. Brands Holding Corp.,11.0,$10.74,-2.36,2021,-0.0236,10.7404,,,,data/raw/s1_filings/AKA_2021-09-22_risk_factors.txt,data/raw/s1_filings/AKA_2021-09-22_mda.txt,data/raw/s1_filings/AKA_2021-09-22.txt
 2021-09-22,ARGU,Argus Capital Corp.,10.0,$10.26,2.6,2021,0.026,10.26,,,,,,
-2021-09-22,FRSH,Freshworks Inc.,36.0,$8.49,-76.5,2021,-0.765,8.459999999999999,,,,,,
+2021-09-22,FRSH,Freshworks Inc.,36.0,$8.49,-76.5,2021,-0.765,8.459999999999999,,,,data/raw/s1_filings/FRSH_2021-09-22_risk_factors.txt,data/raw/s1_filings/FRSH_2021-09-22_mda.txt,data/raw/s1_filings/FRSH_2021-09-22.txt
 2021-09-22,IPAX,Inflection Point Acquisition Corp.,10.0,$10.42,4.2,2021,0.042,10.42,,,,,,
 2021-09-22,TOST,"Toast, Inc.",40.0,$29.40,-27.4,2021,-0.2739999999999999,29.04,,,,,,
 2021-09-22,VBNK,VersaBank,10.0,$18.51,81.6,2021,0.816,18.16,,,,,,
 2021-09-21,HHGC,HHG Capital Corporation,10.0,$11.12,11.2,2021,0.1119999999999999,11.12,,,,,,
-2021-09-16,ACT,"Enact Holdings, Inc.",19.0,$44.32,130.74,2021,1.3074,43.84060000000001,,,,,,
+2021-09-16,ACT,"Enact Holdings, Inc.",19.0,$44.32,130.74,2021,1.3074,43.84060000000001,,,,data/raw/s1_filings/ACT_2021-09-16_risk_factors.txt,data/raw/s1_filings/ACT_2021-09-16_mda.txt,data/raw/s1_filings/ACT_2021-09-16.txt
 2021-09-16,FLYA,Soar Technology Acquisition Corp.,10.0,$10.41,4.1,2021,0.0409999999999999,10.41,,,,,,
 2021-09-16,FORG,"ForgeRock, Inc.",25.0,$23.21,-7.16,2021,-0.0716,23.21,,,,,,
 2021-09-15,AEHA,Aesther Healthcare Acquisition Corp.,10.0,$9.96,-0.39,2021,-0.0039,9.961,,,,,,
-2021-09-15,BROS,Dutch Bros Inc.,23.0,$57.81,151.48,2021,1.5148,57.8404,,,,,,
+2021-09-15,BROS,Dutch Bros Inc.,23.0,$57.81,151.48,2021,1.5148,57.8404,,,,data/raw/s1_filings/BROS_2021-09-15_risk_factors.txt,data/raw/s1_filings/BROS_2021-09-15_mda.txt,data/raw/s1_filings/BROS_2021-09-15.txt
 2021-09-15,CIIG,"CIIG Capital Partners II, Inc.",10.0,$8.75,-12.5,2021,-0.125,8.75,,,,,,
-2021-09-15,DH,Definitive Healthcare Corp.,27.0,$1.06,-96.22,2021,-0.9622,1.0206000000000015,,,,,,
+2021-09-15,DH,Definitive Healthcare Corp.,27.0,$1.06,-96.22,2021,-0.9622,1.0206000000000015,,,,data/raw/s1_filings/DH_2021-09-15_risk_factors.txt,data/raw/s1_filings/DH_2021-09-15_mda.txt,data/raw/s1_filings/DH_2021-09-15.txt
 2021-09-15,DICE,"DICE Therapeutics, Inc.",17.0,$47.55,179.71,2021,1.7971,47.550700000000006,,,,,,
 2021-09-15,EDNC,Endurance Acquisition Corp.,10.0,$8.29,-17.1,2021,-0.171,8.29,,,,,,
 2021-09-15,EZFL,"EzFill Holdings, Inc.",4.0,$3.50,-12.5,2021,-0.125,3.5,,,,,,
-2021-09-15,KTTA,Pasithea Therapeutics Corp.,5.0,$0.70,-86.2,2021,-0.862,0.6900000000000001,,,,,,
+2021-09-15,KTTA,Pasithea Therapeutics Corp.,5.0,$0.70,-86.2,2021,-0.862,0.6900000000000001,,,,data/raw/s1_filings/KTTA_2021-09-15_risk_factors.txt,data/raw/s1_filings/KTTA_2021-09-15_mda.txt,data/raw/s1_filings/KTTA_2021-09-15.txt
 2021-09-15,ONON,On Holding AG,24.0,$35.72,51.04,2021,0.5104,36.2496,,,,,,
-2021-09-15,PRCT,PROCEPT BioRobotics Corporation,25.0,$25.01,-2.56,2021,-0.0256,24.36,,,,,,
+2021-09-15,PRCT,PROCEPT BioRobotics Corporation,25.0,$25.01,-2.56,2021,-0.0256,24.36,,,,data/raw/s1_filings/PRCT_2021-09-15_risk_factors.txt,data/raw/s1_filings/PRCT_2021-09-15_mda.txt,data/raw/s1_filings/PRCT_2021-09-15.txt
 2021-09-15,SIER,Sierra Lake Acquisition Corp.,10.0,$10.12,1.2,2021,0.012,10.12,,,,,,
 2021-09-15,TWKS,"Thoughtworks Holding, Inc.",21.0,$4.47,-78.71,2021,-0.7870999999999999,4.470900000000002,,,,,,
-2021-09-15,TYRA,"Tyra Biosciences, Inc.",16.0,$38.10,134.94,2021,1.3494,37.5904,,,,,,
-2021-09-15,WINV,WinVest Acquisition Corp.,10.0,$12.06,20.6,2021,0.206,12.06,,,,,,
+2021-09-15,TYRA,"Tyra Biosciences, Inc.",16.0,$38.10,134.94,2021,1.3494,37.5904,,,,data/raw/s1_filings/TYRA_2021-09-15_risk_factors.txt,data/raw/s1_filings/TYRA_2021-09-15_mda.txt,data/raw/s1_filings/TYRA_2021-09-15.txt
+2021-09-15,WINV,WinVest Acquisition Corp.,10.0,$12.06,20.6,2021,0.206,12.06,,,,data/raw/s1_filings/WINV_2021-09-15_risk_factors.txt,data/raw/s1_filings/WINV_2021-09-15_mda.txt,data/raw/s1_filings/WINV_2021-09-15.txt
 2021-09-14,PAFO,Pacifico Acquisition Corp.,10.0,$4.20,-58.0,2021,-0.58,4.2,,,,,,
 2021-09-14,SRAD,Sportradar Group AG,27.0,$13.76,-50.78,2021,-0.5078,13.2894,,,,,,
 2021-09-10,BNIX,Bannix Acquisition Corp.,10.0,$11.70,16.1,2021,0.161,11.61,,,,,,
@@ -1030,23 +1030,23 @@ ipo_date,ticker,company_name,offer_price,Current,first_day_return_pct,scrape_yea
 2021-09-02,DTRT,DTRT Health Acquisition Corp.,10.0,$10.34,3.35,2021,0.0335,10.335,,,,,,
 2021-09-02,GIPR,"Generation Income Properties, Inc.",10.0,$0.28,-97.25,2021,-0.9725,0.2749999999999997,,,,,,
 2021-09-02,INAQ,Insight Acquisition Corp.,10.0,$9.50,-5.0,2021,-0.05,9.5,,,,,,
-2021-09-01,CNDA,Concord Acquisition Corp. II,10.0,$10.41,5.0,2021,0.05,10.5,,,,,,
+2021-09-01,CNDA,Concord Acquisition Corp. II,10.0,$10.41,5.0,2021,0.05,10.5,,,,data/raw/s1_filings/CNDA_2021-09-01_risk_factors.txt,data/raw/s1_filings/CNDA_2021-09-01_mda.txt,data/raw/s1_filings/CNDA_2021-09-01.txt
 2021-08-31,CHWA,CHW Acquisition Corporation,10.0,$8.28,-17.2,2021,-0.172,8.280000000000001,,,,,,
 2021-08-31,DDI,"DoubleDown Interactive Co., Ltd.",18.0,$9.32,-50.28,2021,-0.5028,8.9496,,,,,,
 2021-08-31,REVE,Alpine Acquisition Corp.,10.0,$10.54,5.4,2021,0.054,10.54,,,,,,
-2021-08-27,ATLN,Atlantic International Corp.,,$1.74,,2021,,,,,,,,
+2021-08-27,ATLN,Atlantic International Corp.,,$1.74,,2021,,,,,,data/raw/s1_filings/ATLN_2021-08-27_risk_factors.txt,data/raw/s1_filings/ATLN_2021-08-27_mda.txt,data/raw/s1_filings/ATLN_2021-08-27.txt
 2021-08-26,CCAI,Cascadia Acquisition Corp.,10.0,$12.32,23.2,2021,0.2319999999999999,12.32,,,,,,
 2021-08-26,MEOA,"Minority Equality Opportunities Acquisition, Inc.",10.0,$11.05,10.5,2021,0.105,11.05,,,,,,
-2021-08-26,RNXT,"RenovoRx, Inc.",9.0,$0.89,-90.48,2021,-0.9048,0.8567999999999996,,,,,,
+2021-08-26,RNXT,"RenovoRx, Inc.",9.0,$0.89,-90.48,2021,-0.9048,0.8567999999999996,,,,data/raw/s1_filings/RNXT_2021-08-26_risk_factors.txt,data/raw/s1_filings/RNXT_2021-08-26_mda.txt,data/raw/s1_filings/RNXT_2021-08-26.txt
 2021-08-26,SWSS,Springwater Special Situations Corp.,10.0,$10.50,5.0,2021,0.05,10.5,,,,,,
 2021-08-20,WAVC,Waverley Capital Acquisition Corp. 1,10.0,$10.43,4.3,2021,0.043,10.43,,,,,,
 2021-08-13,AACI,Armada Acquisition Corp. I,10.0,$9.75,-2.5,2021,-0.025,9.75,,,,,,
 2021-08-13,APMI,AxonPrime Infrastructure Acquisition Corporation,10.0,$10.32,3.2,2021,0.032,10.32,,,,,,
 2021-08-13,CENQ,CENAQ Energy Corp.,10.0,$10.72,7.2,2021,0.072,10.72,,,,,,
-2021-08-13,DRMA,"Dermata Therapeutics, Inc.",7.0,$1.24,-82.29,2021,-0.8229000000000001,1.2396999999999996,,,,,,
+2021-08-13,DRMA,"Dermata Therapeutics, Inc.",7.0,$1.24,-82.29,2021,-0.8229000000000001,1.2396999999999996,,,,data/raw/s1_filings/DRMA_2021-08-13_risk_factors.txt,data/raw/s1_filings/DRMA_2021-08-13_mda.txt,data/raw/s1_filings/DRMA_2021-08-13.txt
 2021-08-13,JAQC,Jupiter Acquisition Corporation,10.0,$10.34,3.4,2021,0.034,10.34,,,,,,
 2021-08-13,KCGI,Kensington Capital Acquisition Corp. V,10.0,$11.17,11.7,2021,0.1169999999999999,11.17,,,,,,
-2021-08-13,MYSE,"Myseum.AI, Inc.",,$3.25,,2021,,,,,,,,
+2021-08-13,MYSE,"Myseum.AI, Inc.",,$3.25,,2021,,,,,,data/raw/s1_filings/MYSE_2021-08-13_risk_factors.txt,data/raw/s1_filings/MYSE_2021-08-13_mda.txt,data/raw/s1_filings/MYSE_2021-08-13.txt
 2021-08-12,AFTR,AfterNext HealthTech Acquisition Corp.,10.0,$10.41,4.1,2021,0.0409999999999999,10.41,,,,,,
 2021-08-12,OXAC,Oxbridge Acquisition Corp.,10.0,$8.60,-14.0,2021,-0.14,8.6,,,,,,
 2021-08-12,PPHP,PHP Ventures Acquisition Corp.,10.0,-,,2021,,,,,,,,
@@ -1059,219 +1059,219 @@ ipo_date,ticker,company_name,offer_price,Current,first_day_return_pct,scrape_yea
 2021-08-11,WQGA,World Quantum Growth Acquisition Corp.,10.0,$10.28,2.8,2021,0.0279999999999999,10.28,,,,,,
 2021-08-10,AHPA,Avista Public Acquisition Corp. II,10.0,$6.13,-38.7,2021,-0.387,6.13,,,,,,
 2021-08-10,ASPA,"Abri SPAC I, Inc.",10.0,$26.96,170.5,2021,1.705,27.05,,,,,,
-2021-08-10,CLYM,"Climb Bio, Inc.",,$9.83,,2021,,,,,,,,
+2021-08-10,CLYM,"Climb Bio, Inc.",,$9.83,,2021,,,,,,data/raw/s1_filings/CLYM_2021-08-10_risk_factors.txt,data/raw/s1_filings/CLYM_2021-08-10_mda.txt,data/raw/s1_filings/CLYM_2021-08-10.txt
 2021-08-10,CPAA,Conyers Park III Acquisition Corp.,10.0,$10.28,2.8,2021,0.0279999999999999,10.28,,,,,,
 2021-08-10,ELYM,"Eliem Therapeutics, Inc.",12.5,$5.00,-60.0,2021,-0.6,5.0,,,,,,
-2021-08-06,IVVD,"Invivyd, Inc.",17.0,$1.51,-91.41,2021,-0.9141,1.4603000000000017,,,,,,
+2021-08-06,IVVD,"Invivyd, Inc.",17.0,$1.51,-91.41,2021,-0.9141,1.4603000000000017,,,,data/raw/s1_filings/IVVD_2021-08-06_risk_factors.txt,data/raw/s1_filings/IVVD_2021-08-06_mda.txt,data/raw/s1_filings/IVVD_2021-08-06.txt
 2021-08-06,NOVV,Nova Vision Acquisition Corp.,10.0,$37.00,270.0,2021,2.7,37.0,,,,,,
 2021-08-06,ROCG,Roth CH Acquisition IV Co.,10.0,$10.11,1.1,2021,0.011,10.11,,,,,,
 2021-08-06,RVAC,Riverview Acquisition Corp.,10.0,$11.15,11.5,2021,0.115,11.15,,,,,,
-2021-08-05,EWCZ,"European Wax Center, Inc.",17.0,$5.82,-65.82,2021,-0.6581999999999999,5.810600000000002,,,,,,
+2021-08-05,EWCZ,"European Wax Center, Inc.",17.0,$5.82,-65.82,2021,-0.6581999999999999,5.810600000000002,,,,data/raw/s1_filings/EWCZ_2021-08-05_risk_factors.txt,data/raw/s1_filings/EWCZ_2021-08-05_mda.txt,data/raw/s1_filings/EWCZ_2021-08-05.txt
 2021-08-05,GLEE,Gladstone Acquisition Corporation,10.0,$10.16,1.6,2021,0.016,10.16,,,,,,
 2021-08-05,WEBR,"Weber, Inc.",14.0,$8.12,-42.0,2021,-0.42,8.120000000000001,,,,,,
 2021-08-04,AMCI,AMCI Acquisition Corp. II,10.0,$9.91,-0.9,2021,-0.009,9.91,,,,,,
 2021-08-04,BWC,Blue Whale Acquisition Corp. I,10.0,$10.15,1.5,2021,0.015,10.15,,,,,,
 2021-08-03,HWEL,Healthwell Acquisition Corp. I,10.0,$10.47,4.7,2021,0.047,10.47,,,,,,
 2021-07-30,DOLE,Dole plc,16.0,$15.15,-5.5,2021,-0.055,15.12,,,,,,
-2021-07-30,IMRX,Immuneering Corporation,15.0,$6.06,-59.73,2021,-0.5972999999999999,6.040500000000001,,,,,,
-2021-07-30,INAB,"IN8bio, Inc.",10.0,$1.58,-85.0,2021,-0.85,1.5000000000000002,,,,,,
-2021-07-30,MXCT,"MaxCyte, Inc.",13.0,$0.88,-93.36,2021,-0.9336,0.8632000000000002,,,,,,
+2021-07-30,IMRX,Immuneering Corporation,15.0,$6.06,-59.73,2021,-0.5972999999999999,6.040500000000001,,,,data/raw/s1_filings/IMRX_2021-07-30_risk_factors.txt,data/raw/s1_filings/IMRX_2021-07-30_mda.txt,data/raw/s1_filings/IMRX_2021-07-30.txt
+2021-07-30,INAB,"IN8bio, Inc.",10.0,$1.58,-85.0,2021,-0.85,1.5000000000000002,,,,data/raw/s1_filings/INAB_2021-07-30_risk_factors.txt,data/raw/s1_filings/INAB_2021-07-30_mda.txt,data/raw/s1_filings/INAB_2021-07-30.txt
+2021-07-30,MXCT,"MaxCyte, Inc.",13.0,$0.88,-93.36,2021,-0.9336,0.8632000000000002,,,,data/raw/s1_filings/MXCT_2021-07-30_risk_factors.txt,data/raw/s1_filings/MXCT_2021-07-30_mda.txt,data/raw/s1_filings/MXCT_2021-07-30.txt
 2021-07-30,OMGA,"Omega Therapeutics, Inc.",17.0,$0.14,-99.16,2021,-0.9916,0.1428000000000012,,,,,,
-2021-07-30,RANI,"Rani Therapeutics Holdings, Inc.",11.0,$0.92,-91.47,2021,-0.9147,0.9383000000000004,,,,,,
-2021-07-30,RXST,"RxSight, Inc.",16.0,$7.41,-54.69,2021,-0.5468999999999999,7.249600000000001,,,,,,
-2021-07-30,TNYA,"Tenaya Therapeutics, Inc.",15.0,$0.72,-95.52,2021,-0.9552,0.6720000000000009,,,,,,
+2021-07-30,RANI,"Rani Therapeutics Holdings, Inc.",11.0,$0.92,-91.47,2021,-0.9147,0.9383000000000004,,,,data/raw/s1_filings/RANI_2021-07-30_risk_factors.txt,data/raw/s1_filings/RANI_2021-07-30_mda.txt,data/raw/s1_filings/RANI_2021-07-30.txt
+2021-07-30,RXST,"RxSight, Inc.",16.0,$7.41,-54.69,2021,-0.5468999999999999,7.249600000000001,,,,data/raw/s1_filings/RXST_2021-07-30_risk_factors.txt,data/raw/s1_filings/RXST_2021-07-30_mda.txt,data/raw/s1_filings/RXST_2021-07-30.txt
+2021-07-30,TNYA,"Tenaya Therapeutics, Inc.",15.0,$0.72,-95.52,2021,-0.9552,0.6720000000000009,,,,data/raw/s1_filings/TNYA_2021-07-30_risk_factors.txt,data/raw/s1_filings/TNYA_2021-07-30_mda.txt,data/raw/s1_filings/TNYA_2021-07-30.txt
 2021-07-30,ZLSSF,Zalatoris II Acquisition Corp.,,-,,2021,,,,,,,,
-2021-07-29,COOK,"Traeger, Inc.",18.0,$38.46,115.89,2021,1.1589,38.8602,,,,,,
+2021-07-29,COOK,"Traeger, Inc.",18.0,$38.46,115.89,2021,1.1589,38.8602,,,,data/raw/s1_filings/COOK_2021-07-29_risk_factors.txt,data/raw/s1_filings/COOK_2021-07-29_mda.txt,data/raw/s1_filings/COOK_2021-07-29.txt
 2021-07-29,HOOD,"Robinhood Markets, Inc.",38.0,$84.24,122.92,2021,1.2292,84.70960000000001,,,,,,
 2021-07-29,ICVX,"Icosavax, Inc.",15.0,$15.31,2.07,2021,0.0207,15.3105,,,,,,
-2021-07-29,IMAQ,International Media Acquisition Corp.,10.0,$10.85,8.5,2021,0.085,10.85,,,,,,
+2021-07-29,IMAQ,International Media Acquisition Corp.,10.0,$10.85,8.5,2021,0.085,10.85,,,,data/raw/s1_filings/IMAQ_2021-07-29_risk_factors.txt,data/raw/s1_filings/IMAQ_2021-07-29_mda.txt,data/raw/s1_filings/IMAQ_2021-07-29.txt
 2021-07-29,MTAL,Metals Acquisition Limited,10.0,-,,2021,,,,,,,,
-2021-07-29,NUVL,"Nuvalent, Inc.",17.0,$106.16,514.71,2021,5.1471,104.5007,,,,,,
-2021-07-29,RLYB,Rallybio Corporation,13.0,$8.96,-33.62,2021,-0.3362,8.629399999999999,,,,,,
+2021-07-29,NUVL,"Nuvalent, Inc.",17.0,$106.16,514.71,2021,5.1471,104.5007,,,,data/raw/s1_filings/NUVL_2021-07-29_risk_factors.txt,data/raw/s1_filings/NUVL_2021-07-29_mda.txt,data/raw/s1_filings/NUVL_2021-07-29.txt
+2021-07-29,RLYB,Rallybio Corporation,13.0,$8.96,-33.62,2021,-0.3362,8.629399999999999,,,,data/raw/s1_filings/RLYB_2021-07-29_risk_factors.txt,data/raw/s1_filings/RLYB_2021-07-29_mda.txt,data/raw/s1_filings/RLYB_2021-07-29.txt
 2021-07-29,RSKD,Riskified Ltd.,21.0,$4.51,-78.76,2021,-0.7876000000000001,4.460399999999998,,,,,,
 2021-07-29,SWAG,"Software Acquisition Group, Inc. III",10.0,$9.73,-2.7,2021,-0.027,9.73,,,,,,
 2021-07-28,DALS,DA32 Life Science Tech Acquisition Corp.,10.0,$10.32,3.2,2021,0.032,10.32,,,,,,
-2021-07-28,DUOL,"Duolingo, Inc.",102.0,$105.11,1.42,2021,0.0141999999999999,103.4484,,,,,,
+2021-07-28,DUOL,"Duolingo, Inc.",102.0,$105.11,1.42,2021,0.0141999999999999,103.4484,,,,data/raw/s1_filings/DUOL_2021-07-28_risk_factors.txt,data/raw/s1_filings/DUOL_2021-07-28_mda.txt,data/raw/s1_filings/DUOL_2021-07-28.txt
 2021-07-28,MLNK,"MeridianLink, Inc.",26.0,$20.01,-23.04,2021,-0.2304,20.0096,,,,,,
 2021-07-28,PLMJ,Plum Acquisition Corp. III,10.0,$11.00,10.0,2021,0.1,11.0,,,,,,
 2021-07-28,PWSC,"PowerSchool Holdings, Inc.",18.0,$22.81,26.72,2021,0.2672,22.8096,,,,,,
 2021-07-28,SEPA,SEP Acquisition Corp.,10.0,$10.32,3.2,2021,0.032,10.32,,,,,,
 2021-07-28,SNPO,Snap One Holdings Corp.,18.0,$10.75,-40.28,2021,-0.4028,10.7496,,,,,,
 2021-07-27,ALPA,Alpha Healthcare Acquisition Corp. III,10.0,$9.80,-2.0,2021,-0.02,9.8,,,,,,
-2021-07-27,CADL,"Candel Therapeutics, Inc.",8.0,$6.49,-19.13,2021,-0.1913,6.4696,,,,,,
+2021-07-27,CADL,"Candel Therapeutics, Inc.",8.0,$6.49,-19.13,2021,-0.1913,6.4696,,,,data/raw/s1_filings/CADL_2021-07-27_risk_factors.txt,data/raw/s1_filings/CADL_2021-07-27_mda.txt,data/raw/s1_filings/CADL_2021-07-27.txt
 2021-07-27,WRAC,Williams Rowland Acquisition Corp.,10.0,$10.56,5.61,2021,0.0561,10.561,,,,,,
 2021-07-23,BLNG,Belong Acquisition Corp.,10.0,$10.25,2.5,2021,0.025,10.25,,,,,,
-2021-07-23,CNM,"Core & Main, Inc.",20.0,$51.18,147.5,2021,1.475,49.5,,,,,,
-2021-07-23,CRBU,"Caribou Biosciences, Inc.",16.0,$2.20,-86.69,2021,-0.8669,2.1296,,,,,,
-2021-07-23,CTKB,"Cytek Biosciences, Inc.",17.0,$4.40,-73.88,2021,-0.7387999999999999,4.440400000000002,,,,,,
+2021-07-23,CNM,"Core & Main, Inc.",20.0,$51.18,147.5,2021,1.475,49.5,,,,data/raw/s1_filings/CNM_2021-07-23_risk_factors.txt,data/raw/s1_filings/CNM_2021-07-23_mda.txt,data/raw/s1_filings/CNM_2021-07-23.txt
+2021-07-23,CRBU,"Caribou Biosciences, Inc.",16.0,$2.20,-86.69,2021,-0.8669,2.1296,,,,data/raw/s1_filings/CRBU_2021-07-23_risk_factors.txt,data/raw/s1_filings/CRBU_2021-07-23_mda.txt,data/raw/s1_filings/CRBU_2021-07-23.txt
+2021-07-23,CTKB,"Cytek Biosciences, Inc.",17.0,$4.40,-73.88,2021,-0.7387999999999999,4.440400000000002,,,,data/raw/s1_filings/CTKB_2021-07-23_risk_factors.txt,data/raw/s1_filings/CTKB_2021-07-23_mda.txt,data/raw/s1_filings/CTKB_2021-07-23.txt
 2021-07-23,GAMB,Gambling.com Group Limited,8.0,$3.76,-54.25,2021,-0.5425,3.66,,,,,,
 2021-07-23,OB,"Outbrain, Inc.",20.0,$2.81,-86.3,2021,-0.863,2.74,,,,,,
 2021-07-23,SOPH,SOPHiA GENETICS SA,18.0,$4.82,-73.06,2021,-0.7306,4.8492,,,,,,
 2021-07-23,USCB,"USCB Financial Holdings, Inc.",10.0,$18.97,91.2,2021,0.912,19.12,,,,,,
-2021-07-23,XPOF,"Xponential Fitness, Inc.",12.0,$6.75,-43.33,2021,-0.4332999999999999,6.8004,,,,,,
-2021-07-22,ABSI,Absci Corporation,16.0,$4.55,-75.38,2021,-0.7537999999999999,3.939200000000002,,,,,,
+2021-07-23,XPOF,"Xponential Fitness, Inc.",12.0,$6.75,-43.33,2021,-0.4332999999999999,6.8004,,,,data/raw/s1_filings/XPOF_2021-07-23_risk_factors.txt,data/raw/s1_filings/XPOF_2021-07-23_mda.txt,data/raw/s1_filings/XPOF_2021-07-23.txt
+2021-07-22,ABSI,Absci Corporation,16.0,$4.55,-75.38,2021,-0.7537999999999999,3.939200000000002,,,,data/raw/s1_filings/ABSI_2021-07-22_risk_factors.txt,data/raw/s1_filings/ABSI_2021-07-22_mda.txt,data/raw/s1_filings/ABSI_2021-07-22.txt
 2021-07-22,BASE,"Couchbase, Inc.",24.0,$24.51,2.13,2021,0.0213,24.5112,,,,,,
 2021-07-22,INST,"Instructure Holdings, Inc.",20.0,$23.60,18.0,2021,0.18,23.6,,,,,,
-2021-07-22,RYAN,"Ryan Specialty Holdings, Inc.",23.5,$35.00,47.28,2021,0.4728,34.6108,,,,,,
+2021-07-22,RYAN,"Ryan Specialty Holdings, Inc.",23.5,$35.00,47.28,2021,0.4728,34.6108,,,,data/raw/s1_filings/RYAN_2021-07-22_risk_factors.txt,data/raw/s1_filings/RYAN_2021-07-22_mda.txt,data/raw/s1_filings/RYAN_2021-07-22.txt
 2021-07-22,ZENV,"Zenvia, Inc.",13.0,$0.47,-96.39,2021,-0.9639,0.4693000000000003,,,,,,
-2021-07-22,ZVIA,Zevia PBC,14.0,$1.28,-90.79,2021,-0.9079,1.2893999999999994,,,,,,
-2021-07-21,KLTR,"Kaltura, Inc.",10.0,$1.48,-87.2,2021,-0.872,1.28,,,,,,
-2021-07-21,LAW,"CS Disco, Inc.",32.0,$4.63,-87.09,2021,-0.8709,4.1312,,,,,,
+2021-07-22,ZVIA,Zevia PBC,14.0,$1.28,-90.79,2021,-0.9079,1.2893999999999994,,,,data/raw/s1_filings/ZVIA_2021-07-22_risk_factors.txt,data/raw/s1_filings/ZVIA_2021-07-22_mda.txt,data/raw/s1_filings/ZVIA_2021-07-22.txt
+2021-07-21,KLTR,"Kaltura, Inc.",10.0,$1.48,-87.2,2021,-0.872,1.28,,,,data/raw/s1_filings/KLTR_2021-07-21_risk_factors.txt,data/raw/s1_filings/KLTR_2021-07-21_mda.txt,data/raw/s1_filings/KLTR_2021-07-21.txt
+2021-07-21,LAW,"CS Disco, Inc.",32.0,$4.63,-87.09,2021,-0.8709,4.1312,,,,data/raw/s1_filings/LAW_2021-07-21_risk_factors.txt,data/raw/s1_filings/LAW_2021-07-21_mda.txt,data/raw/s1_filings/LAW_2021-07-21.txt
 2021-07-21,PFTA,Portage Fintech Acquisition Corporation,10.0,$10.76,7.6,2021,0.076,10.760000000000002,,,,,,
 2021-07-21,PYCR,"Paycor HCM, Inc.",23.0,$22.49,-2.22,2021,-0.0222,22.4894,,,,,,
-2021-07-21,VEEE,Twin Vee Powercats Co.,6.0,$0.19,-96.68,2021,-0.9668,0.1991999999999993,,,,,,
+2021-07-21,VEEE,Twin Vee Powercats Co.,6.0,$0.19,-96.68,2021,-0.9668,0.1991999999999993,,,,data/raw/s1_filings/VEEE_2021-07-21_risk_factors.txt,data/raw/s1_filings/VEEE_2021-07-21_mda.txt,data/raw/s1_filings/VEEE_2021-07-21.txt
 2021-07-21,VTEX,VTEX,19.0,$4.11,-78.79,2021,-0.7879,4.0299,,,,,,
 2021-07-20,CLAY,Chavant Capital Acquisition Corp.,10.0,$10.66,6.6,2021,0.066,10.66,,,,,,
 2021-07-20,CLOE,Clover Leaf Capital Corp.,10.0,$12.00,20.0,2021,0.2,12.0,,,,,,
-2021-07-20,HCWB,HCW Biologics Inc.,8.0,$0.43,-95.31,2021,-0.9531,0.3751999999999995,,,,,,
+2021-07-20,HCWB,HCW Biologics Inc.,8.0,$0.43,-95.31,2021,-0.9531,0.3751999999999995,,,,data/raw/s1_filings/HCWB_2021-07-20_risk_factors.txt,data/raw/s1_filings/HCWB_2021-07-20_mda.txt,data/raw/s1_filings/HCWB_2021-07-20.txt
 2021-07-20,TRTL,TortoiseEcofin Acquisition Corp. III,10.0,-,,2021,,,,,,,,
 2021-07-16,APAC,Stonebridge Acquisition Corporation,10.0,$11.70,17.0,2021,0.17,11.7,,,,,,
-2021-07-16,BLND,"Blend Labs, Inc.",18.0,$1.45,-91.89,2021,-0.9189,1.459799999999999,,,,,,
+2021-07-16,BLND,"Blend Labs, Inc.",18.0,$1.45,-91.89,2021,-0.9189,1.459799999999999,,,,data/raw/s1_filings/BLND_2021-07-16_risk_factors.txt,data/raw/s1_filings/BLND_2021-07-16_mda.txt,data/raw/s1_filings/BLND_2021-07-16.txt
 2021-07-16,BRDG,"Bridge Investment Group Holdings, Inc.",16.0,$9.60,-40.0,2021,-0.4,9.6,,,,,,
 2021-07-16,BSAQ,Black Spade Acquisition Co.,10.0,$10.20,2.0,2021,0.02,10.2,,,,,,
-2021-07-16,ERAS,"Erasca, Inc.",16.0,$19.89,34.31,2021,0.3431,21.4896,,,,,,
+2021-07-16,ERAS,"Erasca, Inc.",16.0,$19.89,34.31,2021,0.3431,21.4896,,,,data/raw/s1_filings/ERAS_2021-07-16_risk_factors.txt,data/raw/s1_filings/ERAS_2021-07-16_mda.txt,data/raw/s1_filings/ERAS_2021-07-16.txt
 2021-07-16,IMGO,"Imago BioSciences, Inc.",16.0,-,,2021,,,,,,,,
 2021-07-16,RGC,Regencell Bioscience Holdings Limited,9.5,$28.20,189.37,2021,1.8937,27.49015,,,,,,
 2021-07-16,STVN,Stevanato Group S.p.A.,21.0,$16.14,-22.95,2021,-0.2294999999999999,16.1805,,,,,,
-2021-07-16,TCRX,"TScan Therapeutics, Inc.",15.0,$1.34,-91.6,2021,-0.916,1.2600000000000011,,,,,,
+2021-07-16,TCRX,"TScan Therapeutics, Inc.",15.0,$1.34,-91.6,2021,-0.916,1.2600000000000011,,,,data/raw/s1_filings/TCRX_2021-07-16_risk_factors.txt,data/raw/s1_filings/TCRX_2021-07-16_mda.txt,data/raw/s1_filings/TCRX_2021-07-16.txt
 2021-07-16,TWCB,Bilander Acquisition Corp.,10.0,$10.24,2.4,2021,0.024,10.24,,,,,,
 2021-07-15,CLAQ,CleanTech Acquisition Corp.,10.0,$5.60,-44.0,2021,-0.44,5.6000000000000005,,,,,,
 2021-07-15,FXLV,"F45 Training Holdings, Inc.",16.0,$0.25,-98.44,2021,-0.9844,0.2496000000000009,,,,,,
 2021-07-15,PECO,"Phillips Edison & Company, Inc.",28.0,$40.06,40.93,2021,0.4093,39.4604,,,,,,
-2021-07-15,RPID,"Rapid Micro Biosystems, Inc.",20.0,$2.34,-88.4,2021,-0.884,2.32,,,,,,
-2021-07-15,SERA,"Sera Prognostics, Inc.",16.0,$2.01,-87.44,2021,-0.8744,2.0096000000000007,,,,,,
-2021-07-15,SGHT,"Sight Sciences, Inc.",24.0,$4.40,-81.83,2021,-0.8183,4.360799999999999,,,,,,
+2021-07-15,RPID,"Rapid Micro Biosystems, Inc.",20.0,$2.34,-88.4,2021,-0.884,2.32,,,,data/raw/s1_filings/RPID_2021-07-15_risk_factors.txt,data/raw/s1_filings/RPID_2021-07-15_mda.txt,data/raw/s1_filings/RPID_2021-07-15.txt
+2021-07-15,SERA,"Sera Prognostics, Inc.",16.0,$2.01,-87.44,2021,-0.8744,2.0096000000000007,,,,data/raw/s1_filings/SERA_2021-07-15_risk_factors.txt,data/raw/s1_filings/SERA_2021-07-15_mda.txt,data/raw/s1_filings/SERA_2021-07-15.txt
+2021-07-15,SGHT,"Sight Sciences, Inc.",24.0,$4.40,-81.83,2021,-0.8183,4.360799999999999,,,,data/raw/s1_filings/SGHT_2021-07-15_risk_factors.txt,data/raw/s1_filings/SGHT_2021-07-15_mda.txt,data/raw/s1_filings/SGHT_2021-07-15.txt
 2021-07-15,SHCO,Soho House & Co Inc.,,$8.99,,2021,,,,,,,,
 2021-07-15,UPTD,TradeUP Acquisition Corp.,10.0,$9.34,-6.6,2021,-0.066,9.34,,,,,,
 2021-07-14,IINN,Inspira Technologies Oxy B.H.N. Ltd.,5.51,$0.54,-90.29,2021,-0.9029,0.5350209999999997,,,,,,
 2021-07-14,JATT,JATT Acquisition Corp.,10.0,$8.16,-18.4,2021,-0.184,8.16,,,,,,
 2021-07-13,ARYE,Arya Sciences Acquisition Corp. V,10.0,$10.36,3.6,2021,0.036,10.36,,,,,,
-2021-07-13,UNCY,"Unicycive Therapeutics, Inc.",5.0,$7.55,50.4,2021,0.504,7.52,,,,,,
+2021-07-13,UNCY,"Unicycive Therapeutics, Inc.",5.0,$7.55,50.4,2021,0.504,7.52,,,,data/raw/s1_filings/UNCY_2021-07-13_risk_factors.txt,data/raw/s1_filings/UNCY_2021-07-13_mda.txt,data/raw/s1_filings/UNCY_2021-07-13.txt
 2021-07-12,GWII,Good Works II Acquisition Corp.,10.0,$10.11,1.1,2021,0.011,10.11,,,,,,
 2021-07-09,ACRO,Acropolis Infrastructure Acquisition Corp.,10.0,$10.45,4.5,2021,0.045,10.45,,,,,,
 2021-07-09,GLTA,Galata Acquisition Corp.,10.0,$14.80,48.0,2021,0.48,14.8,,,,,,
-2021-07-09,RNAZ,"TransCode Therapeutics, Inc.",4.0,$8.66,113.0,2021,1.13,8.52,,,,,,
+2021-07-09,RNAZ,"TransCode Therapeutics, Inc.",4.0,$8.66,113.0,2021,1.13,8.52,,,,data/raw/s1_filings/RNAZ_2021-07-09_risk_factors.txt,data/raw/s1_filings/RNAZ_2021-07-09_mda.txt,data/raw/s1_filings/RNAZ_2021-07-09.txt
 2021-07-09,SNTG,Sentage Holdings Inc.,5.0,$1.91,-61.8,2021,-0.618,1.91,,,,,,
 2021-07-08,ALCC,AltC Acquisition Corp.,10.0,$18.23,82.3,2021,0.823,18.23,,,,,,
-2021-07-08,AVX,Avax One Technology Ltd.,,$0.53,,2021,,,,,,,,
-2021-07-08,MITQ,"Moving iMage Technologies, Inc.",3.0,$0.71,-78.67,2021,-0.7867000000000001,0.6398999999999998,,,,,,
+2021-07-08,AVX,Avax One Technology Ltd.,,$0.53,,2021,,,,,,data/raw/s1_filings/AVX_2021-07-08_risk_factors.txt,data/raw/s1_filings/AVX_2021-07-08_mda.txt,data/raw/s1_filings/AVX_2021-07-08.txt
+2021-07-08,MITQ,"Moving iMage Technologies, Inc.",3.0,$0.71,-78.67,2021,-0.7867000000000001,0.6398999999999998,,,,data/raw/s1_filings/MITQ_2021-07-08_risk_factors.txt,data/raw/s1_filings/MITQ_2021-07-08_mda.txt,data/raw/s1_filings/MITQ_2021-07-08.txt
 2021-07-08,RICO,Agrico Acquisition Corp.,10.0,$13.36,33.6,2021,0.336,13.36,,,,,,
 2021-07-02,NYXH,Nyxoah SA,30.0,$3.07,-90.03,2021,-0.9003,2.9910000000000005,,,,,,
-2021-07-01,ABOS,"Acumen Pharmaceuticals, Inc.",16.0,$2.63,-83.44,2021,-0.8344,2.6495999999999995,,,,,,
+2021-07-01,ABOS,"Acumen Pharmaceuticals, Inc.",16.0,$2.63,-83.44,2021,-0.8344,2.6495999999999995,,,,data/raw/s1_filings/ABOS_2021-07-01_risk_factors.txt,data/raw/s1_filings/ABOS_2021-07-01_mda.txt,data/raw/s1_filings/ABOS_2021-07-01.txt
 2021-07-01,CORS,Corsair Partnering Corporation,10.0,$10.37,3.68,2021,0.0368,10.368,,,,,,
-2021-07-01,CURV,Torrid Holdings Inc.,21.0,$1.74,-91.29,2021,-0.9129,1.829099999999999,,,,,,
-2021-07-01,DNUT,"Krispy Kreme, Inc.",17.0,$3.98,-76.88,2021,-0.7687999999999999,3.9304000000000014,,,,,,
+2021-07-01,CURV,Torrid Holdings Inc.,21.0,$1.74,-91.29,2021,-0.9129,1.829099999999999,,,,data/raw/s1_filings/CURV_2021-07-01_risk_factors.txt,data/raw/s1_filings/CURV_2021-07-01_mda.txt,data/raw/s1_filings/CURV_2021-07-01.txt
+2021-07-01,DNUT,"Krispy Kreme, Inc.",17.0,$3.98,-76.88,2021,-0.7687999999999999,3.9304000000000014,,,,data/raw/s1_filings/DNUT_2021-07-01_risk_factors.txt,data/raw/s1_filings/DNUT_2021-07-01_mda.txt,data/raw/s1_filings/DNUT_2021-07-01.txt
 2021-07-01,DRAY,Macondray Capital Acquisition Corp. I,10.0,$10.23,2.3,2021,0.023,10.23,,,,,,
-2021-07-01,EVCM,EverCommerce Inc.,17.0,$11.95,-29.71,2021,-0.2971,11.9493,,,,,,
+2021-07-01,EVCM,EverCommerce Inc.,17.0,$11.95,-29.71,2021,-0.2971,11.9493,,,,data/raw/s1_filings/EVCM_2021-07-01_risk_factors.txt,data/raw/s1_filings/EVCM_2021-07-01_mda.txt,data/raw/s1_filings/EVCM_2021-07-01.txt
 2021-07-01,FICV,Frontier Investment Corp.,10.0,$10.71,7.1,2021,0.071,10.71,,,,,,
 2021-07-01,GGGV,G3 VRM Acquisition Corp.,10.0,$10.13,1.3,2021,0.013,10.13,,,,,,
-2021-07-01,GGRP,"The Glimpse Group, Inc.",,$0.57,,2021,,,,,,,,
+2021-07-01,GGRP,"The Glimpse Group, Inc.",,$0.57,,2021,,,,,,data/raw/s1_filings/GGRP_2021-07-01_risk_factors.txt,data/raw/s1_filings/GGRP_2021-07-01_mda.txt,data/raw/s1_filings/GGRP_2021-07-01.txt
 2021-07-01,HEPS,D-Market Elektronik Hizmetler ve Ticaret A.S.,12.0,$2.81,-76.75,2021,-0.7675,2.7900000000000005,,,,,,
 2021-07-01,WAVE,Eco Wave Power Global AB (publ),8.0,$7.12,-11.25,2021,-0.1125,7.1,,,,,,
 2021-06-30,AVTE,"Aerovate Therapeutics, Inc.",14.0,$9.80,-80.86,2021,-0.8086,2.6796,,,,,,
 2021-06-30,CPOP,"Pop Culture Group Co., Ltd",6.0,$0.34,-94.47,2021,-0.9447,0.3318000000000001,,,,,,
-2021-06-30,CVRX,"CVRx, Inc.",18.0,$7.90,-57.11,2021,-0.5710999999999999,7.720200000000001,,,,,,
+2021-06-30,CVRX,"CVRx, Inc.",18.0,$7.90,-57.11,2021,-0.5710999999999999,7.720200000000001,,,,data/raw/s1_filings/CVRX_2021-06-30_risk_factors.txt,data/raw/s1_filings/CVRX_2021-06-30_mda.txt,data/raw/s1_filings/CVRX_2021-06-30.txt
 2021-06-30,DIDIY,DiDi Global Inc.,14.0,$3.90,-72.14,2021,-0.7214,3.9004,,,,,,
 2021-06-30,DNAA,Social Capital Suvretta Holdings Corp. I,10.0,$14.07,40.7,2021,0.407,14.07,,,,,,
 2021-06-30,DNAB,Social Capital Suvretta Holdings Corp. II,10.0,$10.35,3.5,2021,0.035,10.35,,,,,,
 2021-06-30,DNAC,Social Capital Suvretta Holdings Corp. III,10.0,$9.28,-7.2,2021,-0.072,9.28,,,,,,
 2021-06-30,DNAD,Social Capital Suvretta Holdings Corp. IV,10.0,$10.35,3.5,2021,0.035,10.35,,,,,,
 2021-06-30,IAS,Integral Ad Science Holding Corp.,18.0,$10.34,-42.56,2021,-0.4256,10.3392,,,,,,
-2021-06-30,INTA,"Intapp, Inc.",26.0,$22.74,-14.42,2021,-0.1442,22.2508,,,,,,
-2021-06-30,LZ,"LegalZoom.com, Inc.",28.0,$6.48,-77.46,2021,-0.7746,6.311200000000001,,,,,,
+2021-06-30,INTA,"Intapp, Inc.",26.0,$22.74,-14.42,2021,-0.1442,22.2508,,,,data/raw/s1_filings/INTA_2021-06-30_risk_factors.txt,data/raw/s1_filings/INTA_2021-06-30_mda.txt,data/raw/s1_filings/INTA_2021-06-30.txt
+2021-06-30,LZ,"LegalZoom.com, Inc.",28.0,$6.48,-77.46,2021,-0.7746,6.311200000000001,,,,data/raw/s1_filings/LZ_2021-06-30_risk_factors.txt,data/raw/s1_filings/LZ_2021-06-30_mda.txt,data/raw/s1_filings/LZ_2021-06-30.txt
 2021-06-30,MCAF,Mountain Crest Acquisition Corp. IV,10.0,$14.85,48.5,2021,0.485,14.849999999999998,,,,,,
-2021-06-30,S,"SentinelOne, Inc.",35.0,$14.74,-59.31,2021,-0.5931000000000001,14.241499999999997,,,,,,
+2021-06-30,S,"SentinelOne, Inc.",35.0,$14.74,-59.31,2021,-0.5931000000000001,14.241499999999997,,,,data/raw/s1_filings/S_2021-06-30_risk_factors.txt,data/raw/s1_filings/S_2021-06-30_mda.txt,data/raw/s1_filings/S_2021-06-30.txt
 2021-06-30,SHQA,Shelter Acquisition Corporation I,10.0,$10.02,0.2,2021,0.002,10.02,,,,,,
 2021-06-30,THCP,"Thunder Bridge Capital Partners IV, Inc.",10.0,$12.24,22.4,2021,0.2239999999999999,12.24,,,,,,
-2021-06-30,XMTR,"Xometry, Inc.",44.0,$48.26,9.5,2021,0.095,48.18,,,,,,
-2021-06-30,YOU,"Clear Secure, Inc.",31.0,$55.26,76.81,2021,0.7681,54.8111,,,,,,
+2021-06-30,XMTR,"Xometry, Inc.",44.0,$48.26,9.5,2021,0.095,48.18,,,,data/raw/s1_filings/XMTR_2021-06-30_risk_factors.txt,data/raw/s1_filings/XMTR_2021-06-30_mda.txt,data/raw/s1_filings/XMTR_2021-06-30.txt
+2021-06-30,YOU,"Clear Secure, Inc.",31.0,$55.26,76.81,2021,0.7681,54.8111,,,,data/raw/s1_filings/YOU_2021-06-30_risk_factors.txt,data/raw/s1_filings/YOU_2021-06-30_mda.txt,data/raw/s1_filings/YOU_2021-06-30.txt
 2021-06-29,DDL,Dingdong (Cayman) Limited,23.5,$2.55,-89.02,2021,-0.8902,2.5803000000000003,,,,,,
 2021-06-29,EOCW,Elliott Opportunity II Corp.,10.0,$10.36,3.6,2021,0.036,10.36,,,,,,
 2021-06-29,GOBI,Gobi Acquisition Corp.,10.0,$10.00,,2021,,,,,,,,
-2021-06-25,ACXP,"Acurx Pharmaceuticals, Inc.",6.0,$2.00,-67.0,2021,-0.67,1.98,,,,,,
+2021-06-25,ACXP,"Acurx Pharmaceuticals, Inc.",6.0,$2.00,-67.0,2021,-0.67,1.98,,,,data/raw/s1_filings/ACXP_2021-06-25_risk_factors.txt,data/raw/s1_filings/ACXP_2021-06-25_mda.txt,data/raw/s1_filings/ACXP_2021-06-25.txt
 2021-06-25,ELEV,"Elevation Oncology, Inc.",16.0,$0.37,-97.72,2021,-0.9772,0.3648000000000007,,,,,,
 2021-06-25,GHRS,GH Research PLC,16.0,$20.77,26.56,2021,0.2656,20.2496,,,,,,
 2021-06-25,GMVDF,G Medical Innovations Holdings Ltd.,5.0,-,,2021,,,,,,,,
-2021-06-25,LENZ,"LENZ Therapeutics, Inc.",17.0,$9.53,-43.71,2021,-0.4371,9.569299999999998,,,,,,
-2021-06-25,MCW,"Mister Car Wash, Inc.",15.0,$7.08,-52.87,2021,-0.5287,7.069500000000001,,,,,,
+2021-06-25,LENZ,"LENZ Therapeutics, Inc.",17.0,$9.53,-43.71,2021,-0.4371,9.569299999999998,,,,data/raw/s1_filings/LENZ_2021-06-25_risk_factors.txt,data/raw/s1_filings/LENZ_2021-06-25_mda.txt,data/raw/s1_filings/LENZ_2021-06-25.txt
+2021-06-25,MCW,"Mister Car Wash, Inc.",15.0,$7.08,-52.87,2021,-0.5287,7.069500000000001,,,,data/raw/s1_filings/MCW_2021-06-25_risk_factors.txt,data/raw/s1_filings/MCW_2021-06-25_mda.txt,data/raw/s1_filings/MCW_2021-06-25.txt
 2021-06-25,MFLTF,Missfresh Limited,13.0,-,,2021,,,,,,,,
-2021-06-25,TKNO,"Alpha Teknova, Inc.",16.0,$3.31,-80.13,2021,-0.8012999999999999,3.1792000000000016,,,,,,
+2021-06-25,TKNO,"Alpha Teknova, Inc.",16.0,$3.31,-80.13,2021,-0.8012999999999999,3.1792000000000016,,,,data/raw/s1_filings/TKNO_2021-06-25_risk_factors.txt,data/raw/s1_filings/TKNO_2021-06-25_mda.txt,data/raw/s1_filings/TKNO_2021-06-25.txt
 2021-06-24,BON,Bon Natural Life Limited,5.0,$1.28,-74.6,2021,-0.746,1.27,,,,,,
 2021-06-24,CFLT,"Confluent, Inc.",36.0,$30.99,-13.92,2021,-0.1392,30.9888,,,,,,
-2021-06-24,DOCS,"Doximity, Inc.",26.0,$24.85,-7.42,2021,-0.0742,24.0708,,,,,,
+2021-06-24,DOCS,"Doximity, Inc.",26.0,$24.85,-7.42,2021,-0.0742,24.0708,,,,data/raw/s1_filings/DOCS_2021-06-24_risk_factors.txt,data/raw/s1_filings/DOCS_2021-06-24_mda.txt,data/raw/s1_filings/DOCS_2021-06-24.txt
 2021-06-24,FTVI,FinTech Acquisition Corp. VI,10.0,$10.10,1.0,2021,0.01,10.1,,,,,,
-2021-06-24,GLUE,"Monte Rosa Therapeutics, Inc.",19.0,$19.89,4.16,2021,0.0416,19.7904,,,,,,
+2021-06-24,GLUE,"Monte Rosa Therapeutics, Inc.",19.0,$19.89,4.16,2021,0.0416,19.7904,,,,data/raw/s1_filings/GLUE_2021-06-24_risk_factors.txt,data/raw/s1_filings/GLUE_2021-06-24_mda.txt,data/raw/s1_filings/GLUE_2021-06-24.txt
 2021-06-24,MIRO,Miro Popara A.D.,9.0,$3.39,-62.33,2021,-0.6233,3.3903000000000003,,,,,,
 2021-06-24,NEUE,"NeueHealth, Inc.",18.0,$6.75,-62.5,2021,-0.625,6.75,,,,,,
 2021-06-24,NLIT,Northern Lights Acquisition Corp.,10.0,$10.31,3.1,2021,0.031,10.31,,,,,,
-2021-06-24,UPXI,"Upexi, Inc.",5.0,$1.38,-72.0,2021,-0.72,1.4,,,,,,
-2021-06-23,CXM,"Sprinklr, Inc.",16.0,$5.20,-68.63,2021,-0.6862999999999999,5.019200000000001,,,,,,
-2021-06-23,FA,First Advantage Corporation,15.0,$12.66,-15.53,2021,-0.1553,12.6705,,,,,,
+2021-06-24,UPXI,"Upexi, Inc.",5.0,$1.38,-72.0,2021,-0.72,1.4,,,,data/raw/s1_filings/UPXI_2021-06-24_risk_factors.txt,data/raw/s1_filings/UPXI_2021-06-24_mda.txt,data/raw/s1_filings/UPXI_2021-06-24.txt
+2021-06-23,CXM,"Sprinklr, Inc.",16.0,$5.20,-68.63,2021,-0.6862999999999999,5.019200000000001,,,,data/raw/s1_filings/CXM_2021-06-23_risk_factors.txt,data/raw/s1_filings/CXM_2021-06-23_mda.txt,data/raw/s1_filings/CXM_2021-06-23.txt
+2021-06-23,FA,First Advantage Corporation,15.0,$12.66,-15.53,2021,-0.1553,12.6705,,,,data/raw/s1_filings/FA_2021-06-23_risk_factors.txt,data/raw/s1_filings/FA_2021-06-23_mda.txt,data/raw/s1_filings/FA_2021-06-23.txt
 2021-06-23,MITA,Coliseum Acquisition Corp.,10.0,$11.51,15.1,2021,0.151,11.51,,,,,,
 2021-06-22,GPCO,Golden Path Acquisition Corporation,10.0,$8.41,-15.9,2021,-0.159,8.41,,,,,,
 2021-06-22,YMM,Full Truck Alliance Co. Ltd.,19.0,$8.63,-54.42,2021,-0.5442,8.6602,,,,,,
 2021-06-18,AMAM,"Ambrx Biopharma Cayman, Inc.",18.0,$28.00,55.56,2021,0.5556,28.0008,,,,,,
 2022-12-30,ATMC,AlphaTime Acquisition Corp,10.0,$15.60,56.0,2022,0.56,15.6,,,,,,
-2022-12-29,COYA,"Coya Therapeutics, Inc.",5.0,$4.52,-9.4,2022,-0.094,4.53,,,,,,
+2022-12-29,COYA,"Coya Therapeutics, Inc.",5.0,$4.52,-9.4,2022,-0.094,4.53,,,,data/raw/s1_filings/COYA_2022-12-29_risk_factors.txt,data/raw/s1_filings/COYA_2022-12-29_mda.txt,data/raw/s1_filings/COYA_2022-12-29.txt
 2022-12-22,HSPO,Horizon Space Acquisition I Corp.,10.0,$12.17,21.7,2022,0.217,12.170000000000002,,,,,,
 2022-12-20,ATMV,AlphaVest Acquisition Corp,10.0,$10.30,3.0,2022,0.03,10.3,,,,,,
-2022-12-20,LIPO,Lipella Pharmaceuticals Inc.,5.75,$2.36,-58.96,2022,-0.5896,2.3598,,,,,,
+2022-12-20,LIPO,Lipella Pharmaceuticals Inc.,5.75,$2.36,-58.96,2022,-0.5896,2.3598,,,,data/raw/s1_filings/LIPO_2022-12-20_risk_factors.txt,data/raw/s1_filings/LIPO_2022-12-20_mda.txt,data/raw/s1_filings/LIPO_2022-12-20.txt
 2022-12-14,RAYA,Erayak Power Solution Group Inc.,4.0,$3.35,-15.25,2022,-0.1525,3.39,,,,,,
 2022-12-09,JEWL,Adamas One Corp.,4.5,-,,2022,,,,,,,,
-2022-11-15,ACRV,"Acrivon Therapeutics, Inc.",12.5,$1.93,-84.72,2022,-0.8472,1.9100000000000008,,,,,,
+2022-11-15,ACRV,"Acrivon Therapeutics, Inc.",12.5,$1.93,-84.72,2022,-0.8472,1.9100000000000008,,,,data/raw/s1_filings/ACRV_2022-11-15_risk_factors.txt,data/raw/s1_filings/ACRV_2022-11-15_mda.txt,data/raw/s1_filings/ACRV_2022-11-15.txt
 2022-11-11,ATAT,Atour Lifestyle Holdings Limited,11.0,$37.10,254.73,2022,2.5473,39.0203,,,,,,
-2022-11-10,ASPI,ASP Isotopes Inc.,4.0,$5.53,37.5,2022,0.375,5.5,,,,,,
+2022-11-10,ASPI,ASP Isotopes Inc.,4.0,$5.53,37.5,2022,0.375,5.5,,,,data/raw/s1_filings/ASPI_2022-11-10_risk_factors.txt,data/raw/s1_filings/ASPI_2022-11-10_mda.txt,data/raw/s1_filings/ASPI_2022-11-10.txt
 2022-11-10,PLTN,Plutonian Acquisition Corp.,10.0,$5.80,-42.0,2022,-0.42,5.800000000000001,,,,,,
-2022-11-10,SNAL,"Snail, Inc.",5.0,$0.59,-87.49,2022,-0.8748999999999999,0.6255000000000005,,,,,,
-2022-10-26,MBLY,Mobileye Global Inc.,21.0,$9.16,-56.05,2022,-0.5605,9.2295,,,,,,
-2022-10-20,PRME,"Prime Medicine, Inc.",17.0,$3.85,-78.24,2022,-0.7824,3.6992,,,,,,
+2022-11-10,SNAL,"Snail, Inc.",5.0,$0.59,-87.49,2022,-0.8748999999999999,0.6255000000000005,,,,data/raw/s1_filings/SNAL_2022-11-10_risk_factors.txt,data/raw/s1_filings/SNAL_2022-11-10_mda.txt,data/raw/s1_filings/SNAL_2022-11-10.txt
+2022-10-26,MBLY,Mobileye Global Inc.,21.0,$9.16,-56.05,2022,-0.5605,9.2295,,,,data/raw/s1_filings/MBLY_2022-10-26_risk_factors.txt,data/raw/s1_filings/MBLY_2022-10-26_mda.txt,data/raw/s1_filings/MBLY_2022-10-26.txt
+2022-10-20,PRME,"Prime Medicine, Inc.",17.0,$3.85,-78.24,2022,-0.7824,3.6992,,,,data/raw/s1_filings/PRME_2022-10-20_risk_factors.txt,data/raw/s1_filings/PRME_2022-10-20_mda.txt,data/raw/s1_filings/PRME_2022-10-20.txt
 2022-10-14,HUDA,Hudson Acquisition I Corp.,10.0,$12.55,25.5,2022,0.255,12.55,,,,,,
 2022-10-14,TENK,TenX Keane Acquisition,10.0,$41.00,305.0,2022,3.05,40.5,,,,,,
 2022-10-13,SVII,Spring Valley Acquisition Corp. II,10.0,$12.70,27.0,2022,0.27,12.7,,,,,,
 2022-10-04,AQU,Aquaron Acquisition Corp.,10.0,$11.68,16.8,2022,0.168,11.68,,,,,,
 2022-09-30,DMYY,"dMY Squared Technology Group, Inc.",10.0,$12.16,24.4,2022,0.244,12.44,,,,,,
-2022-09-30,LASE,Laser Photonics Corporation,5.0,$0.80,-80.51,2022,-0.8051,0.9744999999999998,,,,,,
+2022-09-30,LASE,Laser Photonics Corporation,5.0,$0.80,-80.51,2022,-0.8051,0.9744999999999998,,,,data/raw/s1_filings/LASE_2022-09-30_risk_factors.txt,data/raw/s1_filings/LASE_2022-09-30_mda.txt,data/raw/s1_filings/LASE_2022-09-30.txt
 2022-09-30,QOMO,Qomolangma Acquisition Corp.,10.0,$11.45,14.5,2022,0.145,11.45,,,,,,
 2022-09-27,NXU,"Nxu, Inc.",27.5,$2.45,-91.09,2022,-0.9109,2.4502499999999987,,,,,,
 2022-09-20,GLST,"Global Star Acquisition, Inc.",10.0,$6.56,-34.4,2022,-0.344,6.5600000000000005,,,,,,
-2022-09-16,NXL,"Nexalin Technology, Inc.",4.15,$0.43,-89.74,2022,-0.8974,0.4257900000000001,,,,,,
-2022-09-15,CRBG,"Corebridge Financial, Inc.",21.0,$26.63,25.14,2022,0.2514,26.279400000000003,,,,,,
+2022-09-16,NXL,"Nexalin Technology, Inc.",4.15,$0.43,-89.74,2022,-0.8974,0.4257900000000001,,,,data/raw/s1_filings/NXL_2022-09-16_risk_factors.txt,data/raw/s1_filings/NXL_2022-09-16_mda.txt,data/raw/s1_filings/NXL_2022-09-16.txt
+2022-09-15,CRBG,"Corebridge Financial, Inc.",21.0,$26.63,25.14,2022,0.2514,26.279400000000003,,,,data/raw/s1_filings/CRBG_2022-09-15_risk_factors.txt,data/raw/s1_filings/CRBG_2022-09-15_mda.txt,data/raw/s1_filings/CRBG_2022-09-15.txt
 2022-09-15,THRD,"Third Harmonic Bio, Inc.",17.0,$5.38,-68.35,2022,-0.6835,5.3805,,,,,,
 2022-09-13,WLDS,Wearable Devices Ltd.,4.25,$1.14,-72.47,2022,-0.7247,1.170025,,,,,,
 2022-09-09,EFHT,EF Hutton Acquisition Corporation I,10.0,-,,2022,,,,,,,,
-2022-09-09,VSTD,Vestand Inc.,,$0.45,,2022,,,,,,,,
-2022-09-01,BIAF,"bioAffinity Technologies, Inc.",6.13,$2.17,-63.62,2022,-0.6362,2.230094,,,,,,
-2022-08-31,SHPH,"Shuttle Pharmaceuticals Holdings, Inc.",8.13,$1.03,-87.33,2022,-0.8733,1.0300710000000004,,,,,,
+2022-09-09,VSTD,Vestand Inc.,,$0.45,,2022,,,,,,data/raw/s1_filings/VSTD_2022-09-09_risk_factors.txt,data/raw/s1_filings/VSTD_2022-09-09_mda.txt,data/raw/s1_filings/VSTD_2022-09-09.txt
+2022-09-01,BIAF,"bioAffinity Technologies, Inc.",6.13,$2.17,-63.62,2022,-0.6362,2.230094,,,,data/raw/s1_filings/BIAF_2022-09-01_risk_factors.txt,data/raw/s1_filings/BIAF_2022-09-01_mda.txt,data/raw/s1_filings/BIAF_2022-09-01.txt
+2022-08-31,SHPH,"Shuttle Pharmaceuticals Holdings, Inc.",8.13,$1.03,-87.33,2022,-0.8733,1.0300710000000004,,,,data/raw/s1_filings/SHPH_2022-08-31_risk_factors.txt,data/raw/s1_filings/SHPH_2022-08-31_mda.txt,data/raw/s1_filings/SHPH_2022-08-31.txt
 2022-08-30,HPCO,"Hempacco Co., Inc.",6.0,-,,2022,,,,,,,,
 2022-08-26,JZ,Jianzhi Education Technology Group Company Limited,5.0,$0.86,-81.36,2022,-0.8136,0.932,,,,,,
 2022-08-26,NEXR,Nexera Technologies Ltd,,$1.91,,2022,,,,,,,,
-2022-08-26,ONFO,"Onfolio Holdings, Inc.",5.0,$1.34,-73.6,2022,-0.736,1.32,,,,,,
+2022-08-26,ONFO,"Onfolio Holdings, Inc.",5.0,$1.34,-73.6,2022,-0.736,1.32,,,,data/raw/s1_filings/ONFO_2022-08-26_risk_factors.txt,data/raw/s1_filings/ONFO_2022-08-26_mda.txt,data/raw/s1_filings/ONFO_2022-08-26.txt
 2022-08-26,PXMD,"PaxMedica, Inc.",5.25,$0.08,-98.48,2022,-0.9848,0.0797999999999999,,,,,,
 2022-08-25,MOB,Mobilicom Limited,4.13,$6.27,42.13,2022,0.4213,5.869969,,,,,,
 2022-08-23,STBX,Starbox Group Holdings Ltd.,4.0,$2.11,-47.25,2022,-0.4725,2.1100000000000003,,,,,,
 2022-08-18,GCT,GigaCloud Technology Inc.,12.25,$44.37,282.53,2022,2.8253,46.859925,,,,,,
-2022-08-15,LUCY,"Lucyd, Inc",7.5,$1.05,-86.0,2022,-0.86,1.05,,,,,,
+2022-08-15,LUCY,"Lucyd, Inc",7.5,$1.05,-86.0,2022,-0.86,1.05,,,,data/raw/s1_filings/LUCY_2022-08-15_risk_factors.txt,data/raw/s1_filings/LUCY_2022-08-15_mda.txt,data/raw/s1_filings/LUCY_2022-08-15.txt
 2022-08-12,CHG,CorpHousing Group Inc.,4.0,$1.32,,2022,,,,,,,,
 2022-08-12,FRZA,"Forza X1, Inc.",5.0,$0.26,-94.8,2022,-0.948,0.2600000000000002,,,,,,
-2022-08-12,REBN,"Reborn Coffee, Inc.",5.0,$2.48,-49.2,2022,-0.492,2.54,,,,,,
+2022-08-12,REBN,"Reborn Coffee, Inc.",5.0,$2.48,-49.2,2022,-0.492,2.54,,,,data/raw/s1_filings/REBN_2022-08-12_risk_factors.txt,data/raw/s1_filings/REBN_2022-08-12_mda.txt,data/raw/s1_filings/REBN_2022-08-12.txt
 2022-08-11,HMAC,Hainan Manaslu Acquisition Corp.,10.0,$5.85,-41.5,2022,-0.415,5.85,,,,,,
-2022-08-11,TGL,Treasure Global Inc.,4.0,$4.11,6.5,2022,0.065,4.26,,,,,,
+2022-08-11,TGL,Treasure Global Inc.,4.0,$4.11,6.5,2022,0.065,4.26,,,,data/raw/s1_filings/TGL_2022-08-11_risk_factors.txt,data/raw/s1_filings/TGL_2022-08-11_mda.txt,data/raw/s1_filings/TGL_2022-08-11.txt
 2022-08-10,EMCG,Embrace Change Acquisition Corp.,10.0,$11.00,10.0,2022,0.1,11.0,,,,,,
 2022-08-05,MEGL,Magic Empire Global Limited,4.0,$1.21,-70.25,2022,-0.7025,1.19,,,,,,
 2022-08-05,PTWO,"Pono Capital Two, Inc.",10.0,$11.00,10.0,2022,0.1,11.0,,,,,,
 2022-08-04,MOBV,Mobiv Acquisition Corp,10.0,$5.00,-50.0,2022,-0.5,5.0,,,,,,
 2022-08-03,BRSH,Bruush Oral Care Inc.,4.16,-,,2022,,,,,,,,
-2022-07-29,MGAM,Mobile Global Esports Inc.,4.0,$0.02,-99.63,2022,-0.9963,0.0148000000000001,,,,,,
-2022-07-28,MAIA,"MAIA Biotechnology, Inc.",5.0,$1.26,-74.6,2022,-0.746,1.27,,,,,,
+2022-07-29,MGAM,Mobile Global Esports Inc.,4.0,$0.02,-99.63,2022,-0.9963,0.0148000000000001,,,,data/raw/s1_filings/MGAM_2022-07-29_risk_factors.txt,data/raw/s1_filings/MGAM_2022-07-29_mda.txt,data/raw/s1_filings/MGAM_2022-07-29.txt
+2022-07-28,MAIA,"MAIA Biotechnology, Inc.",5.0,$1.26,-74.6,2022,-0.746,1.27,,,,data/raw/s1_filings/MAIA_2022-07-28_risk_factors.txt,data/raw/s1_filings/MAIA_2022-07-28_mda.txt,data/raw/s1_filings/MAIA_2022-07-28.txt
 2022-07-21,VRAX,Virax Biolabs Group Limited,5.0,$0.14,-96.81,2022,-0.9681,0.1594999999999996,,,,,,
 2022-07-15,HKD,AMTD Digital Inc.,7.8,$1.75,-77.56,2022,-0.7756000000000001,1.7503199999999994,,,,,,
 2022-07-13,ILAG,Intelligent Living Application Group Inc.,4.0,$3.90,-2.5,2022,-0.025,3.9,,,,,,
 2022-07-12,,Nano Labs Ltd,11.5,$2.13,-80.78,2022,-0.8078,2.2103000000000006,,,,,,
-2022-06-28,IE,Ivanhoe Electric Inc.,11.75,$13.65,16.09,2022,0.1609,13.640575,,,,,,
+2022-06-28,IE,Ivanhoe Electric Inc.,11.75,$13.65,16.09,2022,0.1609,13.640575,,,,data/raw/s1_filings/IE_2022-06-28_risk_factors.txt,data/raw/s1_filings/IE_2022-06-28_mda.txt,data/raw/s1_filings/IE_2022-06-28.txt
 2022-06-24,SKGR,SK Growth Opportunities Corporation,10.0,$12.02,20.2,2022,0.2019999999999999,12.02,,,,,,
 2022-06-22,GSUN,Golden Sun Technology Group Limited,4.0,$0.68,-82.72,2022,-0.8271999999999999,0.6912000000000003,,,,,,
 2022-06-16,FLFV,Feutune Light Acquisition Corporation,10.0,$2.56,-74.4,2022,-0.7440000000000001,2.5599999999999987,,,,,,
-2022-06-15,HSCS,HeartSciences Inc.,4.25,$2.07,-51.77,2022,-0.5177,2.049775,,,,,,
+2022-06-15,HSCS,HeartSciences Inc.,4.25,$2.07,-51.77,2022,-0.5177,2.049775,,,,data/raw/s1_filings/HSCS_2022-06-15_risk_factors.txt,data/raw/s1_filings/HSCS_2022-06-15_mda.txt,data/raw/s1_filings/HSCS_2022-06-15.txt
 2022-06-15,LYT,Lytus Technologies Holdings PTV. LTD.,4.75,$0.10,-97.93,2022,-0.9793,0.0983249999999997,,,,,,
 2022-06-10,ACAC,Acri Capital Acquisition Corporation,10.0,$11.20,12.0,2022,0.12,11.2,,,,,,
 2022-06-08,PEV,Phoenix Motor Inc.,7.5,$0.23,-96.93,2022,-0.9693,0.2302499999999996,,,,,,
@@ -1281,43 +1281,43 @@ ipo_date,ticker,company_name,offer_price,Current,first_day_return_pct,scrape_yea
 2022-05-17,BGXX,Bright Green Corporation,8.0,$0.15,-98.15,2022,-0.9815,0.1479999999999997,,,,,,
 2022-05-17,GV,Visionary Holdings Inc.,4.0,$0.20,-94.98,2022,-0.9498,0.2007999999999996,,,,,,
 2022-05-17,OKYO,OKYO Pharma Limited,4.0,$1.67,-59.75,2022,-0.5975,1.61,,,,,,
-2022-05-13,ACDC,ProFrac Holding Corp.,18.0,$7.24,-59.0,2022,-0.59,7.380000000000001,,,,,,
-2022-05-13,ASNS,"Actelis Networks, Inc.",4.0,$0.08,-97.77,2022,-0.9777,0.0891999999999999,,,,,,
+2022-05-13,ACDC,ProFrac Holding Corp.,18.0,$7.24,-59.0,2022,-0.59,7.380000000000001,,,,data/raw/s1_filings/ACDC_2022-05-13_risk_factors.txt,data/raw/s1_filings/ACDC_2022-05-13_mda.txt,data/raw/s1_filings/ACDC_2022-05-13.txt
+2022-05-13,ASNS,"Actelis Networks, Inc.",4.0,$0.08,-97.77,2022,-0.9777,0.0891999999999999,,,,data/raw/s1_filings/ASNS_2022-05-13_risk_factors.txt,data/raw/s1_filings/ASNS_2022-05-13_mda.txt,data/raw/s1_filings/ASNS_2022-05-13.txt
 2022-05-13,PFHC,ProFrac Holding Corp.,18.0,-,,2022,,,,,,,,
 2022-05-13,PNAC,Prime Number Acquisition I Corp.,10.0,-,,2022,,,,,,,,
-2022-05-11,HNVR,"Hanover Bancorp, Inc.",21.0,$22.32,6.48,2022,0.0648,22.3608,,,,,,
+2022-05-11,HNVR,"Hanover Bancorp, Inc.",21.0,$22.32,6.48,2022,0.0648,22.3608,,,,data/raw/s1_filings/HNVR_2022-05-11_risk_factors.txt,data/raw/s1_filings/HNVR_2022-05-11_mda.txt,data/raw/s1_filings/HNVR_2022-05-11.txt
 2022-05-11,MCAC,Monterey Capital Acquisition Corporation,10.0,$3.54,-64.6,2022,-0.6459999999999999,3.540000000000001,,,,,,
 2022-05-10,GBBK,Global Blockchain Acquisition Corp.,10.0,$11.50,15.0,2022,0.15,11.5,,,,,,
 2022-05-10,IVCA,Investcorp Acquisition Corp.,10.0,$12.00,20.0,2022,0.2,12.0,,,,,,
-2022-05-06,BLCO,Bausch + Lomb Corporation,18.0,$16.11,-12.11,2022,-0.1211,15.8202,,,,,,
-2022-05-06,PEPG,PepGen Inc.,12.0,$1.69,-87.17,2022,-0.8717,1.5395999999999996,,,,,,
+2022-05-06,BLCO,Bausch + Lomb Corporation,18.0,$16.11,-12.11,2022,-0.1211,15.8202,,,,data/raw/s1_filings/BLCO_2022-05-06_risk_factors.txt,data/raw/s1_filings/BLCO_2022-05-06_mda.txt,data/raw/s1_filings/BLCO_2022-05-06.txt
+2022-05-06,PEPG,PepGen Inc.,12.0,$1.69,-87.17,2022,-0.8717,1.5395999999999996,,,,data/raw/s1_filings/PEPG_2022-05-06_risk_factors.txt,data/raw/s1_filings/PEPG_2022-05-06_mda.txt,data/raw/s1_filings/PEPG_2022-05-06.txt
 2022-05-06,RENE,Cartesian Growth Corporation II,10.0,$11.75,17.5,2022,0.175,11.75,,,,,,
-2022-05-05,EDBL,Edible Garden AG Incorporated,5.0,$0.50,-90.12,2022,-0.9012,0.494,,,,,,
-2022-05-04,AUST,Austin Gold Corp.,4.0,$1.40,-64.5,2022,-0.645,1.42,,,,,,
+2022-05-05,EDBL,Edible Garden AG Incorporated,5.0,$0.50,-90.12,2022,-0.9012,0.494,,,,data/raw/s1_filings/EDBL_2022-05-05_risk_factors.txt,data/raw/s1_filings/EDBL_2022-05-05_mda.txt,data/raw/s1_filings/EDBL_2022-05-05.txt
+2022-05-04,AUST,Austin Gold Corp.,4.0,$1.40,-64.5,2022,-0.645,1.42,,,,data/raw/s1_filings/AUST_2022-05-04_risk_factors.txt,data/raw/s1_filings/AUST_2022-05-04_mda.txt,data/raw/s1_filings/AUST_2022-05-04.txt
 2022-05-03,ASCB,A SPAC II Acquisition Corp.,10.0,$11.19,11.9,2022,0.119,11.19,,,,,,
 2022-04-29,BLTE,"Belite Bio, Inc",6.0,$162.77,2587.67,2022,25.8767,161.2602,,,,,,
 2022-04-29,HLVX,"HilleVax, Inc.",17.0,$2.09,-87.71,2022,-0.8771,2.0893,,,,,,
 2022-04-28,CHEA,Chenghe Acquisition Co.,10.0,$5.58,-44.2,2022,-0.442,5.58,,,,,,
 2022-04-28,CLRC,ClimateRock,10.0,$12.00,20.0,2022,0.2,12.0,,,,,,
 2022-04-27,OST,"Ostin Technology Group Co., Ltd.",4.0,$1.70,-57.63,2022,-0.5763,1.6948,,,,,,
-2022-04-27,TNON,"Tenon Medical, Inc.",5.0,$0.80,-83.9,2022,-0.8390000000000001,0.8049999999999996,,,,,,
+2022-04-27,TNON,"Tenon Medical, Inc.",5.0,$0.80,-83.9,2022,-0.8390000000000001,0.8049999999999996,,,,data/raw/s1_filings/TNON_2022-04-27_risk_factors.txt,data/raw/s1_filings/TNON_2022-04-27_mda.txt,data/raw/s1_filings/TNON_2022-04-27.txt
 2022-04-26,AIMAU,Aimfinity Investment Corp. I,10.0,$17.50,75.0,2022,0.75,17.5,,,,,,
-2022-04-22,ACON,"Aclarion, Inc.",4.35,$3.29,-24.14,2022,-0.2414,3.29991,,,,,,
+2022-04-22,ACON,"Aclarion, Inc.",4.35,$3.29,-24.14,2022,-0.2414,3.29991,,,,data/raw/s1_filings/ACON_2022-04-22_risk_factors.txt,data/raw/s1_filings/ACON_2022-04-22_mda.txt,data/raw/s1_filings/ACON_2022-04-22.txt
 2022-04-22,JCSE,JE Cleantech Holdings Limited,4.0,$1.15,-71.5,2022,-0.715,1.14,,,,,,
 2022-04-20,YOTA,Yotta Acquisition Corporation,10.0,$11.18,13.0,2022,0.13,11.3,,,,,,
-2022-04-14,STSS,"Sharps Technology, Inc.",4.25,$1.88,-55.77,2022,-0.5577000000000001,1.8797749999999995,,,,,,
+2022-04-14,STSS,"Sharps Technology, Inc.",4.25,$1.88,-55.77,2022,-0.5577000000000001,1.8797749999999995,,,,data/raw/s1_filings/STSS_2022-04-14_risk_factors.txt,data/raw/s1_filings/STSS_2022-04-14_mda.txt,data/raw/s1_filings/STSS_2022-04-14.txt
 2022-04-13,AFAR,Aura FAT Projects Acquisition Corp,10.0,$11.68,16.8,2022,0.168,11.68,,,,,,
-2022-04-13,EE,"Excelerate Energy, Inc.",24.0,$33.59,40.67,2022,0.4067,33.7608,,,,,,
+2022-04-13,EE,"Excelerate Energy, Inc.",24.0,$33.59,40.67,2022,0.4067,33.7608,,,,data/raw/s1_filings/EE_2022-04-13_risk_factors.txt,data/raw/s1_filings/EE_2022-04-13_mda.txt,data/raw/s1_filings/EE_2022-04-13.txt
 2022-04-12,GNS,Genius Group Limited,6.0,$0.31,-94.58,2022,-0.9458,0.3252000000000001,,,,,,
 2022-04-07,DECA,Denali Capital Acquisition Corp.,10.0,$11.43,14.3,2022,0.143,11.43,,,,,,
 2022-04-01,MSSA,Metal Sky Star Acquisition Corporation,10.0,$11.50,15.0,2022,0.15,11.5,,,,,,
-2022-04-01,XPON,Expion360 Inc.,7.0,$0.75,-89.58,2022,-0.8957999999999999,0.7294000000000005,,,,,,
+2022-04-01,XPON,Expion360 Inc.,7.0,$0.75,-89.58,2022,-0.8957999999999999,0.7294000000000005,,,,data/raw/s1_filings/XPON_2022-04-01_risk_factors.txt,data/raw/s1_filings/XPON_2022-04-01_mda.txt,data/raw/s1_filings/XPON_2022-04-01.txt
 2022-03-31,RVSN,Rail Vision Ltd.,4.13,$7.45,85.23,2022,0.8523000000000001,7.649999,,,,,,
 2022-03-31,RWOD,Redwoods Acquisition Corp.,10.0,$2.34,-76.61,2022,-0.7661,2.339,,,,,,
-2022-03-25,ANTX,"AN2 Therapeutics, Inc.",15.0,$5.05,-70.93,2022,-0.7093,4.360499999999999,,,,,,
+2022-03-25,ANTX,"AN2 Therapeutics, Inc.",15.0,$5.05,-70.93,2022,-0.7093,4.360499999999999,,,,data/raw/s1_filings/ANTX_2022-03-25_risk_factors.txt,data/raw/s1_filings/ANTX_2022-03-25_mda.txt,data/raw/s1_filings/ANTX_2022-03-25.txt
 2022-03-25,LCFY,Locafy Limited,4.13,$4.68,16.22,2022,0.1621999999999999,4.799886,,,,,,
 2022-03-24,RFAC,RF Acquisition Corp.,10.0,$2.70,-73.0,2022,-0.73,2.7,,,,,,
-2022-03-17,GDST,Goldenstone Acquisition Limited,10.0,$11.57,15.7,2022,0.157,11.57,,,,,,
+2022-03-17,GDST,Goldenstone Acquisition Limited,10.0,$11.57,15.7,2022,0.157,11.57,,,,data/raw/s1_filings/GDST_2022-03-17_risk_factors.txt,data/raw/s1_filings/GDST_2022-03-17_mda.txt,data/raw/s1_filings/GDST_2022-03-17.txt
 2022-03-15,AKAN,Akanda Corp.,4.0,$11.16,177.25,2022,1.7725,11.09,,,,,,
 2022-03-11,NUBI,Nubia Brand International Corp.,10.0,$4.53,-54.7,2022,-0.547,4.529999999999999,,,,,,
 2022-03-10,PLAO,Patria Latin American Opportunity Acquisition Corp.,10.0,$11.63,16.3,2022,0.163,11.63,,,,,,
@@ -1329,7 +1329,7 @@ ipo_date,ticker,company_name,offer_price,Current,first_day_return_pct,scrape_yea
 2022-02-25,FGMC,FG Merger Corp.,10.0,$4.82,-51.8,2022,-0.518,4.82,,,,,,
 2022-02-25,GSRM,GSR II Meteora Acquisition Corp.,10.0,$3.23,-67.7,2022,-0.677,3.2299999999999995,,,,,,
 2022-02-24,CLIN,Clean Earth Acquisitions Corp.,10.0,$5.00,-50.0,2022,-0.5,5.0,,,,,,
-2022-02-18,ONCO,"Onconetix, Inc.",9.0,$0.74,-93.47,2022,-0.9347,0.5877000000000002,,,,,,
+2022-02-18,ONCO,"Onconetix, Inc.",9.0,$0.74,-93.47,2022,-0.9347,0.5877000000000002,,,,data/raw/s1_filings/ONCO_2022-02-18_risk_factors.txt,data/raw/s1_filings/ONCO_2022-02-18_mda.txt,data/raw/s1_filings/ONCO_2022-02-18.txt
 2022-02-18,PWUP,PowerUp Acquisition Corp.,10.0,$9.24,-7.6,2022,-0.076,9.24,,,,,,
 2022-02-16,AXAC,AXIOS Sustainable Growth Acquisition Corporation,10.0,$10.43,4.3,2022,0.043,10.43,,,,,,
 2022-02-16,FTII,FutureTech II Acquisition Corp.,10.0,$11.41,14.1,2022,0.141,11.41,,,,,,
@@ -1337,31 +1337,31 @@ ipo_date,ticker,company_name,offer_price,Current,first_day_return_pct,scrape_yea
 2022-02-16,SMFL,"Smart for Life, Inc.",10.0,$0.78,-92.2,2022,-0.922,0.7799999999999996,,,,,,
 2022-02-15,ASCA,A SPAC I Acquisition Corp.,10.0,$9.16,-8.4,2022,-0.084,9.16,,,,,,
 2022-02-15,GENQ,Genesis Unicorn Capital Corp.,10.0,$10.47,4.7,2022,0.047,10.47,,,,,,
-2022-02-11,DRCT,"Direct Digital Holdings, Inc.",5.5,$2.32,-55.74,2022,-0.5574,2.4343,,,,,,
+2022-02-11,DRCT,"Direct Digital Holdings, Inc.",5.5,$2.32,-55.74,2022,-0.5574,2.4343,,,,data/raw/s1_filings/DRCT_2022-02-11_risk_factors.txt,data/raw/s1_filings/DRCT_2022-02-11_mda.txt,data/raw/s1_filings/DRCT_2022-02-11.txt
 2022-02-11,HNRA,HNR Acquisition Corp.,10.0,$1.19,-88.1,2022,-0.8809999999999999,1.190000000000001,,,,,,
 2022-02-11,JGGC,Jaguar Global Growth Corporation I,10.0,$1.70,-83.0,2022,-0.83,1.7000000000000004,,,,,,
 2022-02-11,MDV,"Modiv Industrial, Inc.",25.0,$16.39,-34.44,2022,-0.3444,16.39,,,,,,
 2022-02-11,RACY,Relativity Acquisition Corp.,10.0,-,,2022,,,,,,,,
 2022-02-11,SGHL,Signal Hill Acquisition Corp.,10.0,$10.43,4.25,2022,0.0425,10.425,,,,,,
 2022-02-11,TCBP,TC BioPharm (Holdings) plc,4.25,$0.50,-88.24,2022,-0.8824,0.4998000000000001,,,,,,
-2022-02-10,HTCR,"HeartCore Enterprises, Inc.",5.0,$3.27,-34.4,2022,-0.344,3.28,,,,,,
-2022-02-10,SKYX,SKYX Platforms Corp.,14.0,$1.06,-92.57,2022,-0.9257,1.0402000000000005,,,,,,
-2022-02-09,BYNO,byNordic Acquisition Corporation,10.0,$11.36,13.6,2022,0.136,11.36,,,,,,
+2022-02-10,HTCR,"HeartCore Enterprises, Inc.",5.0,$3.27,-34.4,2022,-0.344,3.28,,,,data/raw/s1_filings/HTCR_2022-02-10_risk_factors.txt,data/raw/s1_filings/HTCR_2022-02-10_mda.txt,data/raw/s1_filings/HTCR_2022-02-10.txt
+2022-02-10,SKYX,SKYX Platforms Corp.,14.0,$1.06,-92.57,2022,-0.9257,1.0402000000000005,,,,data/raw/s1_filings/SKYX_2022-02-10_risk_factors.txt,data/raw/s1_filings/SKYX_2022-02-10_mda.txt,data/raw/s1_filings/SKYX_2022-02-10.txt
+2022-02-09,BYNO,byNordic Acquisition Corporation,10.0,$11.36,13.6,2022,0.136,11.36,,,,data/raw/s1_filings/BYNO_2022-02-09_risk_factors.txt,data/raw/s1_filings/BYNO_2022-02-09_mda.txt,data/raw/s1_filings/BYNO_2022-02-09.txt
 2022-02-09,CPAQ,Counter Press Acquisition Corporation,10.0,$10.33,3.3,2022,0.033,10.329999999999998,,,,,,
 2022-02-09,EVGR,Evergreen Corporation,10.0,$11.95,19.5,2022,0.195,11.95,,,,,,
 2022-02-08,LIVB,LIV Capital Acquisition Corp. II,10.0,$10.97,9.7,2022,0.0969999999999999,10.97,,,,,,
 2022-02-07,ATAK,Aurora Technology Acquisition Corp.,10.0,$5.02,-49.8,2022,-0.498,5.02,,,,,,
-2022-02-04,ACLX,"Arcellx, Inc.",15.0,$115.04,666.87,2022,6.6687,115.0305,,,,,,
+2022-02-04,ACLX,"Arcellx, Inc.",15.0,$115.04,666.87,2022,6.6687,115.0305,,,,data/raw/s1_filings/ACLX_2022-02-04_risk_factors.txt,data/raw/s1_filings/ACLX_2022-02-04_mda.txt,data/raw/s1_filings/ACLX_2022-02-04.txt
 2022-02-04,LIEN,"Chicago Atlantic BDC, Inc.",,$9.31,,2022,,,,,,,,
-2022-02-04,NVCT,"Nuvectis Pharma, Inc.",5.0,$8.95,78.0,2022,0.78,8.9,,,,,,
+2022-02-04,NVCT,"Nuvectis Pharma, Inc.",5.0,$8.95,78.0,2022,0.78,8.9,,,,data/raw/s1_filings/NVCT_2022-02-04_risk_factors.txt,data/raw/s1_filings/NVCT_2022-02-04_mda.txt,data/raw/s1_filings/NVCT_2022-02-04.txt
 2022-02-04,TGR,Kimbell Tiger Acquisition Corporation,10.0,$10.55,5.5,2022,0.055,10.55,,,,,,
 2022-02-03,MURF,Murphy Canyon Acquisition Corp.,10.0,$16.85,68.5,2022,0.685,16.85,,,,,,
 2022-02-02,MTEK,Maris-Tech Ltd.,4.2,$1.31,-67.14,2022,-0.6714,1.38012,,,,,,
 2022-02-01,ACAX,Alset Capital Acquisition Corp.,10.0,$3.82,-61.8,2022,-0.618,3.82,,,,,,
 2022-01-31,BWAQ,Blue World Acquisition Corporation,10.0,$4.24,-57.6,2022,-0.5760000000000001,4.239999999999999,,,,,,
-2022-01-27,CRDO,Credo Technology Group Holding Ltd,10.0,$177.69,1850.4,2022,18.504,195.04,,,,,,
+2022-01-27,CRDO,Credo Technology Group Holding Ltd,10.0,$177.69,1850.4,2022,18.504,195.04,,,,data/raw/s1_filings/CRDO_2022-01-27_risk_factors.txt,data/raw/s1_filings/CRDO_2022-01-27_mda.txt,data/raw/s1_filings/CRDO_2022-01-27.txt
 2022-01-27,KSCP,"Knightscope, Inc.",10.0,$3.23,-68.6,2022,-0.6859999999999999,3.140000000000001,,,,,,
-2022-01-25,FGI,FGI Industries Ltd.,6.0,$6.70,54.33,2022,0.5433,9.259799999999998,,,,,,
+2022-01-25,FGI,FGI Industries Ltd.,6.0,$6.70,54.33,2022,0.5433,9.259799999999998,,,,data/raw/s1_filings/FGI_2022-01-25_risk_factors.txt,data/raw/s1_filings/FGI_2022-01-25_mda.txt,data/raw/s1_filings/FGI_2022-01-25.txt
 2022-01-25,KYCH,Keyarch Acquisition Corporation,10.0,$4.10,-59.0,2022,-0.59,4.1000000000000005,,,,,,
 2022-01-25,LATG,LatAmGrowth SPAC,10.0,$7.05,-29.5,2022,-0.295,7.050000000000001,,,,,,
 2022-01-21,HCMA,HCM Acquisition Corp.,10.0,$14.50,45.0,2022,0.45,14.5,,,,,,
@@ -1376,66 +1376,66 @@ ipo_date,ticker,company_name,offer_price,Current,first_day_return_pct,scrape_yea
 2022-01-14,ACAB,Atlantic Coastal Acquisition Corp. II,10.0,$5.77,-42.3,2022,-0.423,5.77,,,,,,
 2022-01-14,PPYA,Papaya Growth Opportunity Corp. I,10.0,$11.40,14.0,2022,0.14,11.400000000000002,,,,,,
 2022-01-13,CSLM,"Consilium Acquisition Corp I, Ltd.",10.0,$11.69,16.9,2022,0.1689999999999999,11.69,,,,,,
-2022-01-13,TPG,TPG Inc.,29.5,$42.79,47.86,2022,0.4785999999999999,43.6187,,,,,,
+2022-01-13,TPG,TPG Inc.,29.5,$42.79,47.86,2022,0.4785999999999999,43.6187,,,,data/raw/s1_filings/TPG_2022-01-13_risk_factors.txt,data/raw/s1_filings/TPG_2022-01-13_mda.txt,data/raw/s1_filings/TPG_2022-01-13.txt
 2022-01-13,WNNR,Andretti Acquisition Corp.,10.0,-,,2022,,,,,,,,
-2022-01-12,CNTN,"Canton Strategic Holdings, Inc.",,$3.37,,2022,,,,,,,,
+2022-01-12,CNTN,"Canton Strategic Holdings, Inc.",,$3.37,,2022,,,,,,data/raw/s1_filings/CNTN_2022-01-12_risk_factors.txt,data/raw/s1_filings/CNTN_2022-01-12_mda.txt,data/raw/s1_filings/CNTN_2022-01-12.txt
 2022-01-12,GHIX,"Gores Holdings IX, Inc.",10.0,$10.18,1.8,2022,0.018,10.18,,,,,,
 2022-01-12,ITAQ,"Industrial Tech Acquisitions II, Inc.",10.0,$10.95,9.5,2022,0.095,10.95,,,,,,
 2022-01-12,VCXB,10x Capital Venture Acquisition Corp. III,10.0,$11.07,10.7,2022,0.107,11.07,,,,,,
 2022-01-12,WAVS,Western Acquisition Ventures Corp.,10.0,$9.75,-2.5,2022,-0.025,9.75,,,,,,
 2022-01-11,BRAC,Broad Capital Acquisition Corp.,10.0,$11.70,17.0,2022,0.17,11.7,,,,,,
-2022-01-07,AMLX,"Amylyx Pharmaceuticals, Inc.",19.0,$17.79,-10.32,2022,-0.1032,17.0392,,,,,,
+2022-01-07,AMLX,"Amylyx Pharmaceuticals, Inc.",19.0,$17.79,-10.32,2022,-0.1032,17.0392,,,,data/raw/s1_filings/AMLX_2022-01-07_risk_factors.txt,data/raw/s1_filings/AMLX_2022-01-07_mda.txt,data/raw/s1_filings/AMLX_2022-01-07.txt
 2022-01-07,CINC,"CinCor Pharma, Inc.",16.0,$29.06,81.63,2022,0.8162999999999999,29.0608,,,,,,
 2022-01-07,CXAC,C5 Acquisition Corporation,10.0,$10.74,7.4,2022,0.074,10.74,,,,,,
-2022-01-07,HOUR,"Hour Loop, Inc.",4.0,$2.02,-48.5,2022,-0.485,2.06,,,,,,
+2022-01-07,HOUR,"Hour Loop, Inc.",4.0,$2.02,-48.5,2022,-0.485,2.06,,,,data/raw/s1_filings/HOUR_2022-01-07_risk_factors.txt,data/raw/s1_filings/HOUR_2022-01-07_mda.txt,data/raw/s1_filings/HOUR_2022-01-07.txt
 2022-01-07,VBOC,Viscogliosi Brothers Acquisition Corp.,10.0,$10.48,4.75,2022,0.0475,10.475,,,,,,
 2022-01-07,VIGL,"Vigil Neuroscience, Inc.",14.0,$8.05,-42.5,2022,-0.425,8.049999999999999,,,,,,
 2022-01-06,SCRM,Screaming Eagle Acquisition Corp.,10.0,$10.18,1.8,2022,0.018,10.18,,,,,,
 2022-01-05,CITE,Cartica Acquisition Corp,10.0,$11.85,18.5,2022,0.185,11.85,,,,,,
 2023-12-27,IROH,Iron Horse Acquisitions Corp.,10.0,$4.09,-25.0,2023,-0.25,7.5,,,,,,
 2023-12-19,LGCB,Linkage Global Inc,4.0,$0.62,-84.64,2023,-0.8464,0.6143999999999998,,,,,,
-2023-12-15,BAYA,Bayview Acquisition Corp,10.0,-,19.5,2023,0.195,11.95,,,,,,
+2023-12-15,BAYA,Bayview Acquisition Corp,10.0,-,19.5,2023,0.195,11.95,,,,data/raw/s1_filings/BAYA_2023-12-15_risk_factors.txt,data/raw/s1_filings/BAYA_2023-12-15_mda.txt,data/raw/s1_filings/BAYA_2023-12-15.txt
 2023-12-15,ZKH,ZKH Group Limited,15.5,$3.10,-80.77,2023,-0.8077,2.98065,,,,,,
-2023-12-14,INHD,Inno Holdings Inc.,4.0,$0.14,-96.37,2023,-0.9637,0.1452,,,,,,
-2023-12-04,AFJK,"Aimei Health Technology Co., Ltd",10.0,$45.10,372.0,2023,3.72,47.2,,,,,,
+2023-12-14,INHD,Inno Holdings Inc.,4.0,$0.14,-96.37,2023,-0.9637,0.1452,,,,data/raw/s1_filings/INHD_2023-12-14_risk_factors.txt,data/raw/s1_filings/INHD_2023-12-14_mda.txt,data/raw/s1_filings/INHD_2023-12-14.txt
+2023-12-04,AFJK,"Aimei Health Technology Co., Ltd",10.0,$45.10,372.0,2023,3.72,47.2,,,,data/raw/s1_filings/AFJK_2023-12-04_risk_factors.txt,data/raw/s1_filings/AFJK_2023-12-04_mda.txt,data/raw/s1_filings/AFJK_2023-12-04.txt
 2023-12-01,GSIW,Garden Stage Limited,4.0,$30.01,650.0,2023,6.5,30.0,,,,,,
 2023-11-30,FEBO,Fenbo Holdings Limited,5.0,$1.11,-77.0,2023,-0.77,1.15,,,,,,
 2023-11-21,CLBR,Colombier Acquisition Corp. II,10.0,$17.24,72.4,2023,0.7240000000000001,17.240000000000002,,,,,,
-2023-11-21,ELAB,PMGC Holdings Inc.,4.0,$2.63,-34.5,2023,-0.345,2.62,,,,,,
+2023-11-21,ELAB,PMGC Holdings Inc.,4.0,$2.63,-34.5,2023,-0.345,2.62,,,,data/raw/s1_filings/ELAB_2023-11-21_risk_factors.txt,data/raw/s1_filings/ELAB_2023-11-21_mda.txt,data/raw/s1_filings/ELAB_2023-11-21.txt
 2023-11-17,DDC,DDC Enterprise Limited,8.5,$1.86,-78.12,2023,-0.7812,1.8598,,,,,,
-2023-11-17,RR,Richtech Robotics Inc.,5.0,$2.47,-50.0,2023,-0.5,2.5,,,,,,
+2023-11-17,RR,Richtech Robotics Inc.,5.0,$2.47,-50.0,2023,-0.5,2.5,,,,data/raw/s1_filings/RR_2023-11-17_risk_factors.txt,data/raw/s1_filings/RR_2023-11-17_mda.txt,data/raw/s1_filings/RR_2023-11-17.txt
 2023-11-14,GLAC,Global Lights Acquisition Corp,10.0,$10.82,8.2,2023,0.0819999999999999,10.82,,,,,,
 2023-11-14,SGN,"Signing Day Sports, Inc.",5.0,$0.54,-89.2,2023,-0.892,0.5399999999999999,,,,,,
-2023-11-14,SHIM,Shimmick Corporation,7.0,$6.43,-15.57,2023,-0.1557,5.9101,,,,,,
+2023-11-14,SHIM,Shimmick Corporation,7.0,$6.43,-15.57,2023,-0.1557,5.9101,,,,data/raw/s1_filings/SHIM_2023-11-14_risk_factors.txt,data/raw/s1_filings/SHIM_2023-11-14_mda.txt,data/raw/s1_filings/SHIM_2023-11-14.txt
 2023-11-10,CRGX,"CARGO Therapeutics, Inc.",15.0,$4.47,-70.2,2023,-0.7020000000000001,4.469999999999999,,,,,,
-2023-11-10,HG,"Hamilton Insurance Group, Ltd.",15.0,$32.74,117.8,2023,1.178,32.67,,,,,,
+2023-11-10,HG,"Hamilton Insurance Group, Ltd.",15.0,$32.74,117.8,2023,1.178,32.67,,,,data/raw/s1_filings/HG_2023-11-10_risk_factors.txt,data/raw/s1_filings/HG_2023-11-10_mda.txt,data/raw/s1_filings/HG_2023-11-10.txt
 2023-11-09,AITR,AI Transportation Acquisition Corp,10.0,$11.00,10.0,2023,0.1,11.0,,,,,,
-2023-11-09,ANSC,Agriculture & Natural Solutions Acquisition Corporation,10.0,-,,2023,,,,,,,,
+2023-11-09,ANSC,Agriculture & Natural Solutions Acquisition Corporation,10.0,-,,2023,,,,,,data/raw/s1_filings/ANSC_2023-11-09_risk_factors.txt,data/raw/s1_filings/ANSC_2023-11-09_mda.txt,data/raw/s1_filings/ANSC_2023-11-09.txt
 2023-11-08,GVH,Globavend Holdings Limited,4.0,$3.46,-8.25,2023,-0.0825,3.67,,,,,,
-2023-11-03,LXEO,"Lexeo Therapeutics, Inc.",11.0,$5.99,-46.82,2023,-0.4682,5.8498,,,,,,
-2023-11-01,PAPL,Pineapple Financial Inc.,4.0,$1.32,-77.01,2023,-0.7701,0.9196,,,,,,
+2023-11-03,LXEO,"Lexeo Therapeutics, Inc.",11.0,$5.99,-46.82,2023,-0.4682,5.8498,,,,data/raw/s1_filings/LXEO_2023-11-03_risk_factors.txt,data/raw/s1_filings/LXEO_2023-11-03_mda.txt,data/raw/s1_filings/LXEO_2023-11-03.txt
+2023-11-01,PAPL,Pineapple Financial Inc.,4.0,$1.32,-77.01,2023,-0.7701,0.9196,,,,data/raw/s1_filings/PAPL_2023-11-01_risk_factors.txt,data/raw/s1_filings/PAPL_2023-11-01_mda.txt,data/raw/s1_filings/PAPL_2023-11-01.txt
 2023-10-31,ATGL,Alpha Technology Group Limited,4.0,-,252.5,2023,2.525,14.1,,,,,,
-2023-10-25,MNR,Mach Natural Resources LP,19.0,$13.16,-31.37,2023,-0.3137,13.039699999999998,,,,,,
-2023-10-19,NCL,Northann Corp.,5.0,$0.15,-96.93,2023,-0.9693,0.1534999999999997,,,,,,
+2023-10-25,MNR,Mach Natural Resources LP,19.0,$13.16,-31.37,2023,-0.3137,13.039699999999998,,,,data/raw/s1_filings/MNR_2023-10-25_risk_factors.txt,data/raw/s1_filings/MNR_2023-10-25_mda.txt,data/raw/s1_filings/MNR_2023-10-25.txt
+2023-10-19,NCL,Northann Corp.,5.0,$0.15,-96.93,2023,-0.9693,0.1534999999999997,,,,data/raw/s1_filings/NCL_2023-10-19_risk_factors.txt,data/raw/s1_filings/NCL_2023-10-19_mda.txt,data/raw/s1_filings/NCL_2023-10-19.txt
 2023-10-19,WBUY,Webuy Global Ltd,4.0,$1.36,-68.25,2023,-0.6825,1.27,,,,,,
 2023-10-11,BIRK,Birkenstock Holding plc,46.0,$39.66,-14.02,2023,-0.1402,39.5508,,,,,,
 2023-10-10,GMM,Global Mofy AI Limited,5.0,$1.38,,2023,,,,,,,,
-2023-10-10,LRHC,La Rosa Holdings Corp.,5.0,$2.10,-56.4,2023,-0.564,2.18,,,,,,
+2023-10-10,LRHC,La Rosa Holdings Corp.,5.0,$2.10,-56.4,2023,-0.564,2.18,,,,data/raw/s1_filings/LRHC_2023-10-10_risk_factors.txt,data/raw/s1_filings/LRHC_2023-10-10_mda.txt,data/raw/s1_filings/LRHC_2023-10-10.txt
 2023-10-10,PMEC,Primech Holdings Ltd.,4.0,$0.66,-82.5,2023,-0.825,0.7000000000000002,,,,,,
 2023-10-09,GPAK,Gamer Pakistan Inc.,4.0,$0.01,-99.79,2023,-0.9979,0.0083999999999999,,,,,,
-2023-10-06,QETA,Quetta Acquisition Corporation,10.0,-,,2023,,,,,,,,
-2023-10-06,SPKL,Spark I Acquisition Corporation,10.0,$11.33,13.9,2023,0.139,11.39,,,,,,
-2023-10-05,MSS,Maison Solutions Inc.,4.0,$1.19,-70.75,2023,-0.7075,1.17,,,,,,
+2023-10-06,QETA,Quetta Acquisition Corporation,10.0,-,,2023,,,,,,data/raw/s1_filings/QETA_2023-10-06_risk_factors.txt,data/raw/s1_filings/QETA_2023-10-06_mda.txt,data/raw/s1_filings/QETA_2023-10-06.txt
+2023-10-06,SPKL,Spark I Acquisition Corporation,10.0,$11.33,13.9,2023,0.139,11.39,,,,data/raw/s1_filings/SPKL_2023-10-06_risk_factors.txt,data/raw/s1_filings/SPKL_2023-10-06_mda.txt,data/raw/s1_filings/SPKL_2023-10-06.txt
+2023-10-05,MSS,Maison Solutions Inc.,4.0,$1.19,-70.75,2023,-0.7075,1.17,,,,data/raw/s1_filings/MSS_2023-10-05_risk_factors.txt,data/raw/s1_filings/MSS_2023-10-05_mda.txt,data/raw/s1_filings/MSS_2023-10-05.txt
 2023-09-29,ANL,Adlai Nortye Ltd.,23.0,$13.48,-35.65,2023,-0.3565,14.8005,,,,,,
-2023-09-29,SYRA,Syra Health Corp.,4.13,$0.10,-97.4,2023,-0.974,0.1073799999999996,,,,,,
+2023-09-29,SYRA,Syra Health Corp.,4.13,$0.10,-97.4,2023,-0.974,0.1073799999999996,,,,data/raw/s1_filings/SYRA_2023-09-29_risk_factors.txt,data/raw/s1_filings/SYRA_2023-09-29_mda.txt,data/raw/s1_filings/SYRA_2023-09-29.txt
 2023-09-28,VSME,VS MEDIA Holdings Limited,5.0,$0.97,-81.59,2023,-0.8159000000000001,0.9204999999999997,,,,,,
 2023-09-27,LRE,"Lead Real Estate Co., Ltd",7.0,$1.30,-81.57,2023,-0.8157,1.2901000000000002,,,,,,
 2023-09-22,TURB,"Turbo Energy, S.A.",5.0,$1.84,-63.0,2023,-0.63,1.85,,,,,,
-2023-09-21,MDBH,"MDB Capital Holdings, LLC",12.0,$3.67,-68.63,2023,-0.6862999999999999,3.764400000000001,,,,,,
-2023-09-20,KVYO,"Klaviyo, Inc.",30.0,$19.96,-35.17,2023,-0.3517,19.449,,,,,,
-2023-09-19,CART,Maplebear Inc.,30.0,$43.48,44.77,2023,0.4477,43.431,,,,,,
+2023-09-21,MDBH,"MDB Capital Holdings, LLC",12.0,$3.67,-68.63,2023,-0.6862999999999999,3.764400000000001,,,,data/raw/s1_filings/MDBH_2023-09-21_risk_factors.txt,data/raw/s1_filings/MDBH_2023-09-21_mda.txt,data/raw/s1_filings/MDBH_2023-09-21.txt
+2023-09-20,KVYO,"Klaviyo, Inc.",30.0,$19.96,-35.17,2023,-0.3517,19.449,,,,data/raw/s1_filings/KVYO_2023-09-20_risk_factors.txt,data/raw/s1_filings/KVYO_2023-09-20_mda.txt,data/raw/s1_filings/KVYO_2023-09-20.txt
+2023-09-19,CART,Maplebear Inc.,30.0,$43.48,44.77,2023,0.4477,43.431,,,,data/raw/s1_filings/CART_2023-09-19_risk_factors.txt,data/raw/s1_filings/CART_2023-09-19_mda.txt,data/raw/s1_filings/CART_2023-09-19.txt
 2023-09-19,DTCK,Davis Commodities Limited,4.0,$1.00,-75.0,2023,-0.75,1.0,,,,,,
-2023-09-15,NMRA,"Neumora Therapeutics, Inc.",17.0,$2.28,-86.47,2023,-0.8647,2.3001,,,,,,
+2023-09-15,NMRA,"Neumora Therapeutics, Inc.",17.0,$2.28,-86.47,2023,-0.8647,2.3001,,,,data/raw/s1_filings/NMRA_2023-09-15_risk_factors.txt,data/raw/s1_filings/NMRA_2023-09-15_mda.txt,data/raw/s1_filings/NMRA_2023-09-15.txt
 2023-09-15,RYZB,"RayzeBio, Inc.",18.0,$62.49,247.17,2023,2.4717,62.49059999999999,,,,,,
 2023-09-14,ARM,Arm Holdings plc,51.0,$212.91,319.28,2023,3.1928,213.8328,,,,,,
 2023-09-13,SPPL,Simpple Ltd.,5.25,$2.24,-56.76,2023,-0.5676,2.2701,,,,,,
@@ -1446,60 +1446,60 @@ ipo_date,ticker,company_name,offer_price,Current,first_day_return_pct,scrape_yea
 2023-08-15,SPGC,"Sacks Parente Golf, Inc.",4.0,$3.00,-97.5,2023,-0.975,0.1,,,,,,
 2023-08-15,SRM,SRM Contractors Limited,5.0,$10.18,106.0,2023,1.06,10.3,,,,,,
 2023-08-10,LQR,LQR House Inc.,5.0,$1.15,-77.0,2023,-0.77,1.15,,,,,,
-2023-08-09,NRXS,"NeurAxis, Inc.",6.0,$7.98,31.0,2023,0.31,7.86,,,,,,
+2023-08-09,NRXS,"NeurAxis, Inc.",6.0,$7.98,31.0,2023,0.31,7.86,,,,data/raw/s1_filings/NRXS_2023-08-09_risk_factors.txt,data/raw/s1_filings/NRXS_2023-08-09_mda.txt,data/raw/s1_filings/NRXS_2023-08-09.txt
 2023-08-08,GMEX,GMEX Robotics Corporation,,$0.37,,2023,,,,,,,,
-2023-08-03,MIRA,"MIRA Pharmaceuticals, Inc.",7.0,$1.02,-85.0,2023,-0.85,1.0500000000000005,,,,,,
-2023-08-01,CTNT,Cheetah Net Supply Chain Service Inc.,4.0,$0.03,-98.94,2023,-0.9894,0.0424000000000002,,,,,,
+2023-08-03,MIRA,"MIRA Pharmaceuticals, Inc.",7.0,$1.02,-85.0,2023,-0.85,1.0500000000000005,,,,data/raw/s1_filings/MIRA_2023-08-03_risk_factors.txt,data/raw/s1_filings/MIRA_2023-08-03_mda.txt,data/raw/s1_filings/MIRA_2023-08-03.txt
+2023-08-01,CTNT,Cheetah Net Supply Chain Service Inc.,4.0,$0.03,-98.94,2023,-0.9894,0.0424000000000002,,,,data/raw/s1_filings/CTNT_2023-08-01_risk_factors.txt,data/raw/s1_filings/CTNT_2023-08-01_mda.txt,data/raw/s1_filings/CTNT_2023-08-01.txt
 2023-08-01,HRYU,"Hanryu Holdings, Inc.",10.0,$0.29,-97.12,2023,-0.9712,0.2879999999999993,,,,,,
 2023-08-01,PXDT,"Pixie Dust Technologies, Inc.",9.0,$0.58,-93.56,2023,-0.9356,0.5796000000000001,,,,,,
 2023-07-27,PRZO,ParaZero Technologies Ltd.,4.0,$0.75,-81.35,2023,-0.8134999999999999,0.7460000000000004,,,,,,
-2023-07-27,SRFM,Surf Air Mobility Inc.,20.0,$1.15,-94.35,2023,-0.9435,1.130000000000002,,,,,,
+2023-07-27,SRFM,Surf Air Mobility Inc.,20.0,$1.15,-94.35,2023,-0.9435,1.130000000000002,,,,data/raw/s1_filings/SRFM_2023-07-27_risk_factors.txt,data/raw/s1_filings/SRFM_2023-07-27_mda.txt,data/raw/s1_filings/SRFM_2023-07-27.txt
 2023-07-26,HYAC,Haymaker Acquisition Corp. 4,10.0,$10.75,7.5,2023,0.075,10.75,Financials,Shell Companies,NYSE,,,
 2023-07-25,ELWS,"Earlyworks Co., Ltd.",5.0,$6.21,24.2,2023,0.242,6.21,,,,,,
 2023-07-25,JNVR,Janover Inc.,4.0,$79.31,1882.75,2023,18.8275,79.31,,,,,,
-2023-07-25,KVAC,Keen Vision Acquisition Corporation,10.0,-,20.6,2023,0.206,12.06,,,,,,
+2023-07-25,KVAC,Keen Vision Acquisition Corporation,10.0,-,20.6,2023,0.206,12.06,,,,data/raw/s1_filings/KVAC_2023-07-25_risk_factors.txt,data/raw/s1_filings/KVAC_2023-07-25_mda.txt,data/raw/s1_filings/KVAC_2023-07-25.txt
 2023-07-25,WRNT,Warrantee Inc.,4.0,$0.27,-93.21,2023,-0.9321,0.2716000000000003,,,,,,
 2023-07-21,TSBX,Turnstone Biologics Corp.,12.0,$0.36,-97.0,2023,-0.97,0.3600000000000003,,,,,,
 2023-07-19,ODD,Oddity Tech Ltd.,35.0,$16.16,-54.11,2023,-0.5411,16.0615,,,,,,
-2023-07-14,APGE,"Apogee Therapeutics, Inc.",17.0,$87.41,415.18,2023,4.1518,87.58059999999999,,,,,,
+2023-07-14,APGE,"Apogee Therapeutics, Inc.",17.0,$87.41,415.18,2023,4.1518,87.58059999999999,,,,data/raw/s1_filings/APGE_2023-07-14_risk_factors.txt,data/raw/s1_filings/APGE_2023-07-14_mda.txt,data/raw/s1_filings/APGE_2023-07-14.txt
 2023-07-14,NETD,Nabors Energy Transition Corp. II,10.0,$11.52,15.2,2023,0.152,11.52,,,,,,
-2023-07-14,SGMT,Sagimet Biosciences Inc.,16.0,$8.34,-63.38,2023,-0.6338,5.8592,,,,,,
+2023-07-14,SGMT,Sagimet Biosciences Inc.,16.0,$8.34,-63.38,2023,-0.6338,5.8592,,,,data/raw/s1_filings/SGMT_2023-07-14_risk_factors.txt,data/raw/s1_filings/SGMT_2023-07-14_mda.txt,data/raw/s1_filings/SGMT_2023-07-14.txt
 2023-07-12,BOWN,Bowen Acquisition Corp,10.0,$9.19,-8.1,2023,-0.081,9.19,,,,,,
-2023-07-12,SXTP,"60 Degrees Pharmaceuticals, Inc.",5.3,$1.65,-69.25,2023,-0.6925,1.62975,,,,,,
+2023-07-12,SXTP,"60 Degrees Pharmaceuticals, Inc.",5.3,$1.65,-69.25,2023,-0.6925,1.62975,,,,data/raw/s1_filings/SXTP_2023-07-12_risk_factors.txt,data/raw/s1_filings/SXTP_2023-07-12_mda.txt,data/raw/s1_filings/SXTP_2023-07-12.txt
 2023-07-06,PWM,Power Metals Corp.,5.0,$1.08,-76.6,2023,-0.7659999999999999,1.1700000000000004,,,,,,
-2023-06-30,INTS,"Intensity Therapeutics, Inc.",5.0,$5.30,5.0,2023,0.05,5.25,,,,,,
+2023-06-30,INTS,"Intensity Therapeutics, Inc.",5.0,$5.30,5.0,2023,0.05,5.25,,,,data/raw/s1_filings/INTS_2023-06-30_risk_factors.txt,data/raw/s1_filings/INTS_2023-06-30_mda.txt,data/raw/s1_filings/INTS_2023-06-30.txt
 2023-06-30,VTMX,"CorporaciÃ³n Inmobiliaria Vesta, S.A.B. de C.V.",31.0,$36.27,17.34,2023,0.1734,36.3754,,,,,,
 2023-06-29,FIHL,Fidelis Insurance Holdings Limited,14.0,$21.14,49.71,2023,0.4971,20.9594,,,,,,
-2023-06-29,KGS,"Kodiak Gas Services, Inc.",16.0,$65.75,312.38,2023,3.1238,65.9808,,,,,,
-2023-06-29,SVV,"Savers Value Village, Inc.",18.0,$8.66,-51.56,2023,-0.5156000000000001,8.719199999999999,,,,,,
+2023-06-29,KGS,"Kodiak Gas Services, Inc.",16.0,$65.75,312.38,2023,3.1238,65.9808,,,,data/raw/s1_filings/KGS_2023-06-29_risk_factors.txt,data/raw/s1_filings/KGS_2023-06-29_mda.txt,data/raw/s1_filings/KGS_2023-06-29.txt
+2023-06-29,SVV,"Savers Value Village, Inc.",18.0,$8.66,-51.56,2023,-0.5156000000000001,8.719199999999999,,,,data/raw/s1_filings/SVV_2023-06-29_risk_factors.txt,data/raw/s1_filings/SVV_2023-06-29_mda.txt,data/raw/s1_filings/SVV_2023-06-29.txt
 2023-06-28,BUJA,Bukit Jalil Global Acquisition 1 Ltd.,10.0,$3.66,-63.4,2023,-0.634,3.66,,,,,,
-2023-06-28,GENK,"GEN Restaurant Group, Inc.",12.0,$1.64,-86.58,2023,-0.8658,1.6103999999999998,,,,,,
-2023-06-16,AZTR,"Azitra, Inc.",5.0,$0.23,-95.6,2023,-0.956,0.2200000000000002,,,,,,
-2023-06-16,BOF,BranchOut Food Inc.,6.0,$3.85,-37.83,2023,-0.3782999999999999,3.7302,,,,,,
-2023-06-15,CAVA,"CAVA Group, Inc.",22.0,$94.00,334.91,2023,3.3491000000000004,95.6802,,,,,,
-2023-06-14,ESHA,ESH Acquisition Corp.,10.0,-,,2023,,,,,,,,
-2023-05-26,ATMU,Atmus Filtration Technologies Inc.,19.5,$61.99,219.18,2023,2.1918,62.240100000000005,,,,,,
+2023-06-28,GENK,"GEN Restaurant Group, Inc.",12.0,$1.64,-86.58,2023,-0.8658,1.6103999999999998,,,,data/raw/s1_filings/GENK_2023-06-28_risk_factors.txt,data/raw/s1_filings/GENK_2023-06-28_mda.txt,data/raw/s1_filings/GENK_2023-06-28.txt
+2023-06-16,AZTR,"Azitra, Inc.",5.0,$0.23,-95.6,2023,-0.956,0.2200000000000002,,,,data/raw/s1_filings/AZTR_2023-06-16_risk_factors.txt,data/raw/s1_filings/AZTR_2023-06-16_mda.txt,data/raw/s1_filings/AZTR_2023-06-16.txt
+2023-06-16,BOF,BranchOut Food Inc.,6.0,$3.85,-37.83,2023,-0.3782999999999999,3.7302,,,,data/raw/s1_filings/BOF_2023-06-16_risk_factors.txt,data/raw/s1_filings/BOF_2023-06-16_mda.txt,data/raw/s1_filings/BOF_2023-06-16.txt
+2023-06-15,CAVA,"CAVA Group, Inc.",22.0,$94.00,334.91,2023,3.3491000000000004,95.6802,,,,data/raw/s1_filings/CAVA_2023-06-15_risk_factors.txt,data/raw/s1_filings/CAVA_2023-06-15_mda.txt,data/raw/s1_filings/CAVA_2023-06-15.txt
+2023-06-14,ESHA,ESH Acquisition Corp.,10.0,-,,2023,,,,,,data/raw/s1_filings/ESHA_2023-06-14_risk_factors.txt,data/raw/s1_filings/ESHA_2023-06-14_mda.txt,data/raw/s1_filings/ESHA_2023-06-14.txt
+2023-05-26,ATMU,Atmus Filtration Technologies Inc.,19.5,$61.99,219.18,2023,2.1918,62.240100000000005,,,,data/raw/s1_filings/ATMU_2023-05-26_risk_factors.txt,data/raw/s1_filings/ATMU_2023-05-26_mda.txt,data/raw/s1_filings/ATMU_2023-05-26.txt
 2023-05-25,ATS,ATS Corporation,41.0,$33.59,-19.42,2023,-0.1942,33.0378,,,,,,
 2023-05-25,IPXX,Inflection Point Acquisition Corp. II,10.0,$10.79,7.85,2023,0.0785,10.785,,,,,,
-2023-05-17,CWD,CaliberCos Inc.,4.0,$1.11,-73.0,2023,-0.73,1.08,,,,,,
+2023-05-17,CWD,CaliberCos Inc.,4.0,$1.11,-73.0,2023,-0.73,1.08,,,,data/raw/s1_filings/CWD_2023-05-17_risk_factors.txt,data/raw/s1_filings/CWD_2023-05-17_mda.txt,data/raw/s1_filings/CWD_2023-05-17.txt
 2023-05-16,SGE,"Strong Global Entertainment, Inc.",4.0,$1.55,-61.25,2023,-0.6125,1.5499999999999998,,,,,,
-2023-05-05,ALCY,Alchemy Investments Acquisition Corp 1,10.0,-,19.9,2023,0.1989999999999999,11.99,,,,,,
+2023-05-05,ALCY,Alchemy Investments Acquisition Corp 1,10.0,-,19.9,2023,0.1989999999999999,11.99,,,,data/raw/s1_filings/ALCY_2023-05-05_risk_factors.txt,data/raw/s1_filings/ALCY_2023-05-05_mda.txt,data/raw/s1_filings/ALCY_2023-05-05.txt
 2023-05-05,SLRN,Solar 18 Corporation,18.0,$2.25,-87.5,2023,-0.875,2.25,,,,,,
-2023-05-04,KVUE,Kenvue Inc.,22.0,$17.49,-20.5,2023,-0.205,17.490000000000002,,,,,,
-2023-05-02,GODN,Golden Star Acquisition Corporation,10.0,$2.91,-70.9,2023,-0.7090000000000001,2.9099999999999997,,,,,,
-2023-04-28,TRNR,Interactive Strength Inc.,8.0,$1.09,-86.75,2023,-0.8675,1.0599999999999996,,,,,,
+2023-05-04,KVUE,Kenvue Inc.,22.0,$17.49,-20.5,2023,-0.205,17.490000000000002,,,,data/raw/s1_filings/KVUE_2023-05-04_risk_factors.txt,data/raw/s1_filings/KVUE_2023-05-04_mda.txt,data/raw/s1_filings/KVUE_2023-05-04.txt
+2023-05-02,GODN,Golden Star Acquisition Corporation,10.0,$2.91,-70.9,2023,-0.7090000000000001,2.91,,,,,,
+2023-04-28,TRNR,Interactive Strength Inc.,8.0,$1.09,-86.75,2023,-0.8675,1.0599999999999996,,,,data/raw/s1_filings/TRNR_2023-04-28_risk_factors.txt,data/raw/s1_filings/TRNR_2023-04-28_mda.txt,data/raw/s1_filings/TRNR_2023-04-28.txt
 2023-04-21,AACT,Ares Acquisition Corporation II,10.0,$9.49,-5.1,2023,-0.051,9.49,,,,,,
 2023-04-21,JYD,Jayud Global Logistics Limited,4.0,$4.40,7.54,2023,0.0754,4.3016,,,,,,
 2023-04-20,UCAR,U Power Limited,6.0,$1.64,-72.67,2023,-0.7267,1.6398,,,,,,
-2023-04-20,USGO,U.S. GoldMining Inc.,10.0,$13.38,32.25,2023,0.3225,13.225,,,,,,
+2023-04-20,USGO,U.S. GoldMining Inc.,10.0,$13.38,32.25,2023,0.3225,13.225,,,,data/raw/s1_filings/USGO_2023-04-20_risk_factors.txt,data/raw/s1_filings/USGO_2023-04-20_mda.txt,data/raw/s1_filings/USGO_2023-04-20.txt
 2023-04-20,WLGS,"Wang & Lee Group, Inc.",5.0,$0.04,-99.18,2023,-0.9918,0.0409999999999999,,,,,,
-2023-04-18,TPET,Trio Petroleum Corp.,3.0,$0.50,-83.33,2023,-0.8332999999999999,0.5001000000000002,,,,,,
+2023-04-18,TPET,Trio Petroleum Corp.,3.0,$0.50,-83.33,2023,-0.8332999999999999,0.5001000000000002,,,,data/raw/s1_filings/TPET_2023-04-18_risk_factors.txt,data/raw/s1_filings/TPET_2023-04-18_mda.txt,data/raw/s1_filings/TPET_2023-04-18.txt
 2023-04-18,WAI,Top KingWin Ltd,4.0,$2.30,-42.6,2023,-0.426,2.2960000000000003,,,,,,
 2023-04-14,GDTC,CytoMed Therapeutics Limited,4.0,$0.98,-76.23,2023,-0.7623000000000001,0.9507999999999996,,,,,,
 2023-04-13,VCIG,VCI Global Limited,4.0,$0.98,-74.75,2023,-0.7475,1.0099999999999998,,,,,,
 2023-04-12,GDHG,Golden Heaven Group Holdings Ltd.,4.0,$1.80,-55.0,2023,-0.55,1.7999999999999998,,,,,,
 2023-04-05,ARBB,ARB IOT Group Limited,4.0,$4.71,18.36,2023,0.1835999999999999,4.7344,,,,,,
-2023-04-04,ISPR,Ispire Technology Inc.,7.0,$1.32,-80.43,2023,-0.8043,1.3699,,,,,,
+2023-04-04,ISPR,Ispire Technology Inc.,7.0,$1.32,-80.43,2023,-0.8043,1.3699,,,,data/raw/s1_filings/ISPR_2023-04-04_risk_factors.txt,data/raw/s1_filings/ISPR_2023-04-04_mda.txt,data/raw/s1_filings/ISPR_2023-04-04.txt
 2023-04-04,MGIH,Millennium Group International Holdings Limited,4.0,$1.51,-62.5,2023,-0.625,1.5,,,,,,
 2023-04-03,MWG,Multi Ways Holdings Limited,2.5,$2.02,-19.4,2023,-0.1939999999999999,2.015,,,,,,
 2023-03-31,HKIT,Hitek Global Inc.,5.0,$0.84,-80.2,2023,-0.802,0.9899999999999998,,,,,,
@@ -1508,13 +1508,13 @@ ipo_date,ticker,company_name,offer_price,Current,first_day_return_pct,scrape_yea
 2023-03-31,SYT,Softing AG,8.0,$2.26,-71.75,2023,-0.7175,2.26,,,,,,
 2023-03-30,CHSN,Chanson International Holding,4.0,$0.07,-95.41,2023,-0.9541,0.1836000000000002,,,,,,
 2023-03-29,HLP,Hongli Group Inc.,4.0,$0.89,-78.0,2023,-0.78,0.8799999999999999,,,,,,
-2023-03-29,TBMC,Trailblazer Merger Corporation I,10.0,$3.69,-26.75,2023,-0.2675,7.324999999999999,,,,,,
+2023-03-29,TBMC,Trailblazer Merger Corporation I,10.0,$3.69,-26.75,2023,-0.2675,7.324999999999999,,,,data/raw/s1_filings/TBMC_2023-03-29_risk_factors.txt,data/raw/s1_filings/TBMC_2023-03-29_mda.txt,data/raw/s1_filings/TBMC_2023-03-29.txt
 2023-03-28,TMTC,TMT Acquisition Corp.,10.0,$2.20,-78.0,2023,-0.78,2.2,,,,,,
 2023-03-28,YGFGF,"YanGuFang International Group Co., Ltd.",4.0,$0.00,-99.95,2023,-0.9995,0.0019999999999997,,,,,,
 2023-03-28,ZJYL,Jin Medical International Ltd.,8.0,$2.30,-73.0,2023,-0.73,2.16,,,,,,
 2023-03-24,OAKU,Oak Woods Acquisition Corporation,10.0,$12.20,22.0,2023,0.22,12.2,,,,,,
 2023-03-23,BANL,CBL International Limited,4.0,$0.47,-88.61,2023,-0.8861,0.4556,,,,,,
-2023-03-21,MGRX,"Mangoceuticals, Inc.",4.0,$0.43,-89.57,2023,-0.8956999999999999,0.4172000000000002,,,,,,
+2023-03-21,MGRX,"Mangoceuticals, Inc.",4.0,$0.43,-89.57,2023,-0.8956999999999999,0.4172000000000002,,,,data/raw/s1_filings/MGRX_2023-03-21_risk_factors.txt,data/raw/s1_filings/MGRX_2023-03-21_mda.txt,data/raw/s1_filings/MGRX_2023-03-21.txt
 2023-03-21,OMH,Ohmyhome Limited,4.0,$0.95,-76.25,2023,-0.7625,0.9500000000000002,,,,,,
 2023-03-17,FORL,Four Leaf Acquisition Corporation,10.0,$11.26,16.0,2023,0.16,11.6,,,,,,
 2023-03-16,ICG,Intchains Group Limited,8.0,$1.28,-83.5,2023,-0.835,1.3200000000000005,,,,,,
@@ -1524,244 +1524,244 @@ ipo_date,ticker,company_name,offer_price,Current,first_day_return_pct,scrape_yea
 2023-02-28,BMR,Beamr Imaging Ltd.,4.0,$1.90,-51.0,2023,-0.51,1.96,,,,,,
 2023-02-28,SBXC,SilverBox Corp III,10.0,$10.84,8.4,2023,0.084,10.84,,,,,,
 2023-02-15,DIST,DistIT AB (publ),10.0,$28.00,180.0,2023,1.8,28.0,,,,,,
-2023-02-15,GXAI,Gaxos.ai Inc.,4.15,$1.33,-67.47,2023,-0.6747,1.3499950000000005,,,,,,
-2023-02-14,BFRG,"Bullfrog AI Holdings, Inc.",6.5,$0.81,-87.54,2023,-0.8754000000000001,0.8098999999999996,,,,,,
+2023-02-15,GXAI,Gaxos.ai Inc.,4.15,$1.33,-67.47,2023,-0.6747,1.3499950000000005,,,,data/raw/s1_filings/GXAI_2023-02-15_risk_factors.txt,data/raw/s1_filings/GXAI_2023-02-15_mda.txt,data/raw/s1_filings/GXAI_2023-02-15.txt
+2023-02-14,BFRG,"Bullfrog AI Holdings, Inc.",6.5,$0.81,-87.54,2023,-0.8754000000000001,0.8098999999999996,,,,data/raw/s1_filings/BFRG_2023-02-14_risk_factors.txt,data/raw/s1_filings/BFRG_2023-02-14_mda.txt,data/raw/s1_filings/BFRG_2023-02-14.txt
 2023-02-14,MARX,Mars Acquisition Corp.,10.0,$2.48,-75.2,2023,-0.752,2.48,,,,,,
 2023-02-10,BLAC,Bellevue Life Sciences Acquisition Corp.,10.0,$3.01,-69.9,2023,-0.6990000000000001,3.01,,,,,,
 2023-02-10,ENLT,Enlight Renewable Energy Ltd,18.0,$89.23,386.5,2023,3.865,87.57000000000001,,,,,,
-2023-02-10,MLYS,"Mineralys Therapeutics, Inc.",16.0,$27.63,73.0,2023,0.73,27.68,,,,,,
+2023-02-10,MLYS,"Mineralys Therapeutics, Inc.",16.0,$27.63,73.0,2023,0.73,27.68,,,,data/raw/s1_filings/MLYS_2023-02-10_risk_factors.txt,data/raw/s1_filings/MLYS_2023-02-10_mda.txt,data/raw/s1_filings/MLYS_2023-02-10.txt
 2023-02-10,PTHR,"Pono Capital Three, Inc.",10.0,$5.72,-42.8,2023,-0.428,5.720000000000001,,,,,,
 2023-02-09,HSAI,Hesai Group,19.0,$23.11,23.47,2023,0.2347,23.4593,,,,,,
 2023-02-09,LSDIF,Lucy Scientific Discovery Inc.,4.0,$0.01,-99.75,2023,-0.9975,0.0099999999999997,,,,,,
-2023-02-09,NXT,Nextpower Inc.,24.0,$118.84,405.88,2023,4.0588,121.4112,,,,,,
+2023-02-09,NXT,Nextpower Inc.,24.0,$118.84,405.88,2023,4.0588,121.4112,,,,data/raw/s1_filings/NXT_2023-02-09_risk_factors.txt,data/raw/s1_filings/NXT_2023-02-09_mda.txt,data/raw/s1_filings/NXT_2023-02-09.txt
 2023-02-06,LICN,Lichen International Limited,4.0,$5.73,42.5,2023,0.425,5.7,,,,,,
-2023-02-03,ASST,"Strive Asset Management, LLC",5.0,$16.08,216.0,2023,2.16,15.8,,,,,,
-2023-02-03,GPCR,Structure Therapeutics Inc.,15.0,$46.49,203.27,2023,2.0327,45.4905,,,,,,
+2023-02-03,ASST,"Strive Asset Management, LLC",5.0,$16.08,216.0,2023,2.16,15.8,,,,data/raw/s1_filings/ASST_2023-02-03_risk_factors.txt,data/raw/s1_filings/ASST_2023-02-03_mda.txt,data/raw/s1_filings/ASST_2023-02-03.txt
+2023-02-03,GPCR,Structure Therapeutics Inc.,15.0,$46.49,203.27,2023,2.0327,45.4905,,,,data/raw/s1_filings/GPCR_2023-02-03_risk_factors.txt,data/raw/s1_filings/GPCR_2023-02-03_mda.txt,data/raw/s1_filings/GPCR_2023-02-03.txt
 2023-02-01,CETU,Cetus Capital Acquisition Corp.,10.0,$2.22,-77.8,2023,-0.778,2.22,,,,,,
 2023-01-27,BREA,Brera Holdings PLC,5.0,$25.20,404.0,2023,4.04,25.2,,,,,,
-2023-01-27,TXO,"TXO Partners, L.P.",20.0,$12.42,-38.55,2023,-0.3854999999999999,12.29,,,,,,
-2023-01-26,GNLX,Genelux Corporation,6.0,$2.58,-58.0,2023,-0.58,2.5200000000000005,,,,,,
+2023-01-27,TXO,"TXO Partners, L.P.",20.0,$12.42,-38.55,2023,-0.3854999999999999,12.29,,,,data/raw/s1_filings/TXO_2023-01-27_risk_factors.txt,data/raw/s1_filings/TXO_2023-01-27_mda.txt,data/raw/s1_filings/TXO_2023-01-27.txt
+2023-01-26,GNLX,Genelux Corporation,6.0,$2.58,-58.0,2023,-0.58,2.5200000000000005,,,,data/raw/s1_filings/GNLX_2023-01-26_risk_factors.txt,data/raw/s1_filings/GNLX_2023-01-26_mda.txt,data/raw/s1_filings/GNLX_2023-01-26.txt
 2023-01-25,HERE,Here Group Limited,,$3.73,,2023,,,,,,,,
-2023-01-20,CVKD,"Cadrenal Therapeutics, Inc.",5.0,$5.67,10.2,2023,0.102,5.510000000000001,,,,,,
+2023-01-20,CVKD,"Cadrenal Therapeutics, Inc.",5.0,$5.67,10.2,2023,0.102,5.510000000000001,,,,data/raw/s1_filings/CVKD_2023-01-20_risk_factors.txt,data/raw/s1_filings/CVKD_2023-01-20_mda.txt,data/raw/s1_filings/CVKD_2023-01-20.txt
 2023-01-13,ISRL,Israel Acquisitions Corp,10.0,$12.40,24.0,2023,0.24,12.4,,,,,,
 2023-01-13,MGOL,MGO Global Inc.,5.0,$0.37,-92.6,2023,-0.926,0.3700000000000003,,,,,,
-2023-01-13,SKWD,"Skyward Specialty Insurance Group, Inc.",15.0,$46.13,203.2,2023,2.032,45.48,,,,,,
+2023-01-13,SKWD,"Skyward Specialty Insurance Group, Inc.",15.0,$46.13,203.2,2023,2.032,45.48,,,,data/raw/s1_filings/SKWD_2023-01-13_risk_factors.txt,data/raw/s1_filings/SKWD_2023-01-13_mda.txt,data/raw/s1_filings/SKWD_2023-01-13.txt
 2024-12-31,ONEG,OneConstruction Group Limited,4.0,$5.78,45.5,2024,0.455,5.82,,,,,,
 2024-12-27,BYAH,"Park Ha Biological Technology Co., Ltd.",,$1.10,,2024,,,,,,,,
-2024-12-23,HIT,"Health In Tech, Inc.",4.0,$1.47,-62.25,2024,-0.6225,1.5099999999999998,,,,,,
-2024-12-23,TDAC,Translational Development Acquisition Corp.,10.0,-,6.9,2024,0.069,10.69,,,,,,
-2024-12-20,RANG,Range Capital Acquisition Corp.,10.0,-,,2024,,,,,,,,
+2024-12-23,HIT,"Health In Tech, Inc.",4.0,$1.47,-62.25,2024,-0.6225,1.5099999999999998,,,,data/raw/s1_filings/HIT_2024-12-23_risk_factors.txt,data/raw/s1_filings/HIT_2024-12-23_mda.txt,data/raw/s1_filings/HIT_2024-12-23.txt
+2024-12-23,TDAC,Translational Development Acquisition Corp.,10.0,-,6.9,2024,0.069,10.69,,,,data/raw/s1_filings/TDAC_2024-12-23_risk_factors.txt,data/raw/s1_filings/TDAC_2024-12-23_mda.txt,data/raw/s1_filings/TDAC_2024-12-23.txt
+2024-12-20,RANG,Range Capital Acquisition Corp.,10.0,-,,2024,,,,,,data/raw/s1_filings/RANG_2024-12-20_risk_factors.txt,data/raw/s1_filings/RANG_2024-12-20_mda.txt,data/raw/s1_filings/RANG_2024-12-20.txt
 2024-12-20,YAAS,Youxin Technology Ltd,4.5,$1.52,-79.35,2024,-0.7935,0.92925,,,,,,
 2024-12-19,LSE,"Leishen Energy Holding Co., Ltd.",4.0,$5.29,33.18,2024,0.3318,5.3272,,,,,,
 2024-12-18,NCEW,New Century Logistics (BVI) Limited,4.0,-,,2024,,,,,,,,
 2024-12-18,YSXT,"YSX Tech. Co., Ltd",4.0,$1.22,-69.25,2024,-0.6925,1.23,,,,,,
-2024-12-13,AVR,Anteris Technologies Global Corp.,6.0,$5.69,-7.0,2024,-0.07,5.58,,,,,,
-2024-12-13,DRDB,Roman DBDR Acquisition Corp. II,10.0,$10.51,5.1,2024,0.051,10.51,,,,,,
-2024-12-13,MLAC,Mountain Lake Acquisition Corp.,10.0,$10.58,5.7,2024,0.057,10.57,,,,,,
+2024-12-13,AVR,Anteris Technologies Global Corp.,6.0,$5.69,-7.0,2024,-0.07,5.58,,,,data/raw/s1_filings/AVR_2024-12-13_risk_factors.txt,data/raw/s1_filings/AVR_2024-12-13_mda.txt,data/raw/s1_filings/AVR_2024-12-13.txt
+2024-12-13,DRDB,Roman DBDR Acquisition Corp. II,10.0,$10.51,5.1,2024,0.051,10.51,,,,data/raw/s1_filings/DRDB_2024-12-13_risk_factors.txt,data/raw/s1_filings/DRDB_2024-12-13_mda.txt,data/raw/s1_filings/DRDB_2024-12-13.txt
+2024-12-13,MLAC,Mountain Lake Acquisition Corp.,10.0,$10.58,5.7,2024,0.057,10.57,,,,data/raw/s1_filings/MLAC_2024-12-13_risk_factors.txt,data/raw/s1_filings/MLAC_2024-12-13_mda.txt,data/raw/s1_filings/MLAC_2024-12-13.txt
 2024-12-13,NTCL,NetClass Technology Inc,5.0,$0.40,-92.82,2024,-0.9282,0.3590000000000004,,,,,,
-2024-12-12,TTAN,"ServiceTitan, Inc.",71.0,$62.59,-11.75,2024,-0.1175,62.657500000000006,,,,,,
-2024-12-10,JACS,Jackson Acquisition Company II,10.0,-,5.8,2024,0.0579999999999999,10.58,,,,,,
+2024-12-12,TTAN,"ServiceTitan, Inc.",71.0,$62.59,-11.75,2024,-0.1175,62.657500000000006,,,,data/raw/s1_filings/TTAN_2024-12-12_risk_factors.txt,data/raw/s1_filings/TTAN_2024-12-12_mda.txt,data/raw/s1_filings/TTAN_2024-12-12.txt
+2024-12-10,JACS,Jackson Acquisition Company II,10.0,-,5.8,2024,0.0579999999999999,10.58,,,,data/raw/s1_filings/JACS_2024-12-10_risk_factors.txt,data/raw/s1_filings/JACS_2024-12-10_mda.txt,data/raw/s1_filings/JACS_2024-12-10.txt
 2024-12-06,NAMI,Jinxin Technology Holding Company,4.0,$0.51,-87.8,2024,-0.878,0.488,,,,,,
 2024-12-05,LNKS,Linkers Industries Limited,4.0,$1.71,-56.75,2024,-0.5675,1.73,,,,,,
 2024-12-05,SPHA,Shepherd Ave Capital Acquisition Corporation,10.0,$10.13,1.3,2024,0.013,10.13,,,,,,
-2024-12-05,ZSPC,"zSpace, Inc.",5.0,$0.30,-91.16,2024,-0.9116,0.4420000000000001,,,,,,
-2024-12-04,TAVI,Tavia Acquisition Corp.,10.0,-,5.6,2024,0.0559999999999999,10.56,,,,,,
-2024-12-03,JUNS,"Jupiter Neurosciences, Inc.",4.0,$0.39,-90.25,2024,-0.9025,0.3900000000000001,,,,,,
+2024-12-05,ZSPC,"zSpace, Inc.",5.0,$0.30,-91.16,2024,-0.9116,0.4420000000000001,,,,data/raw/s1_filings/ZSPC_2024-12-05_risk_factors.txt,data/raw/s1_filings/ZSPC_2024-12-05_mda.txt,data/raw/s1_filings/ZSPC_2024-12-05.txt
+2024-12-04,TAVI,Tavia Acquisition Corp.,10.0,-,5.6,2024,0.0559999999999999,10.56,,,,data/raw/s1_filings/TAVI_2024-12-04_risk_factors.txt,data/raw/s1_filings/TAVI_2024-12-04_mda.txt,data/raw/s1_filings/TAVI_2024-12-04.txt
+2024-12-03,JUNS,"Jupiter Neurosciences, Inc.",4.0,$0.39,-90.25,2024,-0.9025,0.3900000000000001,,,,data/raw/s1_filings/JUNS_2024-12-03_risk_factors.txt,data/raw/s1_filings/JUNS_2024-12-03_mda.txt,data/raw/s1_filings/JUNS_2024-12-03.txt
 2024-11-27,BRIA,BrilliA Inc,4.0,$1.65,-57.57,2024,-0.5757,1.6972,,,,,,
 2024-11-27,GRO,Brazil Potash Corp.,15.0,$3.42,-78.0,2024,-0.78,3.3,,,,,,
 2024-11-27,PONY,Pony AI Inc.,13.0,$10.58,-17.77,2024,-0.1777,10.6899,,,,,,
-2024-11-27,VENU,Venu Holding Corporation,10.0,$4.01,-60.0,2024,-0.6,4.0,,,,,,
+2024-11-27,VENU,Venu Holding Corporation,10.0,$4.01,-60.0,2024,-0.6,4.0,,,,data/raw/s1_filings/VENU_2024-11-27_risk_factors.txt,data/raw/s1_filings/VENU_2024-11-27_mda.txt,data/raw/s1_filings/VENU_2024-11-27.txt
 2024-11-26,CGTL,Creative Global Technology Holdings Limited,4.0,$1.18,-70.75,2024,-0.7075,1.17,,,,,,
-2024-11-26,FACT,FACT II Acquisition Corp,10.0,$10.57,5.7,2024,0.057,10.57,,,,,,
+2024-11-26,FACT,FACT II Acquisition Corp,10.0,$10.57,5.7,2024,0.057,10.57,,,,data/raw/s1_filings/FACT_2024-11-26_risk_factors.txt,data/raw/s1_filings/FACT_2024-11-26_mda.txt,data/raw/s1_filings/FACT_2024-11-26.txt
 2024-11-26,WYHG,Wing Yip Food Holdings Group Limited,4.0,$0.79,-83.77,2024,-0.8377,0.6492,,,,,,
-2024-11-22,IPST,"IP Strategy Holdings, Inc.",4.0,$5.19,43.25,2024,0.4325,5.73,,,,,,
+2024-11-22,IPST,"IP Strategy Holdings, Inc.",4.0,$5.19,43.25,2024,0.4325,5.73,,,,data/raw/s1_filings/IPST_2024-11-22_risk_factors.txt,data/raw/s1_filings/IPST_2024-11-22_mda.txt,data/raw/s1_filings/IPST_2024-11-22.txt
 2024-11-22,MSW,Ming Shing Group Holdings Limited,5.5,$1.39,-77.27,2024,-0.7726999999999999,1.2501500000000003,,,,,,
 2024-11-21,DYNX,Dynamix Corporation,10.0,$11.16,11.6,2024,0.1159999999999999,11.16,,,,,,
-2024-11-21,ETHM,Dynamix Corporation,10.0,$10.76,7.6,2024,0.076,10.760000000000002,,,,,,
-2024-11-21,NOEM,CO2 Energy Transition Corp.,10.0,-,4.2,2024,0.042,10.42,,,,,,
-2024-11-15,HSPT,Horizon Space Acquisition II Corp.,10.0,$7.90,-13.0,2024,-0.13,8.7,,,,,,
-2024-11-08,ASPC,A SPAC III Acquisition Corp.,10.0,-,10.5,2024,0.105,11.05,,,,,,
-2024-11-08,WLAC,Willow Lane Acquisition Corp.,10.0,$16.39,68.9,2024,0.6890000000000001,16.89,,,,,,
+2024-11-21,ETHM,Dynamix Corporation,10.0,$10.76,7.6,2024,0.076,10.760000000000002,,,,data/raw/s1_filings/ETHM_2024-11-21_risk_factors.txt,data/raw/s1_filings/ETHM_2024-11-21_mda.txt,data/raw/s1_filings/ETHM_2024-11-21.txt
+2024-11-21,NOEM,CO2 Energy Transition Corp.,10.0,-,4.2,2024,0.042,10.42,,,,data/raw/s1_filings/NOEM_2024-11-21_risk_factors.txt,data/raw/s1_filings/NOEM_2024-11-21_mda.txt,data/raw/s1_filings/NOEM_2024-11-21.txt
+2024-11-15,HSPT,Horizon Space Acquisition II Corp.,10.0,$7.90,-13.0,2024,-0.13,8.7,,,,data/raw/s1_filings/HSPT_2024-11-15_risk_factors.txt,data/raw/s1_filings/HSPT_2024-11-15_mda.txt,data/raw/s1_filings/HSPT_2024-11-15.txt
+2024-11-08,ASPC,A SPAC III Acquisition Corp.,10.0,-,10.5,2024,0.105,11.05,,,,data/raw/s1_filings/ASPC_2024-11-08_risk_factors.txt,data/raw/s1_filings/ASPC_2024-11-08_mda.txt,data/raw/s1_filings/ASPC_2024-11-08.txt
+2024-11-08,WLAC,Willow Lane Acquisition Corp.,10.0,$16.39,68.9,2024,0.6890000000000001,16.89,,,,data/raw/s1_filings/WLAC_2024-11-08_risk_factors.txt,data/raw/s1_filings/WLAC_2024-11-08_mda.txt,data/raw/s1_filings/WLAC_2024-11-08.txt
 2024-11-07,GSRT,GSR III Acquisition Corp.,10.0,$15.52,55.2,2024,0.552,15.52,,,,,,
 2024-11-01,BACQ,Bleichroeder Acquisition Corp. I,10.0,$7.68,-23.2,2024,-0.2319999999999999,7.68,,,,,,
-2024-11-01,NTWO,Newbury Street II Acquisition Corp,10.0,-,5.7,2024,0.057,10.57,,,,,,
+2024-11-01,NTWO,Newbury Street II Acquisition Corp,10.0,-,5.7,2024,0.057,10.57,,,,data/raw/s1_filings/NTWO_2024-11-01_risk_factors.txt,data/raw/s1_filings/NTWO_2024-11-01_mda.txt,data/raw/s1_filings/NTWO_2024-11-01.txt
 2024-10-29,GELS,Gelteq Limited,4.0,$0.66,-82.51,2024,-0.8251000000000001,0.6995999999999998,,,,,,
 2024-10-29,PLRZ,Polyrizon Ltd.,4.38,$15.32,255.25,2024,2.5525,15.55995,,,,,,
-2024-10-25,SEPN,"Septerna, Inc.",18.0,$25.23,37.06,2024,0.3706,24.6708,,,,,,
+2024-10-25,SEPN,"Septerna, Inc.",18.0,$25.23,37.06,2024,0.3706,24.6708,,,,data/raw/s1_filings/SEPN_2024-10-25_risk_factors.txt,data/raw/s1_filings/SEPN_2024-10-25_mda.txt,data/raw/s1_filings/SEPN_2024-10-25.txt
 2024-10-25,WRD,WeRide Inc.,15.5,$8.19,-47.23,2024,-0.4722999999999999,8.179350000000001,,,,,,
-2024-10-24,BEAG,Bold Eagle Acquisition Corp.,10.0,$10.53,5.3,2024,0.053,10.53,,,,,,
-2024-10-24,CHAR,Charlton Aria Acquisition Corporation,10.0,-,,2024,,,,,,,,
-2024-10-24,INGM,Ingram Micro Holding Corporation,22.0,$30.41,37.96,2024,0.3796,30.3512,,,,,,
-2024-10-24,OACC,Oaktree Acquisition Corp. III Life Sciences,10.0,-,6.8,2024,0.068,10.68,,,,,,
+2024-10-24,BEAG,Bold Eagle Acquisition Corp.,10.0,$10.53,5.3,2024,0.053,10.53,,,,data/raw/s1_filings/BEAG_2024-10-24_risk_factors.txt,data/raw/s1_filings/BEAG_2024-10-24_mda.txt,data/raw/s1_filings/BEAG_2024-10-24.txt
+2024-10-24,CHAR,Charlton Aria Acquisition Corporation,10.0,-,,2024,,,,,,data/raw/s1_filings/CHAR_2024-10-24_risk_factors.txt,data/raw/s1_filings/CHAR_2024-10-24_mda.txt,data/raw/s1_filings/CHAR_2024-10-24.txt
+2024-10-24,INGM,Ingram Micro Holding Corporation,22.0,$30.41,37.96,2024,0.3796,30.3512,,,,data/raw/s1_filings/INGM_2024-10-24_risk_factors.txt,data/raw/s1_filings/INGM_2024-10-24_mda.txt,data/raw/s1_filings/INGM_2024-10-24.txt
+2024-10-24,OACC,Oaktree Acquisition Corp. III Life Sciences,10.0,-,6.8,2024,0.068,10.68,,,,data/raw/s1_filings/OACC_2024-10-24_risk_factors.txt,data/raw/s1_filings/OACC_2024-10-24_mda.txt,data/raw/s1_filings/OACC_2024-10-24.txt
 2024-10-23,FGL,Founder Group Limited,4.0,$1.81,-54.0,2024,-0.54,1.84,,,,,,
 2024-10-23,LBGJ,Li Bang International Corporation Inc.,4.0,$1.17,-70.0,2024,-0.7,1.2000000000000002,,,,,,
-2024-10-23,ROLR,"High Roller Technologies, Inc.",8.0,$9.80,17.25,2024,0.1725,9.38,,,,,,
+2024-10-23,ROLR,"High Roller Technologies, Inc.",8.0,$9.80,17.25,2024,0.1725,9.38,,,,data/raw/s1_filings/ROLR_2024-10-23_risk_factors.txt,data/raw/s1_filings/ROLR_2024-10-23_mda.txt,data/raw/s1_filings/ROLR_2024-10-23.txt
 2024-10-23,SAG,SAG Holdings Limited,8.0,$1.01,-87.38,2024,-0.8737999999999999,1.0096000000000007,,,,,,
-2024-10-22,ALDF,Aldel Financial II Inc.,10.0,-,5.8,2024,0.0579999999999999,10.58,,,,,,
+2024-10-22,ALDF,Aldel Financial II Inc.,10.0,-,5.8,2024,0.0579999999999999,10.58,,,,data/raw/s1_filings/ALDF_2024-10-22_risk_factors.txt,data/raw/s1_filings/ALDF_2024-10-22_mda.txt,data/raw/s1_filings/ALDF_2024-10-22.txt
 2024-10-22,HUHU,HUHUTECH International Group Inc.,4.0,$9.69,147.5,2024,1.475,9.9,,,,,,
 2024-10-17,ORIS,Oriental Rise Holdings Limited,4.0,$0.44,-90.11,2024,-0.9011,0.3955999999999999,,,,,,
 2024-10-17,SPHL,Springview Holdings Ltd,4.0,-,-42.25,2024,-0.4225,2.31,,,,,,
 2024-10-16,PTLE,PTL Limited,4.0,$6.50,62.5,2024,0.625,6.5,,,,,,
 2024-10-15,SFHG,Samfine Creation Holdings Group Limited,4.0,$2.44,-39.0,2024,-0.39,2.44,,,,,,
-2024-10-11,CAMP,Camp4 Therapeutics Corporation,11.0,$4.59,-59.64,2024,-0.5964,4.4396,,,,,,
-2024-10-11,CBLL,"CeriBell, Inc.",17.0,$21.40,24.59,2024,0.2459,21.1803,,,,,,
+2024-10-11,CAMP,Camp4 Therapeutics Corporation,11.0,$4.59,-59.64,2024,-0.5964,4.4396,,,,data/raw/s1_filings/CAMP_2024-10-11_risk_factors.txt,data/raw/s1_filings/CAMP_2024-10-11_mda.txt,data/raw/s1_filings/CAMP_2024-10-11.txt
+2024-10-11,CBLL,"CeriBell, Inc.",17.0,$21.40,24.59,2024,0.2459,21.1803,,,,data/raw/s1_filings/CBLL_2024-10-11_risk_factors.txt,data/raw/s1_filings/CBLL_2024-10-11_mda.txt,data/raw/s1_filings/CBLL_2024-10-11.txt
 2024-10-11,CCIR,Cohen Circle Acquisition Corp. I,10.0,$12.70,27.0,2024,0.27,12.7,,,,,,
-2024-10-11,RDAC,Rising Dragon Acquisition Corp.,10.0,-,-40.5,2024,-0.405,5.949999999999999,,,,,,
+2024-10-11,RDAC,Rising Dragon Acquisition Corp.,10.0,-,-40.5,2024,-0.405,5.949999999999999,,,,data/raw/s1_filings/RDAC_2024-10-11_risk_factors.txt,data/raw/s1_filings/RDAC_2024-10-11_mda.txt,data/raw/s1_filings/RDAC_2024-10-11.txt
 2024-10-11,STFS,Star Fashion Culture Holdings Limited,,$3.94,,2024,,,,,,,,
-2024-10-11,UPB,"Upstream Bio, Inc.",17.0,$9.49,-45.29,2024,-0.4528999999999999,9.3007,,,,,,
+2024-10-11,UPB,"Upstream Bio, Inc.",17.0,$9.49,-45.29,2024,-0.4528999999999999,9.3007,,,,data/raw/s1_filings/UPB_2024-10-11_risk_factors.txt,data/raw/s1_filings/UPB_2024-10-11_mda.txt,data/raw/s1_filings/UPB_2024-10-11.txt
 2024-10-09,CLIK,Click Holdings Limited,4.0,$3.16,-31.25,2024,-0.3125,2.75,,,,,,
-2024-10-09,KLC,"KinderCare Learning Companies, Inc.",24.0,$3.54,-85.54,2024,-0.8554,3.470399999999999,,,,,,
-2024-10-08,LPBB,Launch Two Acquisition Corp.,10.0,$10.63,6.3,2024,0.063,10.63,,,,,,
+2024-10-09,KLC,"KinderCare Learning Companies, Inc.",24.0,$3.54,-85.54,2024,-0.8554,3.470399999999999,,,,data/raw/s1_filings/KLC_2024-10-09_risk_factors.txt,data/raw/s1_filings/KLC_2024-10-09_mda.txt,data/raw/s1_filings/KLC_2024-10-09.txt
+2024-10-08,LPBB,Launch Two Acquisition Corp.,10.0,$10.63,6.3,2024,0.063,10.63,,,,data/raw/s1_filings/LPBB_2024-10-08_risk_factors.txt,data/raw/s1_filings/LPBB_2024-10-08_mda.txt,data/raw/s1_filings/LPBB_2024-10-08.txt
 2024-10-08,SKK,SKK Holdings Limited,4.0,$1.72,-58.5,2024,-0.585,1.66,,,,,,
-2024-10-04,CBNA,"Chain Bridge Bancorp, Inc.",22.0,$34.71,59.55,2024,0.5954999999999999,35.101,,,,,,
+2024-10-04,CBNA,"Chain Bridge Bancorp, Inc.",22.0,$34.71,59.55,2024,0.5954999999999999,35.101,,,,data/raw/s1_filings/CBNA_2024-10-04_risk_factors.txt,data/raw/s1_filings/CBNA_2024-10-04_mda.txt,data/raw/s1_filings/CBNA_2024-10-04.txt
 2024-10-04,FLX,BingEx Limited,16.5,$3.02,-80.85,2024,-0.8085,3.15975,,,,,,
 2024-10-02,FVR,"FrontView REIT, Inc.",19.0,$17.68,-6.79,2024,-0.0679,17.7099,,,,,,
-2024-10-02,SARO,"StandardAero, Inc.",24.0,$24.73,2.25,2024,0.0225,24.54,,,,,,
+2024-10-02,SARO,"StandardAero, Inc.",24.0,$24.73,2.25,2024,0.0225,24.54,,,,data/raw/s1_filings/SARO_2024-10-02_risk_factors.txt,data/raw/s1_filings/SARO_2024-10-02_mda.txt,data/raw/s1_filings/SARO_2024-10-02.txt
 2024-10-02,WCT,Wellchange Holdings Company Limited,4.0,$1.99,-48.75,2024,-0.4875,2.05,,,,,,
 2024-10-01,HTLM,HomesToLife Ltd.,4.0,$1.89,-53.0,2024,-0.53,1.88,,,,,,
 2024-09-30,ZJK,"ZJK Industrial Co., Ltd.",5.0,$2.70,-50.8,2024,-0.508,2.46,,,,,,
-2024-09-26,BIOA,"BioAge Labs, Inc.",18.0,$18.47,-5.28,2024,-0.0528,17.0496,,,,,,
-2024-09-26,BKV,BKV Corporation,18.0,$29.33,61.56,2024,0.6156,29.080800000000004,,,,,,
-2024-09-26,GRDN,"Guardian Pharmacy Services, Inc.",14.0,$39.21,168.36,2024,1.6836000000000002,37.57040000000001,,,,,,
+2024-09-26,BIOA,"BioAge Labs, Inc.",18.0,$18.47,-5.28,2024,-0.0528,17.0496,,,,data/raw/s1_filings/BIOA_2024-09-26_risk_factors.txt,data/raw/s1_filings/BIOA_2024-09-26_mda.txt,data/raw/s1_filings/BIOA_2024-09-26.txt
+2024-09-26,BKV,BKV Corporation,18.0,$29.33,61.56,2024,0.6156,29.080800000000004,,,,data/raw/s1_filings/BKV_2024-09-26_risk_factors.txt,data/raw/s1_filings/BKV_2024-09-26_mda.txt,data/raw/s1_filings/BKV_2024-09-26.txt
+2024-09-26,GRDN,"Guardian Pharmacy Services, Inc.",14.0,$39.21,168.36,2024,1.6836000000000002,37.57040000000001,,,,data/raw/s1_filings/GRDN_2024-09-26_risk_factors.txt,data/raw/s1_filings/GRDN_2024-09-26_mda.txt,data/raw/s1_filings/GRDN_2024-09-26.txt
 2024-09-26,IBG,Innovation Beverage Group Limited,4.0,$1.10,-72.25,2024,-0.7225,1.11,,,,,,
-2024-09-26,LGCY,Legacy Education Inc.,4.0,$11.83,195.0,2024,1.95,11.8,,,,,,
+2024-09-26,LGCY,Legacy Education Inc.,4.0,$11.83,195.0,2024,1.95,11.8,,,,data/raw/s1_filings/LGCY_2024-09-26_risk_factors.txt,data/raw/s1_filings/LGCY_2024-09-26_mda.txt,data/raw/s1_filings/LGCY_2024-09-26.txt
 2024-09-25,PC,Premium Catering (Holdings) Limited,4.75,$9.38,97.9,2024,0.979,9.40025,,,,,,
-2024-09-20,CAPN,Cayson Acquisition Corp,10.0,$10.94,9.4,2024,0.094,10.94,,,,,,
+2024-09-20,CAPN,Cayson Acquisition Corp,10.0,$10.94,9.4,2024,0.094,10.94,,,,data/raw/s1_filings/CAPN_2024-09-20_risk_factors.txt,data/raw/s1_filings/CAPN_2024-09-20_mda.txt,data/raw/s1_filings/CAPN_2024-09-20.txt
 2024-09-20,GLE,Global Engine Group Holding Limited,4.0,$0.34,-91.47,2024,-0.9147,0.3412000000000001,,,,,,
-2024-09-18,YHNA,YHN Acquisition I Limited,10.0,-,7.8,2024,0.078,10.78,,,,,,
-2024-09-16,IBO,Impact BioMedical Inc.,3.0,$0.64,-78.25,2024,-0.7825,0.6525000000000001,,,,,,
-2024-09-16,KAPA,"Kairos Pharma, Ltd.",4.0,$0.60,-84.83,2024,-0.8482999999999999,0.6068000000000002,,,,,,
-2024-09-13,BCAX,Bicara Therapeutics Inc.,18.0,$22.93,25.83,2024,0.2583,22.6494,,,,,,
-2024-09-13,MBX,"MBX Biosciences, Inc.",16.0,$32.47,100.94,2024,1.0094,32.150400000000005,,,,,,
-2024-09-13,ZBIO,"Zenas BioPharma, Inc.",17.0,$18.95,7.0,2024,0.07,18.19,,,,,,
-2024-09-12,FVN,Future Vision II Acquisition Corp.,10.0,-,8.2,2024,0.0819999999999999,10.82,,,,,,
+2024-09-18,YHNA,YHN Acquisition I Limited,10.0,-,7.8,2024,0.078,10.78,,,,data/raw/s1_filings/YHNA_2024-09-18_risk_factors.txt,data/raw/s1_filings/YHNA_2024-09-18_mda.txt,data/raw/s1_filings/YHNA_2024-09-18.txt
+2024-09-16,IBO,Impact BioMedical Inc.,3.0,$0.64,-78.25,2024,-0.7825,0.6525000000000001,,,,data/raw/s1_filings/IBO_2024-09-16_risk_factors.txt,data/raw/s1_filings/IBO_2024-09-16_mda.txt,data/raw/s1_filings/IBO_2024-09-16.txt
+2024-09-16,KAPA,"Kairos Pharma, Ltd.",4.0,$0.60,-84.83,2024,-0.8482999999999999,0.6068000000000002,,,,data/raw/s1_filings/KAPA_2024-09-16_risk_factors.txt,data/raw/s1_filings/KAPA_2024-09-16_mda.txt,data/raw/s1_filings/KAPA_2024-09-16.txt
+2024-09-13,BCAX,Bicara Therapeutics Inc.,18.0,$22.93,25.83,2024,0.2583,22.6494,,,,data/raw/s1_filings/BCAX_2024-09-13_risk_factors.txt,data/raw/s1_filings/BCAX_2024-09-13_mda.txt,data/raw/s1_filings/BCAX_2024-09-13.txt
+2024-09-13,MBX,"MBX Biosciences, Inc.",16.0,$32.47,100.94,2024,1.0094,32.150400000000005,,,,data/raw/s1_filings/MBX_2024-09-13_risk_factors.txt,data/raw/s1_filings/MBX_2024-09-13_mda.txt,data/raw/s1_filings/MBX_2024-09-13.txt
+2024-09-13,ZBIO,"Zenas BioPharma, Inc.",17.0,$18.95,7.0,2024,0.07,18.19,,,,data/raw/s1_filings/ZBIO_2024-09-13_risk_factors.txt,data/raw/s1_filings/ZBIO_2024-09-13_mda.txt,data/raw/s1_filings/ZBIO_2024-09-13.txt
+2024-09-12,FVN,Future Vision II Acquisition Corp.,10.0,-,8.2,2024,0.0819999999999999,10.82,,,,data/raw/s1_filings/FVN_2024-09-12_risk_factors.txt,data/raw/s1_filings/FVN_2024-09-12_mda.txt,data/raw/s1_filings/FVN_2024-09-12.txt
 2024-09-12,GLXG,Galaxy Payroll Group Limited,4.0,$1.63,-58.25,2024,-0.5825,1.67,,,,,,
 2024-09-10,TDTH,Trident Digital Tech Holdings Ltd,5.0,$1.82,-60.8,2024,-0.608,1.96,,,,,,
 2024-09-10,XCH,XCHG Limited,6.2,$1.01,-84.03,2024,-0.8403,0.9901399999999996,,,,,,
-2024-09-06,POLE,Andretti Acquisition Corp. II,10.0,$10.68,6.8,2024,0.068,10.68,,,,,,
+2024-09-06,POLE,Andretti Acquisition Corp. II,10.0,$10.68,6.8,2024,0.068,10.68,,,,data/raw/s1_filings/POLE_2024-09-06_risk_factors.txt,data/raw/s1_filings/POLE_2024-09-06_mda.txt,data/raw/s1_filings/POLE_2024-09-06.txt
 2024-09-06,VCIC,Vine Hill Capital Investment Corp.,10.0,$11.00,10.0,2024,0.1,11.0,,,,,,
 2024-09-05,ITOC,iTonic Holdings Ltd.,,$0.40,,2024,,,,,,,,
 2024-09-05,PMAX,Powell Max Limited,4.0,$2.35,-40.5,2024,-0.405,2.38,,,,,,
-2024-08-29,GIG,GigCapital7 Corp.,10.0,$10.72,6.9,2024,0.069,10.69,,,,,,
+2024-08-29,GIG,GigCapital7 Corp.,10.0,$10.72,6.9,2024,0.069,10.69,,,,data/raw/s1_filings/GIG_2024-08-29_risk_factors.txt,data/raw/s1_filings/GIG_2024-08-29_mda.txt,data/raw/s1_filings/GIG_2024-08-29.txt
 2024-08-28,AZI,Autozi Internet Technology (Global) Ltd.,4.0,$1.36,-66.75,2024,-0.6675,1.33,,,,,,
 2024-08-28,BSII,Black Spade Acquisition II Co,10.0,$9.99,-0.1,2024,-0.001,9.99,,,,,,
-2024-08-28,SPAI,Safe Pro Group Inc.,5.0,$4.39,-10.69,2024,-0.1069,4.4655000000000005,,,,,,
+2024-08-28,SPAI,Safe Pro Group Inc.,5.0,$4.39,-10.69,2024,-0.1069,4.4655000000000005,,,,data/raw/s1_filings/SPAI_2024-08-28_risk_factors.txt,data/raw/s1_filings/SPAI_2024-08-28_mda.txt,data/raw/s1_filings/SPAI_2024-08-28.txt
 2024-08-27,JBDI,JBDI Holdings Limited,5.0,-,-88.4,2024,-0.884,0.58,,,,,,
 2024-08-23,RITR,Reitar Logtech Holdings Limited,4.0,$0.49,-87.85,2024,-0.8785,0.4860000000000002,,,,,,
 2024-08-23,WOK,WORK Medical Technology Group LTD,4.0,$1.21,-70.0,2024,-0.7,1.2000000000000002,,,,,,
 2024-08-16,HOND,HCM II Acquisition Corp.,10.0,$18.04,80.4,2024,0.804,18.04,,,,,,
-2024-08-16,SBXD,SilverBox Corp IV,10.0,-,,2024,,,,,,,,
+2024-08-16,SBXD,SilverBox Corp IV,10.0,-,,2024,,,,,,data/raw/s1_filings/SBXD_2024-08-16_risk_factors.txt,data/raw/s1_filings/SBXD_2024-08-16_mda.txt,data/raw/s1_filings/SBXD_2024-08-16.txt
 2024-08-16,YXT,YXT.COM Group Holding Limited,11.0,$0.60,-94.82,2024,-0.9482,0.5698000000000008,,,,,,
-2024-08-13,ACTU,"Actuate Therapeutics, Inc.",8.0,$2.97,-62.88,2024,-0.6288,2.9696,,,,,,
+2024-08-13,ACTU,"Actuate Therapeutics, Inc.",8.0,$2.97,-62.88,2024,-0.6288,2.9696,,,,data/raw/s1_filings/ACTU_2024-08-13_risk_factors.txt,data/raw/s1_filings/ACTU_2024-08-13_mda.txt,data/raw/s1_filings/ACTU_2024-08-13.txt
 2024-08-13,CEP,"Cantor Equity Partners, Inc.",10.0,$14.27,1.0,2024,0.01,10.1,,,,,,
-2024-08-09,VACH,Voyager Acquisition Corp.,10.0,$13.20,30.0,2024,0.3,13.0,,,,,,
+2024-08-09,VACH,Voyager Acquisition Corp.,10.0,$13.20,30.0,2024,0.3,13.0,,,,data/raw/s1_filings/VACH_2024-08-09_risk_factors.txt,data/raw/s1_filings/VACH_2024-08-09_mda.txt,data/raw/s1_filings/VACH_2024-08-09.txt
 2024-08-07,EQV,EQV Ventures Acquisition Corp.,10.0,$10.46,4.55,2024,0.0455,10.455000000000002,,,,,,
 2024-08-01,AAM,AA Mission Acquisition Corp.,10.0,$10.66,6.6,2024,0.066,10.66,,,,,,
-2024-08-01,MBAV,M3-Brigade Acquisition V Corp.,10.0,-,7.92,2024,0.0791999999999999,10.792,,,,,,
-2024-08-01,OSTX,OS Therapies Incorporated,4.0,$1.82,-55.75,2024,-0.5575,1.77,,,,,,
+2024-08-01,MBAV,M3-Brigade Acquisition V Corp.,10.0,-,7.92,2024,0.0791999999999999,10.792,,,,data/raw/s1_filings/MBAV_2024-08-01_risk_factors.txt,data/raw/s1_filings/MBAV_2024-08-01_mda.txt,data/raw/s1_filings/MBAV_2024-08-01.txt
+2024-08-01,OSTX,OS Therapies Incorporated,4.0,$1.82,-55.75,2024,-0.5575,1.77,,,,data/raw/s1_filings/OSTX_2024-08-01_risk_factors.txt,data/raw/s1_filings/OSTX_2024-08-01_mda.txt,data/raw/s1_filings/OSTX_2024-08-01.txt
 2024-07-26,NIPG,NIP Group Inc.,9.0,$0.67,-92.34,2024,-0.9234,0.6894,,,,,,
-2024-07-25,CON,"Concentra Group Holdings Parent, Inc.",23.5,$23.01,-2.89,2024,-0.0289,22.82085,,,,,,
-2024-07-25,DTSQ,DT Cloud Star Acquisition Corporation,10.0,$11.23,11.9,2024,0.119,11.19,,,,,,
+2024-07-25,CON,"Concentra Group Holdings Parent, Inc.",23.5,$23.01,-2.89,2024,-0.0289,22.82085,,,,data/raw/s1_filings/CON_2024-07-25_risk_factors.txt,data/raw/s1_filings/CON_2024-07-25_mda.txt,data/raw/s1_filings/CON_2024-07-25.txt
+2024-07-25,DTSQ,DT Cloud Star Acquisition Corporation,10.0,$11.23,11.9,2024,0.119,11.19,,,,data/raw/s1_filings/DTSQ_2024-07-25_risk_factors.txt,data/raw/s1_filings/DTSQ_2024-07-25_mda.txt,data/raw/s1_filings/DTSQ_2024-07-25.txt
 2024-07-25,LINE,"Lineage, Inc.",78.0,$36.39,-52.39,2024,-0.5239,37.1358,,,,,,
 2024-07-25,ORKT,Orangekloud Technology Inc.,4.75,$1.02,-76.84,2024,-0.7684000000000001,1.1000999999999996,,,,,,
 2024-07-24,BLMZ,BloomZ Inc.,4.3,$0.13,-97.02,2024,-0.9702,0.1281400000000002,,,,,,
 2024-07-24,OS,"OneStream, Inc.",20.0,$24.00,20.0,2024,0.2,24.0,,,,,,
 2024-07-23,ZDAI,"DirectBooking Technology Co., Ltd.",,$2.41,,2024,,,,,,,,
-2024-07-19,ARTV,"Artiva Biotherapeutics, Inc.",12.0,$11.25,-14.0,2024,-0.14,10.32,,,,,,
+2024-07-19,ARTV,"Artiva Biotherapeutics, Inc.",12.0,$11.25,-14.0,2024,-0.14,10.32,,,,data/raw/s1_filings/ARTV_2024-07-19_risk_factors.txt,data/raw/s1_filings/ARTV_2024-07-19_mda.txt,data/raw/s1_filings/ARTV_2024-07-19.txt
 2024-07-19,QMMM,QMMM Holdings Limited,4.0,$119.40,2885.0,2024,28.85,119.4,,,,,,
-2024-07-18,ARDT,"Ardent Health, Inc.",16.0,$9.89,-38.19,2024,-0.3818999999999999,9.889600000000002,,,,,,
-2024-07-18,TWFG,"TWFG, Inc.",17.0,$19.98,16.47,2024,0.1646999999999999,19.7999,,,,,,
+2024-07-18,ARDT,"Ardent Health, Inc.",16.0,$9.89,-38.19,2024,-0.3818999999999999,9.889600000000002,,,,data/raw/s1_filings/ARDT_2024-07-18_risk_factors.txt,data/raw/s1_filings/ARDT_2024-07-18_mda.txt,data/raw/s1_filings/ARDT_2024-07-18.txt
+2024-07-18,TWFG,"TWFG, Inc.",17.0,$19.98,16.47,2024,0.1646999999999999,19.7999,,,,data/raw/s1_filings/TWFG_2024-07-18_risk_factors.txt,data/raw/s1_filings/TWFG_2024-07-18_mda.txt,data/raw/s1_filings/TWFG_2024-07-18.txt
 2024-07-12,ICON,Icon Energy Corp.,4.0,$1.06,-73.75,2024,-0.7375,1.0499999999999998,,,,,,
-2024-07-12,LPAA,Launch One Acquisition Corp.,10.0,-,,2024,,,,,,,,
-2024-07-10,SIMA,SIM Acquisition Corp. I,10.0,-,7.7,2024,0.077,10.77,,,,,,
+2024-07-12,LPAA,Launch One Acquisition Corp.,10.0,-,,2024,,,,,,data/raw/s1_filings/LPAA_2024-07-12_risk_factors.txt,data/raw/s1_filings/LPAA_2024-07-12_mda.txt,data/raw/s1_filings/LPAA_2024-07-12.txt
+2024-07-10,SIMA,SIM Acquisition Corp. I,10.0,-,7.7,2024,0.077,10.77,,,,data/raw/s1_filings/SIMA_2024-07-10_risk_factors.txt,data/raw/s1_filings/SIMA_2024-07-10_mda.txt,data/raw/s1_filings/SIMA_2024-07-10.txt
 2024-07-02,EHGO,Eshallgo Inc.,4.0,$2.21,,2024,,,,,,,,
-2024-07-02,EURK,Eureka Acquisition Corp,10.0,-,,2024,,,,,,,,
-2024-06-28,ALMS,Alumis Inc.,16.0,$24.50,55.81,2024,0.5581,24.9296,,,,,,
-2024-06-28,LB,LandBridge Company LLC,17.0,$69.38,308.77,2024,3.0877,69.4909,,,,,,
-2024-06-28,LSH,Lakeside Holding Limited,4.5,$0.58,-87.14,2024,-0.8714,0.5787000000000002,,,,,,
-2024-06-27,TBN,Tamboran Resources Corporation,24.0,$35.67,48.42,2024,0.4842,35.6208,,,,,,
-2024-06-27,WBTN,WEBTOON Entertainment Inc.,21.0,$12.01,-47.0,2024,-0.47,11.13,,,,,,
-2024-06-26,GRAF,Graf Global Corp.,10.0,-,7.5,2024,0.075,10.75,,,,,,
+2024-07-02,EURK,Eureka Acquisition Corp,10.0,-,,2024,,,,,,data/raw/s1_filings/EURK_2024-07-02_risk_factors.txt,data/raw/s1_filings/EURK_2024-07-02_mda.txt,data/raw/s1_filings/EURK_2024-07-02.txt
+2024-06-28,ALMS,Alumis Inc.,16.0,$24.50,55.81,2024,0.5581,24.9296,,,,data/raw/s1_filings/ALMS_2024-06-28_risk_factors.txt,data/raw/s1_filings/ALMS_2024-06-28_mda.txt,data/raw/s1_filings/ALMS_2024-06-28.txt
+2024-06-28,LB,LandBridge Company LLC,17.0,$69.38,308.77,2024,3.0877,69.4909,,,,data/raw/s1_filings/LB_2024-06-28_risk_factors.txt,data/raw/s1_filings/LB_2024-06-28_mda.txt,data/raw/s1_filings/LB_2024-06-28.txt
+2024-06-28,LSH,Lakeside Holding Limited,4.5,$0.58,-87.14,2024,-0.8714,0.5787000000000002,,,,data/raw/s1_filings/LSH_2024-06-28_risk_factors.txt,data/raw/s1_filings/LSH_2024-06-28_mda.txt,data/raw/s1_filings/LSH_2024-06-28.txt
+2024-06-27,TBN,Tamboran Resources Corporation,24.0,$35.67,48.42,2024,0.4842,35.6208,,,,data/raw/s1_filings/TBN_2024-06-27_risk_factors.txt,data/raw/s1_filings/TBN_2024-06-27_mda.txt,data/raw/s1_filings/TBN_2024-06-27.txt
+2024-06-27,WBTN,WEBTOON Entertainment Inc.,21.0,$12.01,-47.0,2024,-0.47,11.13,,,,data/raw/s1_filings/WBTN_2024-06-27_risk_factors.txt,data/raw/s1_filings/WBTN_2024-06-27_mda.txt,data/raw/s1_filings/WBTN_2024-06-27.txt
+2024-06-26,GRAF,Graf Global Corp.,10.0,-,7.5,2024,0.075,10.75,,,,data/raw/s1_filings/GRAF_2024-06-26_risk_factors.txt,data/raw/s1_filings/GRAF_2024-06-26_mda.txt,data/raw/s1_filings/GRAF_2024-06-26.txt
 2024-06-21,RECT,Rectitude Holdings Ltd,4.0,$1.43,-63.75,2024,-0.6375,1.4500000000000002,,,,,,
-2024-06-18,CUB,Lionheart Holdings,10.0,$10.77,8.2,2024,0.0819999999999999,10.82,,,,,,
-2024-06-18,FSHP,Flag Ship Acquisition Corporation,10.0,-,9.6,2024,0.096,10.96,,,,,,
-2024-06-18,MACI,Melar Acquisition Corp. I,10.0,$10.82,8.0,2024,0.08,10.8,,,,,,
-2024-06-14,TEM,"Tempus AI, Inc.",37.0,$52.69,40.87,2024,0.4086999999999999,52.1219,,,,,,
-2024-06-12,PCSC,Perceptive Capital Solutions Corp,10.0,$11.33,13.7,2024,0.1369999999999999,11.37,,,,,,
-2024-06-11,ALF,Centurion Acquisition Corp.,10.0,$10.81,8.1,2024,0.081,10.81,,,,,,
+2024-06-18,CUB,Lionheart Holdings,10.0,$10.77,8.2,2024,0.0819999999999999,10.82,,,,data/raw/s1_filings/CUB_2024-06-18_risk_factors.txt,data/raw/s1_filings/CUB_2024-06-18_mda.txt,data/raw/s1_filings/CUB_2024-06-18.txt
+2024-06-18,FSHP,Flag Ship Acquisition Corporation,10.0,-,9.6,2024,0.096,10.96,,,,data/raw/s1_filings/FSHP_2024-06-18_risk_factors.txt,data/raw/s1_filings/FSHP_2024-06-18_mda.txt,data/raw/s1_filings/FSHP_2024-06-18.txt
+2024-06-18,MACI,Melar Acquisition Corp. I,10.0,$10.82,8.0,2024,0.08,10.8,,,,data/raw/s1_filings/MACI_2024-06-18_risk_factors.txt,data/raw/s1_filings/MACI_2024-06-18_mda.txt,data/raw/s1_filings/MACI_2024-06-18.txt
+2024-06-14,TEM,"Tempus AI, Inc.",37.0,$52.69,40.87,2024,0.4086999999999999,52.1219,,,,data/raw/s1_filings/TEM_2024-06-14_risk_factors.txt,data/raw/s1_filings/TEM_2024-06-14_mda.txt,data/raw/s1_filings/TEM_2024-06-14.txt
+2024-06-12,PCSC,Perceptive Capital Solutions Corp,10.0,$11.33,13.7,2024,0.1369999999999999,11.37,,,,data/raw/s1_filings/PCSC_2024-06-12_risk_factors.txt,data/raw/s1_filings/PCSC_2024-06-12_mda.txt,data/raw/s1_filings/PCSC_2024-06-12.txt
+2024-06-11,ALF,Centurion Acquisition Corp.,10.0,$10.81,8.1,2024,0.081,10.81,,,,data/raw/s1_filings/ALF_2024-06-11_risk_factors.txt,data/raw/s1_filings/ALF_2024-06-11_mda.txt,data/raw/s1_filings/ALF_2024-06-11.txt
 2024-06-07,CHEB,Chenghe Acquisition II Co.,10.0,$10.55,5.5,2024,0.055,10.55,,,,,,
-2024-06-07,RAPP,"Rapport Therapeutics, Inc.",17.0,$36.84,111.01,2024,1.1101,35.871700000000004,,,,,,
-2024-06-07,WAY,Waystar Holding Corp.,21.5,$25.47,18.23,2024,0.1823,25.41945,,,,,,
-2024-06-06,FLYE,"Fly-E Group, Inc.",4.0,$2.01,-50.0,2024,-0.5,2.0,,,,,,
+2024-06-07,RAPP,"Rapport Therapeutics, Inc.",17.0,$36.84,111.01,2024,1.1101,35.871700000000004,,,,data/raw/s1_filings/RAPP_2024-06-07_risk_factors.txt,data/raw/s1_filings/RAPP_2024-06-07_mda.txt,data/raw/s1_filings/RAPP_2024-06-07.txt
+2024-06-07,WAY,Waystar Holding Corp.,21.5,$25.47,18.23,2024,0.1823,25.41945,,,,data/raw/s1_filings/WAY_2024-06-07_risk_factors.txt,data/raw/s1_filings/WAY_2024-06-07_mda.txt,data/raw/s1_filings/WAY_2024-06-07.txt
+2024-06-06,FLYE,"Fly-E Group, Inc.",4.0,$2.01,-50.0,2024,-0.5,2.0,,,,data/raw/s1_filings/FLYE_2024-06-06_risk_factors.txt,data/raw/s1_filings/FLYE_2024-06-06_mda.txt,data/raw/s1_filings/FLYE_2024-06-06.txt
 2024-06-06,GAUZ,Gauzy Ltd.,17.0,$0.72,-95.94,2024,-0.9594,0.6901999999999995,,,,,,
-2024-05-31,NAKA,Nakamoto Inc.,,$0.21,,2024,,,,,,,,
-2024-05-23,BOW,Bowhead Specialty Holdings Inc.,17.0,$24.26,40.88,2024,0.4088,23.9496,,,,,,
+2024-05-31,NAKA,Nakamoto Inc.,,$0.21,,2024,,,,,,data/raw/s1_filings/NAKA_2024-05-31_risk_factors.txt,data/raw/s1_filings/NAKA_2024-05-31_mda.txt,data/raw/s1_filings/NAKA_2024-05-31.txt
+2024-05-23,BOW,Bowhead Specialty Holdings Inc.,17.0,$24.26,40.88,2024,0.4088,23.9496,,,,data/raw/s1_filings/BOW_2024-05-23_risk_factors.txt,data/raw/s1_filings/BOW_2024-05-23_mda.txt,data/raw/s1_filings/BOW_2024-05-23.txt
 2024-05-17,HDL,Super Hi International Holding Ltd.,19.56,-,-27.4,2024,-0.2739999999999999,14.20056,,,,,,
-2024-05-17,RFAI,RF Acquisition Corp II,10.0,-,9.2,2024,0.092,10.920000000000002,,,,,,
+2024-05-17,RFAI,RF Acquisition Corp II,10.0,-,9.2,2024,0.092,10.920000000000002,,,,data/raw/s1_filings/RFAI_2024-05-17_risk_factors.txt,data/raw/s1_filings/RFAI_2024-05-17_mda.txt,data/raw/s1_filings/RFAI_2024-05-17.txt
 2024-05-15,JDZG,JIADE Limited,4.0,$1.23,-70.0,2024,-0.7,1.2000000000000002,,,,,,
 2024-05-15,RAY,Raytech Holding Limited,4.0,$2.50,-36.63,2024,-0.3663,2.5348,,,,,,
-2024-05-14,BTOC,Armlogi Holding Corp.,5.0,$0.28,-94.32,2024,-0.9432,0.2840000000000003,,,,,,
+2024-05-14,BTOC,Armlogi Holding Corp.,5.0,$0.28,-94.32,2024,-0.9432,0.2840000000000003,,,,data/raw/s1_filings/BTOC_2024-05-14_risk_factors.txt,data/raw/s1_filings/BTOC_2024-05-14_mda.txt,data/raw/s1_filings/BTOC_2024-05-14.txt
 2024-05-10,ZK,ZEEKR Intelligent Technology Holding Limited,21.0,$26.74,27.33,2024,0.2733,26.7393,,,,,,
-2024-05-09,GPAT,GP-Act III Acquisition Corp.,10.0,-,8.2,2024,0.0819999999999999,10.82,,,,,,
-2024-05-09,PAL,"Proficient Auto Logistics, Inc.",15.0,$6.99,-53.03,2024,-0.5303,7.0455000000000005,,,,,,
-2024-05-09,SVCO,"Silvaco Group, Inc.",19.0,$10.17,-47.74,2024,-0.4774,9.9294,,,,,,
-2024-05-08,NNE,NANO Nuclear Energy Inc.,4.0,$25.08,517.25,2024,5.1725,24.69,,,,,,
-2024-05-02,CCIX,Churchill Capital Corp IX,10.0,$10.76,7.6,2024,0.076,10.760000000000002,,,,,,
+2024-05-09,GPAT,GP-Act III Acquisition Corp.,10.0,-,8.2,2024,0.0819999999999999,10.82,,,,data/raw/s1_filings/GPAT_2024-05-09_risk_factors.txt,data/raw/s1_filings/GPAT_2024-05-09_mda.txt,data/raw/s1_filings/GPAT_2024-05-09.txt
+2024-05-09,PAL,"Proficient Auto Logistics, Inc.",15.0,$6.99,-53.03,2024,-0.5303,7.0455000000000005,,,,data/raw/s1_filings/PAL_2024-05-09_risk_factors.txt,data/raw/s1_filings/PAL_2024-05-09_mda.txt,data/raw/s1_filings/PAL_2024-05-09.txt
+2024-05-09,SVCO,"Silvaco Group, Inc.",19.0,$10.17,-47.74,2024,-0.4774,9.9294,,,,data/raw/s1_filings/SVCO_2024-05-09_risk_factors.txt,data/raw/s1_filings/SVCO_2024-05-09_mda.txt,data/raw/s1_filings/SVCO_2024-05-09.txt
+2024-05-08,NNE,NANO Nuclear Energy Inc.,4.0,$25.08,517.25,2024,5.1725,24.69,,,,data/raw/s1_filings/NNE_2024-05-08_risk_factors.txt,data/raw/s1_filings/NNE_2024-05-08_mda.txt,data/raw/s1_filings/NNE_2024-05-08.txt
+2024-05-02,CCIX,Churchill Capital Corp IX,10.0,$10.76,7.6,2024,0.076,10.760000000000002,,,,data/raw/s1_filings/CCIX_2024-05-02_risk_factors.txt,data/raw/s1_filings/CCIX_2024-05-02_mda.txt,data/raw/s1_filings/CCIX_2024-05-02.txt
 2024-05-01,VIK,Viking Holdings Ltd,24.0,$79.35,240.92,2024,2.4092,81.82079999999999,,,,,,
-2024-04-26,ZONE,"CleanCore Solutions, Inc.",4.0,$0.31,-92.45,2024,-0.9245,0.302,,,,,,
-2024-04-25,LOAR,Loar Holdings Inc.,28.0,$57.46,103.86,2024,1.0386,57.0808,,,,,,
+2024-04-26,ZONE,"CleanCore Solutions, Inc.",4.0,$0.31,-92.45,2024,-0.9245,0.302,,,,data/raw/s1_filings/ZONE_2024-04-26_risk_factors.txt,data/raw/s1_filings/ZONE_2024-04-26_mda.txt,data/raw/s1_filings/ZONE_2024-04-26.txt
+2024-04-25,LOAR,Loar Holdings Inc.,28.0,$57.46,103.86,2024,1.0386,57.0808,,,,data/raw/s1_filings/LOAR_2024-04-25_risk_factors.txt,data/raw/s1_filings/LOAR_2024-04-25_mda.txt,data/raw/s1_filings/LOAR_2024-04-25.txt
 2024-04-25,MRX,Marex Group plc,19.0,$52.85,177.9,2024,1.779,52.801,,,,,,
-2024-04-25,RBRK,"Rubrik, Inc.",32.0,$53.08,60.94,2024,0.6093999999999999,51.5008,,,,,,
+2024-04-25,RBRK,"Rubrik, Inc.",32.0,$53.08,60.94,2024,0.6093999999999999,51.5008,,,,data/raw/s1_filings/RBRK_2024-04-25_risk_factors.txt,data/raw/s1_filings/RBRK_2024-04-25_mda.txt,data/raw/s1_filings/RBRK_2024-04-25.txt
 2024-04-23,NCI,Neo-Concept International Group Holdings Limited,4.0,$0.89,-76.03,2024,-0.7603,0.9588,,,,,,
 2024-04-22,MFI,mF International Limited,5.0,$10.89,,2024,,,,,,,,
 2024-04-22,YYGH,YY Group Holding Limited,4.0,$1.35,-66.75,2024,-0.6675,1.33,,,,,,
 2024-04-19,TRSG,Tungray Technologies Inc.,4.0,$1.23,-68.37,2024,-0.6837000000000001,1.2651999999999997,,,,,,
 2024-04-18,CDTG,CDT Environmental Technology Investment Holdings Limited,4.0,$0.32,-91.55,2024,-0.9155,0.3380000000000001,,,,,,
-2024-04-18,CTRI,"Centuri Holdings, Inc.",21.0,$34.63,65.43,2024,0.6543000000000001,34.740300000000005,,,,,,
-2024-04-18,IBTA,"Ibotta, Inc.",88.0,$35.95,-60.26,2024,-0.6026,34.9712,,,,,,
+2024-04-18,CTRI,"Centuri Holdings, Inc.",21.0,$34.63,65.43,2024,0.6543000000000001,34.740300000000005,,,,data/raw/s1_filings/CTRI_2024-04-18_risk_factors.txt,data/raw/s1_filings/CTRI_2024-04-18_mda.txt,data/raw/s1_filings/CTRI_2024-04-18.txt
+2024-04-18,IBTA,"Ibotta, Inc.",88.0,$35.95,-60.26,2024,-0.6026,34.9712,,,,data/raw/s1_filings/IBTA_2024-04-18_risk_factors.txt,data/raw/s1_filings/IBTA_2024-04-18_mda.txt,data/raw/s1_filings/IBTA_2024-04-18.txt
 2024-04-18,MTEN,Mingteng International Corporation Inc.,4.0,$1.10,-70.25,2024,-0.7025,1.19,,,,,,
 2024-04-17,JUNE,Junee Limited,4.0,$11.80,187.5,2024,1.875,11.5,,,,,,
 2024-04-17,SUPX,SuperX AI Technology Limited,,$8.86,,2024,,,,,,,,
 2024-04-16,TWG,Top Wealth Group Holding Limited,4.0,$3.46,-12.5,2024,-0.125,3.5,,,,,,
-2024-04-12,ULS,UL Solutions Inc.,28.0,$89.97,222.11,2024,2.2211000000000003,90.1908,,,,,,
-2024-04-11,PACS,"PACS Group, Inc.",21.0,$36.07,72.38,2024,0.7238,36.1998,,,,,,
+2024-04-12,ULS,UL Solutions Inc.,28.0,$89.97,222.11,2024,2.2211000000000003,90.1908,,,,data/raw/s1_filings/ULS_2024-04-12_risk_factors.txt,data/raw/s1_filings/ULS_2024-04-12_mda.txt,data/raw/s1_filings/ULS_2024-04-12.txt
+2024-04-11,PACS,"PACS Group, Inc.",21.0,$36.07,72.38,2024,0.7238,36.1998,,,,data/raw/s1_filings/PACS_2024-04-11_risk_factors.txt,data/raw/s1_filings/PACS_2024-04-11_mda.txt,data/raw/s1_filings/PACS_2024-04-11.txt
 2024-04-10,MNDR,Mobile-health Network Solutions,4.0,$0.86,-78.53,2024,-0.7853,0.8588,,,,,,
-2024-04-05,CTNM,"Contineum Therapeutics, Inc.",16.0,$12.86,-22.44,2024,-0.2244,12.4096,,,,,,
-2024-04-02,MAMO,Massimo Group,4.5,$0.98,-77.89,2024,-0.7789,0.9949499999999998,,,,,,
+2024-04-05,CTNM,"Contineum Therapeutics, Inc.",16.0,$12.86,-22.44,2024,-0.2244,12.4096,,,,data/raw/s1_filings/CTNM_2024-04-05_risk_factors.txt,data/raw/s1_filings/CTNM_2024-04-05_mda.txt,data/raw/s1_filings/CTNM_2024-04-05.txt
+2024-04-02,MAMO,Massimo Group,4.5,$0.98,-77.89,2024,-0.7789,0.9949499999999998,,,,data/raw/s1_filings/MAMO_2024-04-02_risk_factors.txt,data/raw/s1_filings/MAMO_2024-04-02_mda.txt,data/raw/s1_filings/MAMO_2024-04-02.txt
 2024-04-02,ZBAO,Zhibao Technology Inc.,4.0,$0.69,-81.67,2024,-0.8167,0.7332000000000001,,,,,,
-2024-03-28,BOLD,"Boundless Bio, Inc.",16.0,$1.47,-90.63,2024,-0.9063,1.4992,,,,,,
+2024-03-28,BOLD,"Boundless Bio, Inc.",16.0,$1.47,-90.63,2024,-0.9063,1.4992,,,,data/raw/s1_filings/BOLD_2024-03-28_risk_factors.txt,data/raw/s1_filings/BOLD_2024-03-28_mda.txt,data/raw/s1_filings/BOLD_2024-03-28.txt
 2024-03-28,MMA,Mixed Martial Arts Group Limited,5.0,$0.73,-85.08,2024,-0.8508,0.746,,,,,,
 2024-03-28,UBXG,U-BX Technology Ltd.,5.0,$1.13,-77.0,2024,-0.77,1.15,,,,,,
-2024-03-26,IBAC,IB Acquisition Corp.,10.0,-,8.0,2024,0.08,10.8,,,,,,
+2024-03-26,IBAC,IB Acquisition Corp.,10.0,-,8.0,2024,0.08,10.8,,,,data/raw/s1_filings/IBAC_2024-03-26_risk_factors.txt,data/raw/s1_filings/IBAC_2024-03-26_mda.txt,data/raw/s1_filings/IBAC_2024-03-26.txt
 2024-03-22,AUNA,Auna S.A.,12.0,$5.35,-56.67,2024,-0.5667,5.1996,,,,,,
-2024-03-21,BKHA,Black Hawk Acquisition Corporation,10.0,-,16.2,2024,0.162,11.62,,,,,,
+2024-03-21,BKHA,Black Hawk Acquisition Corporation,10.0,-,16.2,2024,0.162,11.62,,,,data/raw/s1_filings/BKHA_2024-03-21_risk_factors.txt,data/raw/s1_filings/BKHA_2024-03-21_mda.txt,data/raw/s1_filings/BKHA_2024-03-21.txt
 2024-03-21,LOBO,Lobo Technologies Ltd.,4.0,$0.65,-83.57,2024,-0.8356999999999999,0.6572000000000005,,,,,,
-2024-03-21,RDDT,"Reddit, Inc.",34.0,$162.59,355.56,2024,3.5556,154.8904,,,,,,
-2024-03-20,ALAB,"Astera Labs, Inc.",36.0,$197.23,491.22,2024,4.9122,212.8392,,,,,,
+2024-03-21,RDDT,"Reddit, Inc.",34.0,$162.59,355.56,2024,3.5556,154.8904,,,,data/raw/s1_filings/RDDT_2024-03-21_risk_factors.txt,data/raw/s1_filings/RDDT_2024-03-21_mda.txt,data/raw/s1_filings/RDDT_2024-03-21.txt
+2024-03-20,ALAB,"Astera Labs, Inc.",36.0,$197.23,491.22,2024,4.9122,212.8392,,,,data/raw/s1_filings/ALAB_2024-03-20_risk_factors.txt,data/raw/s1_filings/ALAB_2024-03-20_mda.txt,data/raw/s1_filings/ALAB_2024-03-20.txt
 2024-03-20,INTJ,Intelligent Group Limited,4.0,-,159.0,2024,1.59,10.36,,,,,,
 2024-03-06,RYDE,Ryde Group Ltd,4.0,$0.97,-69.0,2024,-0.69,1.2400000000000002,,,,,,
 2024-03-05,LGCL,Lucas GC Limited,4.0,$1.98,-50.5,2024,-0.505,1.98,,,,,,
-2024-02-27,SMXT,"SolarMax Technology, Inc.",4.0,$0.63,-84.64,2024,-0.8464,0.6143999999999998,,,,,,
-2024-02-22,VHAI,Vocodia Holdings Corp,4.25,$0.02,-99.57,2024,-0.9957,0.0182750000000003,,,,,,
+2024-02-27,SMXT,"SolarMax Technology, Inc.",4.0,$0.63,-84.64,2024,-0.8464,0.6143999999999998,,,,data/raw/s1_filings/SMXT_2024-02-27_risk_factors.txt,data/raw/s1_filings/SMXT_2024-02-27_mda.txt,data/raw/s1_filings/SMXT_2024-02-27.txt
+2024-02-22,VHAI,Vocodia Holdings Corp,4.25,$0.02,-99.57,2024,-0.9957,0.0182750000000003,,,,data/raw/s1_filings/VHAI_2024-02-22_risk_factors.txt,data/raw/s1_filings/VHAI_2024-02-22_mda.txt,data/raw/s1_filings/VHAI_2024-02-22.txt
 2024-02-21,DYCQ,DT Cloud Acquisition Corporation,10.0,$11.18,11.8,2024,0.118,11.18,,,,,,
 2024-02-16,CHRO,Chromocell Therapeutics Corp,6.0,$13.50,125.0,2024,1.25,13.5,,,,,,
-2024-02-14,UMAC,"Unusual Machines, Inc.",4.0,$14.61,268.75,2024,2.6875,14.75,,,,,,
+2024-02-14,UMAC,"Unusual Machines, Inc.",4.0,$14.61,268.75,2024,2.6875,14.75,,,,data/raw/s1_filings/UMAC_2024-02-14_risk_factors.txt,data/raw/s1_filings/UMAC_2024-02-14_mda.txt,data/raw/s1_filings/UMAC_2024-02-14.txt
 2024-02-09,HLXB,Helix Acquisition Corp. II,10.0,$9.90,-1.0,2024,-0.01,9.9,,,,,,
-2024-02-09,MGX,"Metagenomi Therapeutics, Inc.",15.0,$1.50,-90.0,2024,-0.9,1.4999999999999996,,,,,,
+2024-02-09,MGX,"Metagenomi Therapeutics, Inc.",15.0,$1.50,-90.0,2024,-0.9,1.4999999999999996,,,,data/raw/s1_filings/MGX_2024-02-09_risk_factors.txt,data/raw/s1_filings/MGX_2024-02-09_mda.txt,data/raw/s1_filings/MGX_2024-02-09.txt
 2024-02-09,TBBB,BBB Foods Inc.,17.5,$37.11,112.51,2024,1.1251,37.18925,,,,,,
-2024-02-09,TELO,"Telomir Pharmaceuticals, Inc.",7.0,$1.44,-80.0,2024,-0.8,1.3999999999999997,,,,,,
-2024-02-08,KYTX,"Kyverna Therapeutics, Inc.",22.0,$9.44,-58.82,2024,-0.5882000000000001,9.0596,,,,,,
-2024-02-08,PMNT,Perfect Moment Ltd.,6.0,$0.27,-95.25,2024,-0.9525,0.2849999999999999,,,,,,
+2024-02-09,TELO,"Telomir Pharmaceuticals, Inc.",7.0,$1.44,-80.0,2024,-0.8,1.3999999999999997,,,,data/raw/s1_filings/TELO_2024-02-09_risk_factors.txt,data/raw/s1_filings/TELO_2024-02-09_mda.txt,data/raw/s1_filings/TELO_2024-02-09.txt
+2024-02-08,KYTX,"Kyverna Therapeutics, Inc.",22.0,$9.44,-58.82,2024,-0.5882000000000001,9.0596,,,,data/raw/s1_filings/KYTX_2024-02-08_risk_factors.txt,data/raw/s1_filings/KYTX_2024-02-08_mda.txt,data/raw/s1_filings/KYTX_2024-02-08.txt
+2024-02-08,PMNT,Perfect Moment Ltd.,6.0,$0.27,-95.25,2024,-0.9525,0.2849999999999999,,,,data/raw/s1_filings/PMNT_2024-02-08_risk_factors.txt,data/raw/s1_filings/PMNT_2024-02-08_mda.txt,data/raw/s1_filings/PMNT_2024-02-08.txt
 2024-02-07,AHR,"American Healthcare REIT, Inc.",12.0,$49.75,317.5,2024,3.175,50.1,,,,,,
-2024-02-06,LEGT,Legato Merger Corp. III,10.0,$11.04,10.3,2024,0.103,11.03,,,,,,
-2024-02-02,ANRO,"Alto Neuroscience, Inc.",16.0,$25.08,53.25,2024,0.5325,24.52,,,,,,
-2024-02-02,GUTS,"Fractyl Health, Inc.",15.0,$0.65,-95.6,2024,-0.956,0.6600000000000006,,,,,,
+2024-02-06,LEGT,Legato Merger Corp. III,10.0,$11.04,10.3,2024,0.103,11.03,,,,data/raw/s1_filings/LEGT_2024-02-06_risk_factors.txt,data/raw/s1_filings/LEGT_2024-02-06_mda.txt,data/raw/s1_filings/LEGT_2024-02-06.txt
+2024-02-02,ANRO,"Alto Neuroscience, Inc.",16.0,$25.08,53.25,2024,0.5325,24.52,,,,data/raw/s1_filings/ANRO_2024-02-02_risk_factors.txt,data/raw/s1_filings/ANRO_2024-02-02_mda.txt,data/raw/s1_filings/ANRO_2024-02-02.txt
+2024-02-02,GUTS,"Fractyl Health, Inc.",15.0,$0.65,-95.6,2024,-0.956,0.6600000000000006,,,,data/raw/s1_filings/GUTS_2024-02-02_risk_factors.txt,data/raw/s1_filings/GUTS_2024-02-02_mda.txt,data/raw/s1_filings/GUTS_2024-02-02.txt
 2024-02-01,AS,"Amer Sports, Inc.",13.0,$35.32,175.69,2024,1.7569,35.8397,,,,,,
-2024-01-31,FBLG,"FibroBiologics, Inc.",30.0,$1.44,-95.27,2024,-0.9527,1.4190000000000005,,,,,,
-2024-01-26,AVBP,"ArriVent BioPharma, Inc.",18.0,$31.37,69.0,2024,0.69,30.42,,,,,,
-2024-01-26,BTSG,"BrightSpring Health Services, Inc.",13.0,$48.40,270.46,2024,2.7046,48.1598,,,,,,
+2024-01-31,FBLG,"FibroBiologics, Inc.",30.0,$1.44,-95.27,2024,-0.9527,1.4190000000000005,,,,data/raw/s1_filings/FBLG_2024-01-31_risk_factors.txt,data/raw/s1_filings/FBLG_2024-01-31_mda.txt,data/raw/s1_filings/FBLG_2024-01-31.txt
+2024-01-26,AVBP,"ArriVent BioPharma, Inc.",18.0,$31.37,69.0,2024,0.69,30.42,,,,data/raw/s1_filings/AVBP_2024-01-26_risk_factors.txt,data/raw/s1_filings/AVBP_2024-01-26_mda.txt,data/raw/s1_filings/AVBP_2024-01-26.txt
+2024-01-26,BTSG,"BrightSpring Health Services, Inc.",13.0,$48.40,270.46,2024,2.7046,48.1598,,,,data/raw/s1_filings/BTSG_2024-01-26_risk_factors.txt,data/raw/s1_filings/BTSG_2024-01-26_mda.txt,data/raw/s1_filings/BTSG_2024-01-26.txt
 2024-01-26,HAO,Haoxi Health Technology Limited,4.0,$1.05,-71.5,2024,-0.715,1.14,,,,,,
-2024-01-25,CGON,"CG Oncology, Inc.",19.0,$68.56,260.84,2024,2.6084,68.55959999999999,,,,,,
+2024-01-25,CGON,"CG Oncology, Inc.",19.0,$68.56,260.84,2024,2.6084,68.55959999999999,,,,data/raw/s1_filings/CGON_2024-01-25_risk_factors.txt,data/raw/s1_filings/CGON_2024-01-25_mda.txt,data/raw/s1_filings/CGON_2024-01-25.txt
 2024-01-25,YIBO,Planet Image International Limited,4.0,$1.07,-74.8,2024,-0.748,1.008,,,,,,
 2024-01-24,JL,J-Long Group Limited,5.0,$6.45,27.8,2024,0.278,6.390000000000001,,,,,,
 2024-01-24,SUGP,SU Group Holdings Limited,4.0,$4.36,11.13,2024,0.1113,4.4452,,,,,,
@@ -1770,5 +1770,5 @@ ipo_date,ticker,company_name,offer_price,Current,first_day_return_pct,scrape_yea
 2024-01-18,CCTG,CCSC Technology International Holdings Limited,6.0,$0.62,-89.6,2024,-0.8959999999999999,0.6240000000000006,,,,,,
 2024-01-18,PSBD,Palmer Square Capital BDC Inc.,16.45,$10.88,-35.56,2024,-0.3556,10.60038,,,,,,
 2024-01-12,SYNX,Silynxcom Ltd.,4.0,$1.23,-70.25,2024,-0.7025,1.19,,,,,,
-2024-01-11,SDHC,Smith Douglas Homes Corp.,21.0,$13.87,-32.71,2024,-0.3271,14.1309,,,,,,
+2024-01-11,SDHC,Smith Douglas Homes Corp.,21.0,$13.87,-32.71,2024,-0.3271,14.1309,,,,data/raw/s1_filings/SDHC_2024-01-11_risk_factors.txt,data/raw/s1_filings/SDHC_2024-01-11_mda.txt,data/raw/s1_filings/SDHC_2024-01-11.txt
 2024-01-09,ROMA,Roma Green Finance Limited,4.0,$6.81,57.75,2024,0.5775,6.3100000000000005,,,,,,

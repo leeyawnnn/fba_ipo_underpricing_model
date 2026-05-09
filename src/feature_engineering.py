@@ -231,55 +231,82 @@ def add_deal_features(
 def add_text_features(df: pd.DataFrame) -> pd.DataFrame:
     """Extract textual features using src.text_features.
 
+    Computes LM sentiment ratios on BOTH the full prospectus and the Risk
+    Factors section. Full-prospectus ratios are stored as ``lm_*_ratio``
+    (the primary signal — more reliable because the EDGAR scraper captured
+    longer, less-truncated full-text bodies). Risk Factors ratios are
+    stored as ``rf_lm_*_ratio`` for academic comparability.
+
     Args:
         df: IPO DataFrame with path columns.
 
     Returns:
-        DataFrame with textual features: lm_*, gunning_fog, uniqueness.
+        DataFrame with textual features:
+        - ``lm_*_ratio`` — sentiment from full prospectus
+        - ``rf_lm_*_ratio`` — sentiment from Risk Factors section
+        - ``word_count`` / ``rf_word_count`` — total tokens analysed
+        - ``gunning_fog`` — Gunning-Fog readability of MD&A
+        - ``prospectus_uniqueness`` — Hanley-Hoberg TF-IDF score
     """
     df = df.copy()
 
-    # 1. Sentiment (LM) and Readability (Fog)
     lm_dict = text_features.load_lm_dictionary()
-    
+
+    # Minimum word count to compute reliable sentiment ratios. Below this
+    # threshold the section is treated as missing.
+    MIN_WORDS = 100
+
     sentiment_records = []
     for _, row in df.iterrows():
-        rec = {}
+        rec: dict = {}
+
+        full_path = row.get("full_text_path")
         risk_path = row.get("risk_factors_path")
         mda_path = row.get("mda_path")
-        
+
+        # Primary: full prospectus
+        if full_path and Path(full_path).exists():
+            full_text = Path(full_path).read_text(encoding="utf-8", errors="replace")
+            if len(full_text) > 500:  # rough byte gate
+                s = text_features.compute_lm_ratios(full_text, lm_dict)
+                if s.get("word_count", 0) >= MIN_WORDS:
+                    rec.update(s)
+
+        # Secondary: risk factors (with rf_ prefix)
         if risk_path and Path(risk_path).exists():
-            risk_text = Path(risk_path).read_text(encoding="utf-8")
-            if len(risk_text) > 100:
+            risk_text = Path(risk_path).read_text(encoding="utf-8", errors="replace")
+            if len(risk_text) > 500:
                 s = text_features.compute_lm_ratios(risk_text, lm_dict)
-                rec.update(s)
-        
+                if s.get("word_count", 0) >= MIN_WORDS:
+                    for k, v in s.items():
+                        rec[f"rf_{k}"] = v
+
+        # Readability on MD&A
         if mda_path and Path(mda_path).exists():
-            mda_text = Path(mda_path).read_text(encoding="utf-8")
-            if len(mda_text) > 100:
+            mda_text = Path(mda_path).read_text(encoding="utf-8", errors="replace")
+            if len(mda_text) > 500:
                 rec["gunning_fog"] = text_features.gunning_fog_index(mda_text)
-        
+
         sentiment_records.append(rec)
-    
+
     df_sent = pd.DataFrame(sentiment_records)
     for col in df_sent.columns:
         df[col] = df_sent[col].values
 
-    # 2. Prospectus Uniqueness (Hanley-Hoberg)
-    full_texts = []
-    sectors = []
+    # Prospectus Uniqueness (Hanley-Hoberg, sector-level)
+    full_texts: list[str] = []
+    sectors: list[str] = []
     for _, row in df.iterrows():
         p = row.get("full_text_path")
-        s = row.get("sector", "Other")
+        s = row.get("sector", "Industrials")
         if p and Path(p).exists():
-            full_texts.append(Path(p).read_text(encoding="utf-8"))
-            sectors.append(s if pd.notna(s) and s != "" else "Other")
+            full_texts.append(Path(p).read_text(encoding="utf-8", errors="replace"))
+            sectors.append(str(s) if pd.notna(s) and str(s) != "" else "Industrials")
         else:
             full_texts.append("")
-            sectors.append("Other")
-    
+            sectors.append("Industrials")
+
     if any(len(t) > 0 for t in full_texts):
-        # Pass sectors for more accurate Hanley-Hoberg (sector-level boilerplate)
         uniqueness = text_features.compute_prospectus_uniqueness(full_texts, sectors)
         df["prospectus_uniqueness"] = uniqueness
     else:

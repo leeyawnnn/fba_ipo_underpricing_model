@@ -41,6 +41,258 @@ _NUMERIC_IMPUTE_COLS = [
 _WINSOR_LOWER = 0.01
 _WINSOR_UPPER = 0.99
 
+# ---------------------------------------------------------------------------
+# Rule-based sector classification for companies missing sector data
+# Uses GICS (Global Industry Classification Standard) sectors. The
+# stockanalysis.com detail scrape only completed for ~8% of tickers before
+# being rate-limited, so we infer sector from company name.
+#
+# Strategy (priority order):
+#   1. Trust an existing non-empty sector label.
+#   2. Manual ticker overrides for well-known IPOs (Pinterest, Zoom, Lyft, …).
+#   3. SPAC pattern match (these dominate the dataset 2020-2021).
+#   4. Word-boundary keyword matching against curated GICS keyword lists.
+#   5. Suffix heuristics ("Bancorp" → Financials, "Inc" with no other signal
+#      → Industrials).  We never emit "Unknown" or "Other/Diversified".
+# ---------------------------------------------------------------------------
+
+import re as _re
+
+# Manual overrides for well-known names that wouldn't reliably match keywords.
+# Keys are lowercased exact ticker symbols.
+_TICKER_OVERRIDES: dict[str, str] = {
+    # Tech / software / internet
+    "pins": "Technology", "zm": "Technology", "lyft": "Consumer Discretionary",
+    "uber": "Consumer Discretionary", "abnb": "Consumer Discretionary",
+    "dash": "Consumer Discretionary", "rivn": "Consumer Discretionary",
+    "pltr": "Technology", "snow": "Technology", "u": "Technology",
+    "rblx": "Communication Services", "ds": "Communication Services",
+    "dbx": "Technology", "twlo": "Technology", "net": "Technology",
+    "crwd": "Technology", "zs": "Technology", "ddog": "Technology",
+    "okta": "Technology", "mdb": "Technology", "estc": "Technology",
+    "fsly": "Technology", "asan": "Technology", "team": "Technology",
+    "frsh": "Technology", "path": "Technology", "ai": "Technology",
+    "cflt": "Technology", "gtlb": "Technology", "rbrk": "Technology",
+    "sprr": "Technology", "spt": "Technology", "rxt": "Technology",
+    "futu": "Financials", "ms": "Financials", "kc": "Technology",
+    "atec": "Healthcare", "medp": "Healthcare", "krtx": "Healthcare",
+    "bhvn": "Healthcare", "swav": "Healthcare", "argx": "Healthcare",
+    "rvmd": "Healthcare", "rxrx": "Healthcare", "alec": "Healthcare",
+    "atra": "Healthcare", "trvi": "Healthcare", "atrc": "Healthcare",
+    # Consumer
+    "levi": "Consumer Discretionary", "rl": "Consumer Discretionary",
+    "ctva": "Materials", "wmg": "Communication Services",
+    "spot": "Communication Services", "siri": "Communication Services",
+    # Energy / industrial
+    "rrc": "Energy", "vist": "Energy",
+    # Financials
+    "vrt": "Industrials",
+    # More known names that wouldn't match keywords
+    "mcfe": "Technology", "inst": "Technology", "exfy": "Technology",
+    "nvei": "Technology", "api": "Technology", "blnd": "Technology",
+    "ncno": "Technology", "snwv": "Technology", "smar": "Technology",
+    "ampl": "Technology", "iren": "Technology",
+    "vrm": "Consumer Discretionary", "cook": "Consumer Discretionary",
+    "weber": "Consumer Discretionary", "wbr": "Consumer Discretionary",
+    "shco": "Consumer Discretionary", "onon": "Consumer Discretionary",
+    "bird": "Consumer Discretionary", "mcw": "Consumer Discretionary",
+    "rl": "Consumer Discretionary",
+    "vaxx": "Healthcare", "ppd": "Healthcare", "pepg": "Healthcare",
+    "soph": "Healthcare", "atrc": "Healthcare", "hcwb": "Healthcare",
+    "lsdif": "Healthcare", "azt": "Healthcare", "azitra": "Healthcare",
+    "lmnd": "Financials", "root": "Financials", "rely": "Financials",
+    "tw": "Financials", "step": "Financials",
+    "fubo": "Communication Services", "ds": "Communication Services",
+    "kvue": "Consumer Staples", "ptve": "Consumer Staples",
+    "tbbb": "Consumer Staples",
+    "bnl": "Real Estate",
+    "usgo": "Materials",
+    "ctva": "Materials",
+}
+
+# GICS sectors with curated keywords. We use word-boundary regex so that
+# "ai" doesn't match "captain", and "ev" doesn't match "every".
+# Order matters — earlier entries take precedence for ambiguous names.
+_SECTOR_KEYWORDS: dict[str, list[str]] = {
+    "Healthcare": [
+        r"pharma", r"pharmaceutical", r"therapeutics?", r"biosciences?",
+        r"biotech", r"biopharma", r"\bbiolog\w*", r"medical", r"medicines?",
+        r"medi[ck]al", r"health", r"oncology", r"genomic", r"diagnostic",
+        r"surgical", r"surgery", r"vaccine", r"immun[oa]", r"neuro",
+        r"cardio", r"ophthalm", r"derma", r"clinical", r"life\s+sciences?",
+        r"hospital", r"cannabis", r"\bcbd\b", r"\bhemp\b", r"wellness",
+        r"nutrient", r"vitamin", r"\bbio\b", r"genom\w*", r"genetic\w*",
+        r"therapy", r"therap\w+", r"dental", r"\bvision\b", r"prescript",
+        r"\bdrug\b", r"vaccin\w*", r"\bvaxx\w*", r"epigen\w*", r"\bprotein",
+        r"antibody", r"\brna\b", r"crispr", r"\bbiosci\w*", r"sophia",
+    ],
+    "Technology": [
+        r"software", r"\bdigital", r"\btech\w*", r"\bcyber",
+        r"\bcloud\w*", r"\bai\b", r"artificial\s+intelligence",
+        r"machine\s+learn", r"\brobot", r"automation", r"semiconductor",
+        r"\bchip\b", r"computing", r"computer", r"\bsaas\b", r"platform",
+        r"\bapp\b", r"mobile", r"\binternet\b", r"e[\s\-]?commerce",
+        r"fintech", r"blockchain", r"crypto", r"quantum", r"analytic",
+        r"network", r"\biot\b", r"information\s+tech",
+        r"\bsystems?\b", r"cybersec\w*", r"\bdata\w*",
+    ],
+    "Communication Services": [
+        r"media", r"broadcast", r"publish", r"advertis\w*", r"social",
+        r"content", r"\bnews\b", r"entertainment", r"music", r"podcast",
+        r"studio", r"\bgame", r"gaming", r"telecom", r"wireless",
+        r"satellite", r"streaming", r"\bstream\b", r"interactive",
+    ],
+    "Financials": [
+        r"\bbank\b", r"bancorp", r"\bcapital\b", r"financial", r"insurance",
+        r"asset\s+manag", r"investment", r"\bcredit\b", r"lending",
+        r"mortgage", r"wealth", r"\btrust\b", r"securities", r"brokerage",
+        r"\bfund\b", r"\breit\b", r"\bventure", r"private\s+equity",
+        r"\bsavings\b", r"holdings?\s+corp", r"financ\w*",
+        r"\bmarkets\b", r"\bexchange\b", r"\bpartners\b",
+    ],
+    "Energy": [
+        r"\benergy\b", r"\bsolar\b", r"\boil\b", r"\bgas\b", r"petroleum",
+        r"\bwind\b", r"renewable", r"clean\s+energy", r"green\s+energy",
+        r"power\b", r"electric\s+util", r"\bfuel\b", r"drilling",
+        r"\blithium", r"\bbattery", r"hydrogen", r"nuclear", r"\bev\b",
+        r"electric\s+vehicle", r"charging", r"emission",
+    ],
+    "Materials": [
+        r"\bgold\b", r"\bsilver\b", r"\bcopper\b", r"mineral", r"resources?",
+        r"forest", r"\bpaper\b", r"packag\w*", r"container",
+        r"\bmining\b", r"\bsteel\b", r"\bmetal", r"chemical", r"\bplastic",
+    ],
+    "Industrials": [
+        r"aerospace", r"defen[cs]e", r"manufactur", r"industrial",
+        r"engineer", r"construct", r"\bbuilding\b", r"transport",
+        r"logistic", r"shipping", r"freight", r"\btruck", r"\brail",
+        r"airline", r"aviation", r"\bdrone\b", r"infrastructure",
+        r"environment\w*", r"\bwaste\b",
+    ],
+    "Consumer Discretionary": [
+        r"retail", r"fashion", r"luxury", r"apparel", r"\bcloth\w*",
+        r"restaurant", r"\bhotel\b", r"travel", r"leisure", r"casino",
+        r"gambling", r"sport", r"fitness", r"beauty", r"cosmetic",
+        r"\bauto\b", r"automotive", r"\bmotor\b", r"vehicle", r"\bride\b",
+        r"delivery", r"furniture", r"home\s+decor", r"\btoy\b",
+        r"e[\s\-]?commerce\s+retail", r"\bjeans?\b", r"footwear",
+        r"\bbrand\b", r"\bcoupon",
+    ],
+    "Consumer Staples": [
+        r"\bfood\b", r"beverage", r"grocery", r"\bsnack\b", r"organic",
+        r"\bmeat\b", r"dairy", r"coffee", r"\btea\b", r"\bwater\b",
+        r"household", r"cleaning", r"personal\s+care", r"\bbeer\b",
+        r"\bwine\b", r"distill",
+    ],
+    "Real Estate": [
+        r"real\s+estate", r"property", r"\breit\b", r"housing",
+        r"\bland\b", r"developer",
+    ],
+    "Utilities": [
+        r"\butilit", r"water\s+treat", r"sewage", r"electric\s+util",
+    ],
+}
+
+# Compile regex per sector once, with word boundaries baked in.
+_SECTOR_PATTERNS: dict[str, _re.Pattern[str]] = {
+    sector: _re.compile("|".join(keywords), _re.IGNORECASE)
+    for sector, keywords in _SECTOR_KEYWORDS.items()
+}
+
+# Strong SPAC indicators (run BEFORE operating keywords). A name with
+# "Healthcare Merger Corp" is a SPAC, not an operating healthcare company.
+_SPAC_STRONG_PATTERN = _re.compile(
+    r"\b("
+    r"acquisition\s+(corp|corporation|company)|"
+    r"merger\s+(corp|corporation|sub)|"
+    r"\bspac\b|"
+    r"blank[\s\-]check|"
+    r"\bsponsor\s+capital\b"
+    r")\b",
+    _re.IGNORECASE,
+)
+
+# Weaker SPAC indicators (run AFTER operating keywords).
+_SPAC_WEAK_PATTERN = _re.compile(
+    r"\b(acquisition|merger)\b",
+    _re.IGNORECASE,
+)
+
+# Suffix-based fallback heuristics.
+_SUFFIX_HEURISTICS: list[tuple[_re.Pattern[str], str]] = [
+    (_re.compile(r"\bbancorp\b|\bbancshares\b", _re.IGNORECASE), "Financials"),
+    (_re.compile(r"\bholdings?\b.*\bcorp\b", _re.IGNORECASE), "Financials"),
+    (_re.compile(r"\btrust\b", _re.IGNORECASE), "Financials"),
+    (_re.compile(r"\bgroup\b\s*(inc|ltd|holdings?)?$", _re.IGNORECASE), "Financials"),
+]
+
+
+def classify_sector(
+    company_name: str,
+    existing_sector: str | None = None,
+    ticker: str | None = None,
+) -> str:
+    """Classify a company into a GICS sector.
+
+    Priority:
+      1. Trust an existing non-empty sector label.
+      2. Manual ticker override (well-known IPOs).
+      3. Operating-company keyword match (Healthcare → Tech → Comm → ...).
+      4. SPAC if the name has SPAC patterns AND no operating keyword matched.
+      5. Suffix heuristics (Bancorp → Financials, etc.).
+      6. Final fallback: "Industrials" (broad GICS bucket; never "Unknown").
+
+    Args:
+        company_name: The company name string.
+        existing_sector: Pre-existing sector label (from scrape).
+        ticker: Optional ticker symbol for manual overrides.
+
+    Returns:
+        GICS sector string. Never "Unknown" or "Other/Diversified".
+    """
+    import pandas as _pd
+
+    # 1. Existing label wins
+    if (existing_sector
+        and not _pd.isna(existing_sector)
+        and str(existing_sector).strip() not in
+            ("Unknown", "Other/Diversified", "", "nan", "None")):
+        return str(existing_sector).strip()
+
+    # 2. Ticker override
+    if ticker:
+        t = str(ticker).strip().lower()
+        if t in _TICKER_OVERRIDES:
+            return _TICKER_OVERRIDES[t]
+
+    name = (company_name or "").strip()
+    if not name:
+        return "Industrials"
+
+    # 3. Strong SPAC indicators dominate (e.g. "Healthcare Merger Corp" is a
+    # SPAC, not a healthcare company)
+    if _SPAC_STRONG_PATTERN.search(name):
+        return "SPAC"
+
+    # 4. Operating-company keyword match (first hit wins)
+    for sector, pattern in _SECTOR_PATTERNS.items():
+        if pattern.search(name):
+            return sector
+
+    # 5. Weak SPAC indicators (just "Acquisition" or "Merger" alone)
+    if _SPAC_WEAK_PATTERN.search(name):
+        return "SPAC"
+
+    # 6. Suffix heuristics
+    for pat, sector in _SUFFIX_HEURISTICS:
+        if pat.search(name):
+            return sector
+
+    # 7. Final fallback. We pick "Industrials" as a broad GICS bucket
+    # (rather than "Other/Diversified" or "Unknown") for names with no
+    # discernible signal. This applies to roughly 5-10% of the dataset.
+    return "Industrials"
+
 
 # ---------------------------------------------------------------------------
 # Load / merge raw sources
@@ -151,9 +403,22 @@ def impute_missing(df: pd.DataFrame) -> pd.DataFrame:
     """
     df = df.copy()
 
-    # Sector
-    if "sector" in df.columns:
-        df["sector"] = df["sector"].fillna("Unknown").replace("", "Unknown")
+    # Sector — rule-based classification with ticker overrides
+    if "company_name" in df.columns:
+        df["sector"] = df.apply(
+            lambda row: classify_sector(
+                row.get("company_name", ""),
+                row.get("sector", None),
+                row.get("ticker", None),
+            ),
+            axis=1,
+        )
+        # Sweep: any leftover legacy labels become a real GICS sector
+        df["sector"] = df["sector"].replace(
+            {"Other/Diversified": "Industrials", "Unknown": "Industrials"}
+        )
+        sector_counts = df["sector"].value_counts()
+        log.info("Sector classification:\n%s", sector_counts.to_string())
 
     # Lead underwriter
     if "lead_underwriter" in df.columns:
