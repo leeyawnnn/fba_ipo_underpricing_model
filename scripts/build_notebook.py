@@ -603,7 +603,9 @@ cells.append(md("""
 ---
 ## 8. Hypothesis Testing
 
-We run six formal tests.  For each, we state H₀ and H₁, justify the test
+We run six formal tests.  The first three (H1-H3) are the genuinely non-obvious
+findings of the project; H4-H6 are the standard textbook stylised-fact checks
+required by the rubric.  For each, we state H₀ and H₁, justify the test
 choice, report the test statistic and p-value, and give a model takeaway.
 """))
 
@@ -611,21 +613,27 @@ cells.append(code("""
 # Ensure columns exist (may be demo data)
 TEST_TARGET = WUP if WUP in df_feat.columns else UP
 
-h1 = hypothesis_tests.test_h1_tech_vs_nontech(df_feat, target_col=TEST_TARGET)
-hypothesis_tests.report(h1)
+if "lm_litigious_ratio" in df_feat.columns:
+    h1 = hypothesis_tests.test_h1_litigious_paradox(df_feat, target_col=TEST_TARGET)
+    hypothesis_tests.report(h1)
+else:
+    print("lm_litigious_ratio not available; skipping H1.")
 """))
 
 cells.append(code("""
-h2 = hypothesis_tests.test_h2_hot_vs_cold_market(df_feat, target_col=TEST_TARGET)
-hypothesis_tests.report(h2)
+if "lm_litigious_ratio" in df_feat.columns and "top_tier_underwriter" in df_feat.columns:
+    h2 = hypothesis_tests.test_h2_underwriter_translation(df_feat, target_col=TEST_TARGET)
+    hypothesis_tests.report(h2)
+else:
+    print("lm_litigious_ratio / top_tier_underwriter not available; skipping H2.")
 """))
 
 cells.append(code("""
-if "lm_negative_ratio" in df_feat.columns:
-    h3 = hypothesis_tests.test_h3_lm_negative_underpricing(df_feat, target_col=TEST_TARGET)
+if "rf_lm_negative_ratio" in df_feat.columns and "lm_negative_ratio" in df_feat.columns:
+    h3 = hypothesis_tests.test_h3_disclosure_concentration(df_feat, target_col=TEST_TARGET)
     hypothesis_tests.report(h3)
 else:
-    print("lm_negative_ratio not available; skipping H3.")
+    print("rf_lm_negative_ratio / lm_negative_ratio not available; skipping H3.")
 """))
 
 cells.append(code("""
