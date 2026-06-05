@@ -429,60 +429,77 @@ def fig_litigious_paradox(df: pd.DataFrame) -> None:
     summary = pd.DataFrame(rows).set_index("category")
     summary = summary.reindex([lbl for _, lbl in lm_cols])
 
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 6),
-                                    gridspec_kw={"width_ratios": [1.15, 1]})
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 7),
+                                    gridspec_kw={"width_ratios": [1.1, 1]})
 
-    # Left: bars + count labels
+    # --- Left: quintile bars -------------------------------------------------
+    # Keep the title to ONE short plain-language line; the heavy statistics go
+    # into a tidy box inside the panel (upper-right, where the bars are short)
+    # so no long line of numbers spills across into the right-hand panel.
     bar_colors = ["#94a3b8", "#94a3b8", "#94a3b8", "#94a3b8", ACCENT]
     bars = ax1.bar(q_agg["lit_q"].astype(str), q_agg["med"] * 100,
                    color=bar_colors, edgecolor="white")
     ax1.axhline(0, color=NEUTRAL, lw=0.7)
     ax1.set_ylabel("Median first-day return (%)")
-    ax1.set_title(
-        "Median first-day return by LM Litigious quintile\n"
-        f"Spearman ρ = {rho:+.3f}  (p = {sp_p:.4g}),  "
-        f"Kruskal-Wallis H = {kw_stat:.1f}  (p = {kw_p:.4g}),  n = {n_clean}",
-        fontsize=11, pad=14,
-    )
+    ax1.set_title("Most-litigious IPOs pop the LEAST", fontsize=12, pad=10)
     max_h = float((q_agg["med"] * 100).max())
-    ax1.set_ylim(0, max_h * 1.28)
+    ax1.set_ylim(0, max_h * 1.30)
     for bar, n_q in zip(bars, q_agg["n"]):
         h = bar.get_height()
         ax1.text(bar.get_x() + bar.get_width() / 2, h + max_h * 0.03,
                  f"{h:+.1f}%\n(n={int(n_q)})", ha="center", va="bottom",
                  fontsize=9)
-    ax1.set_xlabel("LM Litigious-word ratio (quintile)")
+    ax1.set_xlabel("Amount of legal / litigious language in the S-1\n"
+                   "(quintiles: Q1 = least, Q5 = most)")
 
-    # Right: Spearman ρ comparison bar chart, highlight Litigious. Always
-    # place the numeric label to the RIGHT of zero so the y-axis category
-    # labels (which sit at x=0) never collide with bar labels.
+    # --- Right: Spearman-rho comparison across all tone categories -----------
+    # Numeric labels always sit at the far right so they never collide with the
+    # category names that sit at x = 0.
     colors = ["#94a3b8" if c != "Litigious" else ACCENT for c in summary.index]
     bars2 = ax2.barh(summary.index, summary["rho"], color=colors, edgecolor="white")
     ax2.axvline(0, color=NEUTRAL, lw=0.7)
-    ax2.set_xlabel("Spearman ρ  vs. first-day return  (same clean sample)")
-    ax2.set_title(
-        "Litigious is the only LM category with a significant negative ρ\n"
-        f"(red = highlighted; p-values in labels; n = {n_clean})",
-        fontsize=11, pad=14,
-    )
-    x_lo = min(-0.30, summary["rho"].min() - 0.07)
-    x_hi = max(0.32, summary["rho"].max() + 0.18)
+    ax2.set_xlabel("Correlation (Spearman rho) with first-day return")
+    ax2.set_title("Litigious is the only tone with a real\nnegative link to the pop",
+                  fontsize=12, pad=10)
+    # Reserve a wide blank strip on the right for a tidy label column. x_hi is
+    # pushed well past the longest bar so the right-aligned labels never touch
+    # any bar. label_x marks where that column lives.
+    x_lo = min(-0.33, summary["rho"].min() - 0.10)
+    x_hi = max(0.78, summary["rho"].max() + 0.55)
+    label_x = x_hi - 0.02
     ax2.set_xlim(x_lo, x_hi)
+    # Light divider between the bars and the label column.
+    ax2.axvline(summary["rho"].max() + 0.10, color="#e2e8f0", lw=1)
     for bar, (cat, row) in zip(bars2, summary.iterrows()):
         x = bar.get_width()
         sig = "***" if row["p"] < 0.001 else ("**" if row["p"] < 0.01
               else ("*" if row["p"] < 0.05 else ""))
-        ax2.text(x_hi - 0.01, bar.get_y() + bar.get_height() / 2,
-                 f"ρ = {x:+.3f}    p = {row['p']:.3g} {sig}",
+        ax2.text(label_x, bar.get_y() + bar.get_height() / 2,
+                 f"rho = {x:+.3f}    p = {row['p']:.2g} {sig}",
                  ha="right", va="center", fontsize=9, color=NEUTRAL)
 
-    fig.suptitle(
-        "The Litigious-Tone Paradox — more legal language in the S-1 predicts a SMALLER first-day pop\n"
-        "Counter-intuitive: opposite sign to the naive 'risk language → risk premium → larger pop' story; "
-        "consistent with the Hanley-Hoberg disclosure mechanism",
-        fontsize=12.5, y=1.02,
+    # All free text lives OUTSIDE the two plotting axes: a headline + explainer
+    # in the reserved top band, and the statistics in a caption strip along the
+    # bottom. tight_layout's rect keeps the axes between them so nothing can
+    # crash into the charts.
+    fig.suptitle("The Litigious-Tone Paradox", fontsize=16,
+                 fontweight="bold", y=0.985)
+    fig.text(
+        0.5, 0.905,
+        "More legal / litigious language in the prospectus predicts a SMALLER "
+        "first-day pop —\nthe opposite of the naive \"more risk talk → bigger "
+        "pop\" intuition.",
+        ha="center", va="top", fontsize=11, color=NEUTRAL,
     )
-    fig.tight_layout()
+    fig.text(
+        0.5, 0.035,
+        f"Spearman rho = {rho:+.3f}  (p = {sp_p:.1g})      ·      "
+        f"Kruskal-Wallis H = {kw_stat:.1f}  (p = {kw_p:.1g})      ·      "
+        f"n = {n_clean} IPOs      ·      "
+        "significance:  * p<0.05   ** p<0.01   *** p<0.001",
+        ha="center", va="center", fontsize=9.5, color=NEUTRAL,
+    )
+    fig.tight_layout(rect=[0, 0.08, 1, 0.82])
     save(fig, "11_litigious_paradox.png")
 
 
@@ -491,12 +508,14 @@ def fig_litigious_paradox(df: pd.DataFrame) -> None:
 # ---------------------------------------------------------------------------
 
 def fig_disclosure_concentration(df: pd.DataFrame) -> None:
-    """Two-panel figure for H3: where the negative tone lives matters.
+    """Three-panel figure for H3: where the negative tone lives matters.
 
-    Left: tercile bars (T1_pervasive / T2_mid / T3_compartmentalised) showing
-          median first-day return by risk_concentration_ratio tercile.
-    Right: scatter of risk_concentration_ratio vs underpricing with a
-           tercile-median line overlaid.
+    Left:   tercile bars (T1_pervasive / T2_mid / T3_compartmentalised) showing
+            median first-day return by risk_concentration_ratio tercile.
+    Middle: scatter of risk_concentration_ratio vs first-day return for the
+            BULK of the sample (return ≤ 200%), with a quintile-median line.
+    Right:  the handful of >200% "moonshot" IPOs broken out on their own axis
+            so they don't blow out the y-scale of the main scatter.
     """
     from scipy import stats as _stats
 
@@ -527,8 +546,20 @@ def fig_disclosure_concentration(df: pd.DataFrame) -> None:
           for _, g in clean.groupby("_tercile", observed=True)]
     )
 
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 6),
-                                    gridspec_kw={"width_ratios": [1, 1.2]})
+    # Split the scatter at a 200% first-day return so the dense bulk of the
+    # sample and the few extreme "moonshots" each get a readable y-axis.
+    SPLIT = 2.0
+    main = clean[clean["underpricing"] <= SPLIT].copy()
+    moon = clean[clean["underpricing"] > SPLIT].copy()
+    print(
+        f"  disclosure plot: {len(main):,} IPOs at ≤200% first-day return, "
+        f"{len(moon):,} moonshots >200% broken out separately"
+    )
+
+    fig, (ax1, ax2, ax3) = plt.subplots(
+        1, 3, figsize=(17, 6.6),
+        gridspec_kw={"width_ratios": [1, 1.35, 0.85]},
+    )
 
     # --- Left panel: tercile bars -------------------------------------------
     bar_colors = [ACCENT, NEUTRAL, PRIMARY]
@@ -537,11 +568,11 @@ def fig_disclosure_concentration(df: pd.DataFrame) -> None:
     ax1.axhline(0, color=NEUTRAL, lw=0.7)
     ax1.set_ylabel("Median first-day return (%)")
     ax1.set_xlabel("Risk-concentration tercile\n"
-                   "(rf_lm_negative / lm_negative)")
+                   "(risk-factor negative tone ÷ whole-document negative tone)")
     ax1.set_title(
-        "Median first-day return by disclosure-concentration tercile\n"
+        "Median first-day return by\ndisclosure-concentration tercile\n"
         f"Kruskal-Wallis H = {kw_stat:.1f}  (p = {kw_p:.4g}),  n = {n_clean}",
-        fontsize=11, pad=14,
+        fontsize=11, pad=12,
     )
     max_h = float((t_agg["med"] * 100).max())
     ax1.set_ylim(0, max_h * 1.35)
@@ -551,42 +582,54 @@ def fig_disclosure_concentration(df: pd.DataFrame) -> None:
                  f"{h:+.1f}%\n(n={int(row.n)})", ha="center", va="bottom",
                  fontsize=9)
 
-    # --- Right panel: scatter + tercile median line -------------------------
-    cap = clean["underpricing"].quantile(0.95)
-    plot_data = clean[clean["underpricing"] <= cap].copy()
+    # --- Middle panel: main scatter (return ≤ 200%) + quintile median -------
+    ax2.scatter(main["risk_concentration_ratio"], main["underpricing"],
+                s=16, alpha=0.30, color=NEUTRAL, label="IPOs (≤200% return)")
 
-    ax2.scatter(plot_data["risk_concentration_ratio"],
-                plot_data["underpricing"],
-                s=12, alpha=0.30, color=NEUTRAL, label="IPOs (clean)")
-
-    # Tercile median trace
-    plot_data["_t"] = pd.qcut(plot_data["risk_concentration_ratio"], 5,
-                               duplicates="drop")
-    tline = (plot_data.groupby("_t", observed=True)
-                      .agg(x=("risk_concentration_ratio", "mean"),
-                           med=("underpricing", "median"))
-                      .reset_index())
-    ax2.plot(tline["x"], tline["med"], color=PRIMARY, lw=2.5,
-             marker="o", markersize=7, label="Quintile median")
+    main["_t"] = pd.qcut(main["risk_concentration_ratio"], 5,
+                         duplicates="drop")
+    tline = (main.groupby("_t", observed=True)
+                 .agg(x=("risk_concentration_ratio", "mean"),
+                      med=("underpricing", "median"))
+                 .reset_index())
+    ax2.plot(tline["x"], tline["med"], color=PRIMARY, lw=2.8,
+             marker="o", markersize=8, label="Quintile median trend")
     ax2.axhline(0, color=NEUTRAL, ls="--", lw=0.7)
     ax2.yaxis.set_major_formatter(mticker.PercentFormatter(1.0))
-    ax2.set_xlabel("risk_concentration_ratio\n"
-                   "(= rf_lm_negative_ratio / lm_negative_ratio)")
+    ax2.set_ylim(-0.6, SPLIT + 0.05)
+    ax2.set_xlabel("Risk-concentration ratio  (higher → negative tone is\n"
+                   "compartmentalised in the Risk Factors section)")
     ax2.set_ylabel("First-day return")
     ax2.set_title(
-        f"Spearman ρ = {rho:+.3f}  (p = {sp_p:.4g})\n"
-        "Higher ratio = negative tone compartmentalised in Risk Factors",
-        fontsize=11, pad=14,
+        f"Bulk of the sample — first-day return ≤ 200%  (n = {len(main):,})\n"
+        f"Spearman rho = {rho:+.3f}  (p = {sp_p:.4g}, full clean sample)",
+        fontsize=11, pad=12,
     )
-    ax2.legend(loc="upper right", fontsize=8, frameon=True)
+    ax2.legend(loc="upper right", fontsize=9, frameon=True)
+
+    # --- Right panel: moonshots (return > 200%) -----------------------------
+    ax3.scatter(moon["risk_concentration_ratio"], moon["underpricing"],
+                s=36, alpha=0.75, color=ACCENT, edgecolor="white",
+                label=f"IPOs >200% return (n = {len(moon):,})")
+    ax3.yaxis.set_major_formatter(mticker.PercentFormatter(1.0))
+    if len(moon):
+        ax3.set_ylim(SPLIT * 0.95, moon["underpricing"].max() * 1.08)
+    ax3.set_xlabel("Risk-concentration ratio")
+    ax3.set_ylabel("First-day return")
+    ax3.set_title(
+        "Moonshots broken out\nfirst-day return > 200%",
+        fontsize=11, pad=12,
+    )
+    ax3.legend(loc="upper right", fontsize=9, frameon=True)
 
     fig.suptitle(
-        "H3 — Disclosure Concentration Curse\n"
-        "Pervasive negative tone across the whole prospectus → higher underpricing;\n"
-        "compartmentalised negative tone (in Risk Factors only) → lower underpricing",
-        fontsize=12.5, y=1.03,
+        "H3 — Disclosure Concentration Curse:  where the negative tone lives matters\n"
+        "Pervasive negative tone across the whole prospectus → higher underpricing;  "
+        "compartmentalised negative tone (Risk Factors only) → lower underpricing",
+        fontsize=12.5, y=0.99,
     )
-    fig.tight_layout()
+    # rect top = 0.85 keeps the two-line suptitle clear of the panel titles.
+    fig.tight_layout(rect=[0, 0, 1, 0.85])
     save(fig, "12_disclosure_concentration.png")
 
 
